@@ -1,0 +1,7 @@
+# Ignore folders
+data/
+models/
+config/
+
+
+# Ignore files
