@@ -1,4 +1,7 @@
 from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 from selenium.webdriver.common.by import By
 from time import sleep
 from functions import read_credentials, get_title_link_info, write_to_file, scroll_pdf_viewer
@@ -44,7 +47,7 @@ page1_titles, page1_link, page1_phong = get_title_link_info(driver, page1_titles
 # write_to_file(page1_titles, page1_link, page1_phong, filename="page1.txt")
 
 # Navigate to a specific PDF page link
-driver.get(page1_link[2])
+driver.get(page1_link[1])
 sleep(2)
 
 # Locate the PDF viewer container
@@ -60,10 +63,29 @@ total_pages = int(total_pages_number)
 
 print("Total number of pages:", total_pages)
 
-# Scroll through the PDF viewer for the total number of pages
-for _ in range(total_pages):
-    scroll_pdf_viewer(driver, pdf_viewer_container, 700)  # Scroll by 700px
-    sleep(3)  # Pause to allow content to load
+# Open a file to save the text content
+with open("pdf_text_output.txt", "w", encoding="utf-8") as file:
+    # Scroll through the PDF viewer for the total number of pages
+    for i in range(total_pages):
+        scroll_pdf_viewer(driver, pdf_viewer_container, 700)  # Scroll by 700px
+        # Wait for the text layer to load
+        wait = WebDriverWait(driver, 10)
+        text_layer = wait.until(EC.presence_of_element_located((By.ID, f'pdfviewer_textLayer_{i}')))
 
-# Close the browser once done
+        # Wait for text elements within the text layer to load
+        text_elements = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'e-pv-text')))
+
+        # Extract text from each element and store in list_pdf_0
+        list_pdf_0 = [element.text for element in text_elements if element.text.strip()]
+
+        # Write each page's text to the file
+        file.write(f"Page {i + 1}:\n")
+        file.write("\n".join(list_pdf_0))
+        file.write("\n\n")  # Separate pages with newline for readability
+
+        # Print the extracted texts for confirmation
+        print(f"Extracted text for Page {i + 1}:", list_pdf_0)
+        sleep(3)  # Pause to allow content to load
+
+# # Close the browser once done
 driver.quit()
