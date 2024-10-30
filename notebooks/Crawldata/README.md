@@ -93,3 +93,45 @@ This file securely stores the login credentials for the student portal in a stru
     "mssv": "521H0517",
     "password": "****"
 }
+```
+
+## Flow ideas
+
+- Với slide là 11. 
+- Mình đang nghĩ tới việc là nó chỉ hiện ra 5 cái là max thì vòng for của mình sẽ chạy đến 3(thì nó sẽ hiện là 1,2,3,4,5). 
+* 8 thì nó 6,7,8,9,10. 
+
+Cứ for 0-> end slide
+id = pdfviewer_pageDiv_0
+pdfviewer_pageDiv_ {page}
+
+và nó sẽ scroll để update lại để lại dữ liệu. 
+
+# Code save
+```python 
+# Wait for the text layer to load
+
+wait = WebDriverWait(driver, 10)
+
+text_layer = wait.until(EC.presence_of_element_located((By.ID, 'pdfviewer_textLayer_0')))
+
+  
+
+# Wait for text elements within the text layer to load
+
+text_elements = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'e-pv-text')))
+
+  
+
+# Extract text from each element and store in list_pdf_0
+
+list_pdf_0 = [element.text for element in text_elements if element.text.strip()]
+
+  
+
+# Print the extracted texts
+
+print("Extracted text list:", list_pdf_0)
+```
+
+
