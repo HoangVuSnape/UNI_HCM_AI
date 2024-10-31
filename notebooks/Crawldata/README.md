@@ -108,30 +108,34 @@ pdfviewer_pageDiv_ {page}
 và nó sẽ scroll để update lại để lại dữ liệu. 
 
 # Code save
-```python 
-# Wait for the text layer to load
 
-wait = WebDriverWait(driver, 10)
+## Error:
+![](../../assets/images/Pasted%20image%2020241031155412.png)
 
-text_layer = wait.until(EC.presence_of_element_located((By.ID, 'pdfviewer_textLayer_0')))
+![](../../assets/images/Pasted%20image%2020241031155425.png)
 
-  
+ 
+### Page1: 6/10 
+Tiêu đề: NỘI QUY PHÒNG THI HÌNH THỨC THI TRỰC TUYẾN (CHÍNH THỨC)
+Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/104
 
-# Wait for text elements within the text layer to load
 
-text_elements = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'e-pv-text')))
+Tiêu đề: QUY ĐỊNH CẤP CHỨNG NHẬN CỬ NHÂN ƯU TÚ, KỸ SƯ ƯU TÚ, KIẾN TRÚC SƯ ƯU TÚ, DƯỢC SĨ ƯU TÚ ÁP D …
+Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/101
 
-  
+Tiêu đề: QUYẾT ĐỊNH SỐ 1276_SỬA ĐỔI, BỔ SUNG QUYẾT ĐỊNH SỐ 1830 VỀ ĐIỀU KIỆN XÉT CÔNG NHÂN TỐT NGHI …
+Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/103
 
-# Extract text from each element and store in list_pdf_0
+Tiêu đề: QUYẾT ĐỊNH VỀ VIỆC BỔ SUNG DANH MỤC CHỨNG CHỈ TIẾNG ANH QUỐC TẾ XÉT MIỄN HỌC PHẦN VÀ CHUẨN …
+Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/102
 
-list_pdf_0 = [element.text for element in text_elements if element.text.strip()]
+Page2: 8/10 
+Tiêu đề: QUY ĐỊNH ĐÀO TẠO TIẾNG ANH CỦA CHƯƠNG TRÌNH CHẤT LƯỢNG CAO KHÓA TUYỂN SINH 2020 TRỞ VỀ SAU
+Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/53
 
-  
+Tiêu đề: QUY ĐỊNH VỀ ỨNG DỤNG CÔNG NGHỆ TRONG TỔ CHỨC VÀ QUẢN LÝ CÁC HOẠT ĐỘNG GIÁO DỤC
+Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/55
 
-# Print the extracted texts
-
-print("Extracted text list:", list_pdf_0)
-```
-
+Page3: 1/6
+Trừ phòng ban 
 

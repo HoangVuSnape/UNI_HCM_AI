@@ -40,14 +40,17 @@ driver.get(link_href)
 sleep(5)
 
 # Fetch page content (Page1 titles, links, and additional info)
-page1_titles, page1_link, page1_phong = [], [], []
-page1_titles, page1_link, page1_phong = get_title_link_info(driver, page1_titles, page1_link, page1_phong)
+# page1_titles, page1_link, page1_phong = [], [], []
+# page1_titles, page1_link, page1_phong = get_title_link_info(driver, page1_titles, page1_link, page1_phong)
 
 # Write page1 info to a file
 # write_to_file(page1_titles, page1_link, page1_phong, filename="page1.txt")
 
 # Navigate to a specific PDF page link
-driver.get(page1_link[1])
+link1111 = "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/15"
+
+driver.get(link1111)
+
 sleep(2)
 
 # Locate the PDF viewer container
@@ -62,9 +65,12 @@ total_pages_number = total_pages_text.split()[-1]
 total_pages = int(total_pages_number)
 
 print("Total number of pages:", total_pages)
-
+# 2 --------------------------------------------------
+# Tiêu đề: THÔNG TIN CÁC PHÒNG/BAN/TRUNG TÂM
+# Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/15
+# Thông tin bổ sung: Phòng Đại học | 19/01/2021
 # Open a file to save the text content
-with open("pdf_text_output.txt", "w", encoding="utf-8") as file:
+with open("Thông tin phòng ban.txt", "w", encoding="utf-8") as file:
     # Scroll through the PDF viewer for the total number of pages
     for i in range(total_pages):
         scroll_pdf_viewer(driver, pdf_viewer_container, 700)  # Scroll by 700px
