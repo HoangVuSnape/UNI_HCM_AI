@@ -129,13 +129,13 @@ Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/103
 Tiêu đề: QUYẾT ĐỊNH VỀ VIỆC BỔ SUNG DANH MỤC CHỨNG CHỈ TIẾNG ANH QUỐC TẾ XÉT MIỄN HỌC PHẦN VÀ CHUẨN …
 Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/102
 
-Page2: 8/10 
+### Page2: 8/10 
 Tiêu đề: QUY ĐỊNH ĐÀO TẠO TIẾNG ANH CỦA CHƯƠNG TRÌNH CHẤT LƯỢNG CAO KHÓA TUYỂN SINH 2020 TRỞ VỀ SAU
 Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/53
 
 Tiêu đề: QUY ĐỊNH VỀ ỨNG DỤNG CÔNG NGHỆ TRONG TỔ CHỨC VÀ QUẢN LÝ CÁC HOẠT ĐỘNG GIÁO DỤC
 Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/55
 
-Page3: 1/6
+### Page3: 1/6
 Trừ phòng ban 
 
