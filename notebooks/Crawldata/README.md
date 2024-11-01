@@ -139,3 +139,4 @@ Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/55
 ### Page3: 1/6
 Trừ phòng ban 
 
+HIện tại mình có 15/26 dữ liệu đã crawl đc và mấy cái kia là ở dạng ảnh Nên mình đang muốn muốn là viết code để chụp ảnh tự động để tự động crawl và dùng chat để generate text. 
