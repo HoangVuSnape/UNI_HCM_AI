@@ -140,3 +140,8 @@ Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/55
 Trừ phòng ban 
 
 HIện tại mình có 15/26 dữ liệu đã crawl đc và mấy cái kia là ở dạng ảnh Nên mình đang muốn muốn là viết code để chụp ảnh tự động để tự động crawl và dùng chat để generate text. 
+
+
+# Hướng xử lý
+- Mình đang có hương là lúc sử lý dấu nặng thì nó bị viết liền nên mình cần đánh dấu chỗ đó để tạo ra 1 bộ từ điển dể xử lý
+- Còn ảnh thì mình dùng chatGPT để đọc text. Hoặc có thể dùng model OCR để để tạo ra text. 

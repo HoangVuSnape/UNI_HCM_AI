@@ -1,19 +1,16 @@
 
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
+import re
 from selenium.webdriver.common.by import By
 from time import sleep
-from functions import read_credentials, get_title_link_info, write_to_file, scroll_pdf_viewer
-import mss
+from functions import read_credentials, scroll_pdf_viewer
 import os
-import pyautogui
 # Setup the Chrome WebDriver
-options = webdriver.ChromeOptions()
-options.add_argument("--start-maximized")  # Mở trình duyệt ở chế độ phóng to
+options = webdriver.ChromeOptions()  # Mở trình duyệt ở chế độ phóng to
 options.page_load_strategy = 'normal'
 driver = webdriver.Chrome(options=options)
+driver.maximize_window()  # Mở trình duyệt ở chế độ phóng to
 
 # Login URL and credentials
 driver.get("https://stdportal.tdtu.edu.vn/Login/Index?ReturnUrl=https%3A%2F%2Fstdportal.tdtu.edu.vn%2F")
@@ -44,45 +41,15 @@ driver.get(link_href)
 sleep(5)
 
 
-# page_title = [
-#     "NỘI QUY PHÒNG THI HÌNH THỨC THI TRỰC TUYẾN (CHÍNH THỨC)",
-#     "QUY ĐỊNH CẤP CHỨNG NHẬN CỬ NHÂN ƯU TÚ, KỸ SƯ ƯU TÚ, KIẾN TRÚC SƯ ƯU TÚ, DƯỢC SĨ ƯU TÚ ÁP D …",
-#     "QUYẾT ĐỊNH SỐ 1276_SỬA ĐỔI, BỔ SUNG QUYẾT ĐỊNH SỐ 1830 VỀ ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHI …",
-#     "QUYẾT ĐỊNH VỀ VIỆC BỔ SUNG DANH MỤC CHỨNG CHỈ TIẾNG ANH QUỐC TẾ XÉT MIỄN HỌC PHẦN VÀ CHUẨN …",
-#     "QUY ĐỊNH ĐÀO TẠO TIẾNG ANH CỦA CHƯƠNG TRÌNH CHẤT LƯỢNG CAO KHÓA TUYỂN SINH 2020 TRỞ VỀ SAU",
-#     "QUY ĐỊNH VỀ ỨNG DỤNG CÔNG NGHỆ TRONG TỔ CHỨC VÀ QUẢN LÝ CÁC HOẠT ĐỘNG GIÁO DỤC",
-#     "NỘI QUY PHÒNG THI - ÁP DỤNG CHO TẤT CẢ SINH VIÊN - THAY THẾ CHO CÁC QUY ĐỊNH TRƯỚC",
-#     "QUY ĐỊNH VỀ CÁC HỌC PHẦN CƠ SỞ TIN HỌC THEO CHUẨN MOS- ÁP DỤNG CHO SINH VIÊN KHÓA TUYỂN SI …",
-#     "QUY ĐỊNH VỀ HOẠT ĐỘNG TẬP SỰ NGHỀ NGHIỆP - ÁP DỤNG CHO TẤT CẢ SINH VIÊN",
-#     "BAN HÀNH QUY ĐỊNH CẤP CHỨNG NHẬN KỸ SƯ/CỬ NHÂN ƯU TÚ - ÁP DỤNG CHO TẤT CẢ SINH VIÊN",
-#     "2017 - THÔNG BÁO ĐIỀU CHỈNH THỨC THỨC TỐT NGHIỆP BẬC ĐH THEO CHƯƠNG TRÌNH TOP 100 - ÁP DỤN …"
-# ]
-
-# page_link = [
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/104",
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/101",
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/103",
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/102",
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/53",
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/55",
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/19",
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/14",
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/13",
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/9",
-#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/7"
-# ]
-
 # List of titles and links
 page_title = [
-    "NỘI QUY PHÒNG THI HÌNH THỨC THI TRỰC TUYẾN (CHÍNH THỨC)",
-    "QUY ĐỊNH CẤP CHỨNG NHẬN CỬ NHÂN ƯU TÚ, KỸ SƯ ƯU TÚ, KIẾN TRÚC SƯ ƯU TÚ, DƯỢC SĨ ƯU TÚ ÁP D …",
-    # Add remaining titles here
+    "BAN HÀNH QUY ĐỊNH CẤP CHỨNG NHẬN KỸ SƯ_CỬ NHÂN ƯU TÚ - ÁP DỤNG CHO TẤT CẢ SINH VIÊN",
+    "2017 - THÔNG BÁO ĐIỀU CHỈNH THỨC THỨC TỐT NGHIỆP BẬC ĐH THEO CHƯƠNG TRÌNH TOP 100 - ÁP DỤN …"
 ]
 
 page_link = [
-    "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/104",
-    "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/101",
-    # Add remaining links here
+    "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/9",
+    "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/7"
 ]
 
 # Create the main dataScreen folder if it doesn't exist
@@ -108,6 +75,8 @@ for i in range(len(page_title)):
     print("Total number of pages:", total_pages)
     print(f"{i+1}-----------------")
     # Create a folder for each page title in dataScreen
+   # Kiểm tra trong page_title[i] có / Không nếu có thì thay bằng _ 
+
     folder_name = os.path.join("dataScreen", page_title[i].replace(" ", "_"))
     if not os.path.exists(folder_name):
         os.mkdir(folder_name)
@@ -122,7 +91,5 @@ for i in range(len(page_title)):
         scroll_pdf_viewer(driver, pdf_viewer_container, 500)
         sleep(5)
         
-    
-
 # Close the browser once done
 driver.quit()

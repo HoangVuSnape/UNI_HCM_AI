@@ -23,6 +23,34 @@ driver = webdriver.Chrome(options=options)
 driver.get("https://stdportal.tdtu.edu.vn/Login/Index?ReturnUrl=https%3A%2F%2Fstdportal.tdtu.edu.vn%2F")
 sleep(1)
 
+# page_title = [
+#     "NỘI QUY PHÒNG THI HÌNH THỨC THI TRỰC TUYẾN (CHÍNH THỨC)",
+#     "QUY ĐỊNH CẤP CHỨNG NHẬN CỬ NHÂN ƯU TÚ, KỸ SƯ ƯU TÚ, KIẾN TRÚC SƯ ƯU TÚ, DƯỢC SĨ ƯU TÚ ÁP D …",
+#     "QUYẾT ĐỊNH SỐ 1276_SỬA ĐỔI, BỔ SUNG QUYẾT ĐỊNH SỐ 1830 VỀ ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHI …",
+#     "QUYẾT ĐỊNH VỀ VIỆC BỔ SUNG DANH MỤC CHỨNG CHỈ TIẾNG ANH QUỐC TẾ XÉT MIỄN HỌC PHẦN VÀ CHUẨN …",
+#     "QUY ĐỊNH ĐÀO TẠO TIẾNG ANH CỦA CHƯƠNG TRÌNH CHẤT LƯỢNG CAO KHÓA TUYỂN SINH 2020 TRỞ VỀ SAU",
+#     "QUY ĐỊNH VỀ ỨNG DỤNG CÔNG NGHỆ TRONG TỔ CHỨC VÀ QUẢN LÝ CÁC HOẠT ĐỘNG GIÁO DỤC",
+#     "NỘI QUY PHÒNG THI - ÁP DỤNG CHO TẤT CẢ SINH VIÊN - THAY THẾ CHO CÁC QUY ĐỊNH TRƯỚC",
+#     "QUY ĐỊNH VỀ CÁC HỌC PHẦN CƠ SỞ TIN HỌC THEO CHUẨN MOS- ÁP DỤNG CHO SINH VIÊN KHÓA TUYỂN SI …",
+#     "QUY ĐỊNH VỀ HOẠT ĐỘNG TẬP SỰ NGHỀ NGHIỆP - ÁP DỤNG CHO TẤT CẢ SINH VIÊN",
+#     "BAN HÀNH QUY ĐỊNH CẤP CHỨNG NHẬN KỸ SƯ/CỬ NHÂN ƯU TÚ - ÁP DỤNG CHO TẤT CẢ SINH VIÊN",
+#     "2017 - THÔNG BÁO ĐIỀU CHỈNH THỨC THỨC TỐT NGHIỆP BẬC ĐH THEO CHƯƠNG TRÌNH TOP 100 - ÁP DỤN …"
+# ]
+
+# page_link = [
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/104",
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/101",
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/103",
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/102",
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/53",
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/55",
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/19",
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/14",
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/13",
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/9",
+#     "https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/7"
+# ]
+
 # Find the input fields for MSSV and Password
 mssv_input = driver.find_element(By.ID, 'txtUser')
 password_input = driver.find_element(By.ID, 'txtPass')
