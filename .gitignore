@@ -7,3 +7,5 @@ config/
 # Ignore files
 notebooks/Crawldata/credentials.json
 *.pyc
+/notebooks/Crawldata/dataScreen
+/notebooks/Crawldata/Linkpdf
