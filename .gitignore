@@ -6,10 +6,6 @@ config/
 
 # Ignore files
 notebooks/Crawldata/credentials.json
-
 *.pyc
 /notebooks/Crawldata/dataScreen
 /notebooks/Crawldata/Linkpdf
-link.txt
-notebooks/Problems/Link.md
->>>>>>> Stashed changes
