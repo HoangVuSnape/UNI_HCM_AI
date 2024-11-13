@@ -6,9 +6,7 @@ config/
 
 # Ignore files
 notebooks/Crawldata/credentials.json
-<<<<<<< Updated upstream
-*.pyc
-=======
+
 *.pyc
 /notebooks/Crawldata/dataScreen
 /notebooks/Crawldata/Linkpdf
