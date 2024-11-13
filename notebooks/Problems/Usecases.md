@@ -5,7 +5,7 @@
  - Về data còn thiếu gì?
 
 
-![](../../assets/images/Pasted%20image%2020241113215529.png)
+![](../../assets/images/data.png)
 
 ## RLHF
 ### **4. Các câu hỏi để làm rõ RLHF**
