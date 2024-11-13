@@ -9,3 +9,4 @@ notebooks/Crawldata/credentials.json
 *.pyc
 /notebooks/Crawldata/dataScreen
 /notebooks/Crawldata/Linkpdf
+notebooks/Problems/Link.md
