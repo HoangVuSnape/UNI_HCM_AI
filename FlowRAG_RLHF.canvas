@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"82cff306ad5456ce","type":"text","text":"LLM","x":-200,"y":40,"width":250,"height":60},
+		{"id":"3825300f64c824d4","type":"text","text":"prompt\n","x":-440,"y":-40,"width":145,"height":50},
+		{"id":"487eda4a6f6798dc","type":"text","text":"reward model","x":160,"y":-20,"width":250,"height":60},
+		{"id":"c953b2018ebad410","type":"text","text":"Comparision DB, cái này mình tạo ra các câu trả lời so sánh. ","x":140,"y":-260,"width":250,"height":140},
+		{"id":"e74711b2b0abc075","type":"text","text":"DB embedding\n","x":-200,"y":-180,"width":250,"height":60},
+		{"id":"61ce7bcb2f9418df","type":"text","text":"output\n","x":100,"y":140,"width":120,"height":60}
+	],
+	"edges":[
+		{"id":"8594fe5a9f09c632","fromNode":"3825300f64c824d4","fromSide":"right","toNode":"e74711b2b0abc075","toSide":"left"},
+		{"id":"83936a67f6753fd0","fromNode":"3825300f64c824d4","fromSide":"right","toNode":"82cff306ad5456ce","toSide":"left"},
+		{"id":"34bd8cf36877252b","fromNode":"e74711b2b0abc075","fromSide":"bottom","toNode":"82cff306ad5456ce","toSide":"top","label":"Retrieval"},
+		{"id":"49bf636929bdbf70","fromNode":"82cff306ad5456ce","fromSide":"right","toNode":"61ce7bcb2f9418df","toSide":"left"},
+		{"id":"9693ea7bbd01a093","fromNode":"c953b2018ebad410","fromSide":"bottom","toNode":"487eda4a6f6798dc","toSide":"top"},
+		{"id":"c2632670512cf2b8","fromNode":"61ce7bcb2f9418df","fromSide":"right","toNode":"487eda4a6f6798dc","toSide":"bottom"}
+	]
+}

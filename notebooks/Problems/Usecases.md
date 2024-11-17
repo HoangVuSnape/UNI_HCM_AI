@@ -2,11 +2,14 @@
 Ở đây là nơi mình sẽ lưu lại những ideas và thắc mắc để hoàn thiện nâng cấp. 
 # Câu hỏi
 - Có cần finetuning model không?
- - Về data còn thiếu gì?
+ - Về data còn thiếu gì? - Data toàn hình ảnh, và mình chưa thu thập đủ data.
+ - Chưa tạo ra 1 plateform tick hợp rag và rLHF. 
 
 
 ![](../../assets/images/data.png)
 
+
+- Theo thầy thì mình có dùng mô hình đánh giá hay mình đánh giá tay từng câu hỏi. Và bên cạnh đó là chia ra 5 mức đánh giá hay là chỉ đánh giá là like hay không like. 
 ## RLHF
 ### **4. Các câu hỏi để làm rõ RLHF**
 
@@ -124,3 +127,7 @@
 - **Tích hợp văn bản và hình ảnh:** Nếu tài liệu có hình ảnh (biểu đồ, bảng), chatbot có thể giải thích dựa trên dữ liệu hình ảnh.
 - **Khả năng giải thích (Explainability):** Khi trả lời, chatbot cho biết câu trả lời được trích dẫn từ đâu (ví dụ: "Trang 12 của tài liệu XYZ").
 - **Tích hợp giọng nói:** Dùng Text-to-Speech để chatbot giao tiếp qua giọng nói, tiện lợi hơn cho người dùng.
+
+### 5 Hình ảnh 
+- Link đến các hình ảnh của 1 trang nào nào hay là data base
+- Multi modal

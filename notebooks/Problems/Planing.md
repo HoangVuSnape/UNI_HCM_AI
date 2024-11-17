@@ -1,12 +1,12 @@
-### **Giai đoạn 1: Khởi động và nghiên cứu (13/11/2024 - 24/11/2024)**
+## **Giai đoạn 1: Khởi động và nghiên cứu (13/11/2024 - 24/11/2024)**
 
-#### **Mục tiêu:**
+### **Mục tiêu:**
 
 - Xác định yêu cầu cụ thể của hệ thống chatbot.
 - Thu thập tài liệu, tệp PDF quy định và quy chế của trường.
 - Nghiên cứu các công nghệ cần sử dụng: RAG, RLHF.
 
-#### **Công việc cụ thể:**
+### **Công việc cụ thể:**
 
 1. **Tìm hiểu yêu cầu và thu thập tài liệu (13/11 - 19/11):**
     
@@ -20,16 +20,35 @@
     -  Lên kế hoạch tích hợp phản hồi người dùng (RLHF) vào pipeline của chatbot.
 
 ---
+## Note 
+### 11/17/2024 - Metting
+##### Vấn đề
+- Data toàn dạng hình ảnh và chưa có text đc
+- Data đang thiếu nên cần crawl thêm
+- Platform tích hợp về RAG và RLHF chưa đc 
+- Tìm model để embedding data vietnamese. 
+- Rerank retrival cần thực hiện để có những kết quả từ những pdf... thì khi đó mình mới đánh giá. 
+##### Những thắc mắc
+-  Theo thầy thì mình có dùng mô hình đánh giá hay mình đánh giá tay từng câu hỏi. Và bên cạnh đó là chia ra 5 mức đánh giá hay là chỉ đánh giá là like hay không like. 
+##### Cần làm
+- Data cần phải clean và hoàn thiện
+- Platform RAG và rhfl
+- Tìm data để finetune về câu hỏi QA và summary 
+- Nghiên cứu sâu về RHFL về thuật toán. 
 
-### **Giai đoạn 2: Thiết kế và phát triển MVP (25/11/2024 - 15/12/2024)**
+Ngày tiếp theo là thứ 3 - 11/19/2024
+### 11/19/2024 - Metting
+##### Vấn đề
 
-#### **Mục tiêu:**
+## **Giai đoạn 2: Thiết kế và phát triển MVP (25/11/2024 - 15/12/2024)**
+
+### **Mục tiêu:**
 
 - Phát triển giao diện frontend.
 - Xây dựng backend hỗ trợ xử lý dữ liệu và tích hợp mô hình.
 - Hoàn thành phiên bản chatbot cơ bản (MVP).
 
-#### **Công việc cụ thể:**
+### **Công việc cụ thể:**
 
 1. **Thiết kế giao diện và API (25/11 - 01/12):**
     
@@ -49,14 +68,14 @@
 
 ---
 
-### **Giai đoạn 3: Tinh chỉnh và triển khai (16/12/2024 - 01/01/2025)**
+## **Giai đoạn 3: Tinh chỉnh và triển khai (16/12/2024 - 01/01/2025)**
 
-#### **Mục tiêu:**
+### **Mục tiêu:**
 
 - Tinh chỉnh hệ thống dựa trên kết quả thử nghiệm.
 - Triển khai hệ thống trên server thực tế.
 
-#### **Công việc cụ thể:**
+### **Công việc cụ thể:**
 
 1. **Thử nghiệm và cải thiện hệ thống (16/12 - 22/12):**
     
