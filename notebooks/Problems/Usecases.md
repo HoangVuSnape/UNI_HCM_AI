@@ -10,6 +10,9 @@
 
 
 - Theo thầy thì mình có dùng mô hình đánh giá hay mình đánh giá tay từng câu hỏi. Và bên cạnh đó là chia ra 5 mức đánh giá hay là chỉ đánh giá là like hay không like. 
+
+
+Mình có 1 bài Enhace retrieval pdf của anh hiếu halong và mình không hiểu Id và context và queries của ảnh để đánh giá cho lắm. Mình cần phải biết thêm. 
 ## RLHF
 ### **4. Các câu hỏi để làm rõ RLHF**
 
@@ -128,6 +131,7 @@
 - **Khả năng giải thích (Explainability):** Khi trả lời, chatbot cho biết câu trả lời được trích dẫn từ đâu (ví dụ: "Trang 12 của tài liệu XYZ").
 - **Tích hợp giọng nói:** Dùng Text-to-Speech để chatbot giao tiếp qua giọng nói, tiện lợi hơn cho người dùng.
 
-### 5 Hình ảnh 
+### **5. Hình ảnh** 
 - Link đến các hình ảnh của 1 trang nào nào hay là data base
 - Multi modal
+### **6. Hỏi đáp với wiki**
