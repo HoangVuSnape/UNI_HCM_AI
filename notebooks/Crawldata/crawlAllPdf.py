@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from time import sleep
-from functions import read_credentials, get_title_link_info, write_to_file, scroll_pdf_viewer  # Import functions
+from functions import read_credentials, get_title_link_info, scroll_pdf_viewer  # Import functions
 import os 
 # Path to your credentials file
 credentials_file = 'credentials.json'
@@ -62,9 +62,6 @@ page2.click()
 page2_titles, page2_link, page2_phong = [], [], []
 page2_titles, page2_link, page2_phong = get_title_link_info(driver, page2_titles, page2_link, page2_phong)
 
-# # Write Page 2 data to file
-# # write_to_file(page2_titles, page2_link, page2_phong, filename="page2.txt")
-
 sleep(2)
 
 # # Page 3
@@ -72,26 +69,30 @@ page3_titles, page3_link, page3_phong = [], [], []
 page2.click()  # Assuming the same link for page 3
 page3_titles, page3_link, page3_phong = get_title_link_info(driver, page3_titles, page3_link, page3_phong)
 
-# Write Page 3 data to file
-# write_to_file(page3_titles, page3_link, page3_phong, filename="page3.txt")
 
 sleep(2)
 
-# Close the browser after everything is done
-
-# Crawl all files pdf
-
 # Create base data directory
-os.makedirs("data", exist_ok=True)
+os.makedirs("data_new", exist_ok=True)
 
 # Page links and titles
-page_links = [page1_link, page2_link, page3_link]
-page_titles = [page1_titles, page2_titles, page3_titles]
+# page_links = [page1_link, page2_link, page3_link]
+# page_titles = [page1_titles, page2_titles, page3_titles]
+
+
+# TEST
+page1_link = ["https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/125","https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/115"]
+page1_titles = ["ĐẶC ĐIỂM NHẬN DIỆN SINH VIÊN TDTU", "BỘ QUY TẮC ỨNG XỬ CỦA NGƯỜI HỌC"]
+# Path to error log file
+
+page_links = [page1_link]
+page_titles = [page1_titles]
+error_log_path = "error.txt"
 
 # Loop through each page
 # Loop through each page and its corresponding titles/links
 for i, (links, titles) in enumerate(zip(page_links, page_titles), start=1):
-    folder_name = f"data/page{i}"
+    folder_name = f"data_new/page{i}"
     os.makedirs(folder_name, exist_ok=True)
     
     for link, title in zip(links, titles):
@@ -111,11 +112,47 @@ for i, (links, titles) in enumerate(zip(page_links, page_titles), start=1):
                 total_pages = int(total_pages_text.split()[-1])
                 
                 # Scroll and extract each page's text
+                waitTime, sleepTime = 0
+                checkFile = 0 
+                
+                if total_pages < 10:
+                    waitTime =  30
+                    sleepTime = 5
+                elif total_pages < 20:
+                    waitTime = 35
+                    sleepTime = 10
+                else: 
+                    waitTime = total_pages * 3
+                    sleepTime = total_pages * 1.5
+                    
                 for k in range(total_pages):
-                    scroll_pdf_viewer(driver, pdf_viewer_container, 700)
-                    wait = WebDriverWait(driver, 10)
-                    text_elements = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'e-pv-text')))
+                    # scroll_pdf_viewer(driver, pdf_viewer_container, 700)
+                    # wait = WebDriverWait(driver, 10)
+                    
+                    if k == 0:
+                        wait = WebDriverWait(driver, waitTime)
+                        
+                        sleep(sleepTime)
+                        scroll_pdf_viewer(driver, pdf_viewer_container, 700)  # Scroll by 700px
+                        
+                    else: 
+                        scroll_pdf_viewer(driver, pdf_viewer_container, 700)  # Scroll by 700px
+                        
+                        wait = WebDriverWait(driver, total_pages)
+                    
+                        sleep(sleepTime)
+                        
+                    text_layer = wait.until(EC.presence_of_element_located((By.ID, f'pdfviewer_textLayer_{i}')))
+
+                    # Find text elements specifically within the text layer
+                    text_elements = text_layer.find_elements(By.CLASS_NAME, 'e-pv-text')
                     list_pdf = [element.text for element in text_elements if element.text.strip()]
+                    
+                    # if len(list_pdf) == 0:
+                    #     checkFile += 1  
+                    
+                    # if checkFile == 3:
+                    #     break
                     
                     # Write to file
                     file.write(f"Page {k + 1}:\n")
@@ -124,8 +161,15 @@ for i, (links, titles) in enumerate(zip(page_links, page_titles), start=1):
                     sleep(3)
         
         except Exception as e:
-            print(f"An error occurred with link '{link}' and title '{title}': {e}")
-            # Skip this link and continue to the next
+            error_message = f"An error occurred with link '{link}' and title '{title}': {e}\n"
+            print(error_message)
+            
+            # Write error to error log file
+            with open(error_log_path, "a", encoding="utf-8") as error_file:
+                error_count = sum(1 for _ in open(error_log_path, "r", encoding="utf-8")) + 1
+                error_file.write(f"{error_count}. {error_message}")
+    # checkFile = 0          
+    
 
 # Close the browser after all pages are crawled
 driver.quit()

@@ -42,3 +42,4 @@ def write_to_file(page_titles, page_link, page_phong, filename="page1.txt"):
 ## Using in crawlOnePdf.py
 def scroll_pdf_viewer(driver, container, scroll_height):
     driver.execute_script("arguments[0].scrollTop += arguments[1];", container, scroll_height)
+    

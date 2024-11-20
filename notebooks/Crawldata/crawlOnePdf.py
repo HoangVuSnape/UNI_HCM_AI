@@ -65,25 +65,37 @@ total_pages_number = total_pages_text.split()[-1]
 total_pages = int(total_pages_number)
 
 print("Total number of pages:", total_pages)
-# 2 --------------------------------------------------
-# Tiêu đề: THÔNG TIN CÁC PHÒNG/BAN/TRUNG TÂM
-# Link: https://quychehocvu.tdtu.edu.vn/QuyChe/Detail/15
-# Thông tin bổ sung: Phòng Đại học | 19/01/2021
-# Open a file to save the text content
-with open("Thông tin phòng ban.txt", "w", encoding="utf-8") as file:
+
+with open("Thông tin các Phòng_Ban_Trung tâm.txt", "w", encoding="utf-8") as file:
     # Scroll through the PDF viewer for the total number of pages
     for i in range(total_pages):
-        scroll_pdf_viewer(driver, pdf_viewer_container, 700)  # Scroll by 700px
+        
         # Wait for the text layer to load
-        wait = WebDriverWait(driver, 10)
+        # if i == 0:
+        #     wait = WebDriverWait(driver, 40)
+        #     sleep(5)
+        #     scroll_pdf_viewer(driver, pdf_viewer_container, 250)  # Scroll by 700px
+        # elif i == 6:
+        #     scroll_pdf_viewer(driver, pdf_viewer_container, 250)  # Scroll by 700px
+        #     sleep(15)
+        #     wait = WebDriverWait(driver, 40)
+        # else: 
+        #     scroll_pdf_viewer(driver, pdf_viewer_container, 250)  # Scroll by 700px
+        #     sleep(5)
+        #     wait = WebDriverWait(driver, 40)
+            
+            
+        scroll_pdf_viewer(driver, pdf_viewer_container, 700)
+        wait = WebDriverWait(driver, 40)   
         text_layer = wait.until(EC.presence_of_element_located((By.ID, f'pdfviewer_textLayer_{i}')))
 
-        # Wait for text elements within the text layer to load
-        text_elements = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'e-pv-text')))
-
+        # Find text elements specifically within the text layer
+        text_elements = text_layer.find_elements(By.CLASS_NAME, 'e-pv-text')
+        
+        
         # Extract text from each element and store in list_pdf_0
         list_pdf_0 = [element.text for element in text_elements if element.text.strip()]
-
+    
         # Write each page's text to the file
         file.write(f"Page {i + 1}:\n")
         file.write("\n".join(list_pdf_0))
