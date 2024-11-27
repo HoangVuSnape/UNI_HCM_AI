@@ -1,4 +1,8 @@
 
+
+
+**define tiêu chí đánh giá với tự động với** 
+- 
 Ở đây là nơi mình sẽ lưu lại những ideas và thắc mắc để hoàn thiện nâng cấp. 
 # Câu hỏi
 - Có cần finetuning model không?
@@ -10,9 +14,23 @@
 
 
 - Theo thầy thì mình có dùng mô hình đánh giá hay mình đánh giá tay từng câu hỏi. Và bên cạnh đó là chia ra 5 mức đánh giá hay là chỉ đánh giá là like hay không like. 
+Phản hồi từ người dùng nên được thu thập như thế nào để đảm bảo tính hiệu quả?
+- Trong này Mình dùng 1 mô hình LLM rồi dùng prompt để cho ra kết quả hả thầy hay là mình dùng Retrieval để ra kết quả để thu thập dữ liệu để dùng đó là data để đánh giá
+
+- Với lại mình có tạo ra 1 bộ data để finetune để làm thành LLM của mình không. 
+	- Nếu như vậy thì khi có LLM thì nó đã finetune thì nó đâu có đúng với RAG là truy xuất thông tin đúng không thầy.
+
+- Theo thầy mình dùng cái gì để đánh giá câu trả lời của mình. Dùng Mô hình hay là mình đánh giá bằng tay. 
 
 
 Mình có 1 bài Enhace retrieval pdf của anh hiếu halong và mình không hiểu Id và context và queries của ảnh để đánh giá cho lắm. Mình cần phải biết thêm. 
+
+Note lại 
+- Mình đang có 2 hướng là 
+	- 1, Lấy data mà không có retrieval mà ra đc output rồi -> reward
+	- 2, Là từ retrieval của Vector DB để -> output rồi mới lấy đó để làm LLM.
+	- 
+
 ## RLHF
 ### **4. Các câu hỏi để làm rõ RLHF**
 

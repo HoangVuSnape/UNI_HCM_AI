@@ -1,5 +1,13 @@
 # Link
 RLHF: [huyenchip](https://huyenchip.com/2023/05/02/rlhf.html)
+
+[RLHF- AI markerspace](https://www.youtube.com/watch?v=Bv_A3PaIGLw): Về rlhf cơ bản quá trình chạy và kèm code. 
+
+
+Paper:
+https://arxiv.org/pdf/2401.06800
+https://arxiv.org/pdf/2410.03780
+https://arxiv.org/pdf/2312.10997
 # RLHF
 ## **1. RLHF là gì?**
 
@@ -10,6 +18,12 @@ RLHF: [huyenchip](https://huyenchip.com/2023/05/02/rlhf.html)
 
 ---
 ![](../../assets/images/workflow_RLHF.png)
+![](../../assets/images/Pasted%20image%2020241124194333.png)
+
+![](../../assets/images/Pasted%20image%2020241124194753.png)
+![](../../assets/images/Pasted%20image%2020241124194911.png)
+
+![](../../assets/images/Pasted%20image%2020241124195009.png)
 ## **2. Quy trình cơ bản của RLHF**
 
 RLHF có 3 giai đoạn chính:
@@ -254,11 +268,6 @@ Hàm phần thưởng được thiết kế để khuyến khích các phản h�
 
 ---
 
-### **3.13 RLHF áp dụng hiệu quả nhất trong các lĩnh vực nào?**
-
-- Chatbot (hỗ trợ khách hàng, giáo dục).
-- Trợ lý ảo (Alexa, Siri).
-- Dịch vụ tài chính, y tế.
 
 ---
 
@@ -277,3 +286,56 @@ Hàm phần thưởng được thiết kế để khuyến khích các phản h�
 - **Mất cân bằng:** Quá phụ thuộc vào một loại phản hồi cụ thể.
 
 
+
+# Paper
+
+[Reinforcement Learning for Optimizing RAG for Domain Chatbots](https://arxiv.org/pdf/2401.06800)
+
+## Optimizing RAG with RLHF
+
+The sources describe a novel approach to optimize Retrieval Augmented Generation (RAG) for domain-specific chatbots using Reinforcement Learning with Human Feedback (RLHF). The core idea is to train a policy model that learns when to fetch relevant context from a knowledge base and when to skip retrieval, thereby **reducing the number of tokens** passed to the Large Language Model (LLM) and optimizing **cost without sacrificing accuracy.**
+
+### RLHF for Token Optimization
+
+- **Traditional RAG pipelines fetch relevant context for every query, leading to potentially unnecessary token consumption, especially in multi-turn conversations where context might already be available from previous turns.**
+- The sources propose training a policy network to dynamically decide whether to fetch context based on the current query and conversation history. This policy network resides outside the RAG pipeline and interacts with it through actions.
+- The policy network receives a state representation consisting of previous queries, corresponding actions, and the current query.
+- It can take two actions: **[FETCH]** (execute the usual RAG pipeline) or **[NO_FETCH]** (skip context retrieval).
+- A GPT-4 model acts as a reward model, evaluating the quality of the bot's response in the absence of ground truth answers.
+- A carefully designed reward function incentivizes the policy network to choose [NO_FETCH] when it leads to a correct answer, and penalizes incorrect actions.
+![](../../assets/images/Pasted%20image%2020241121022803.png)
+### Figure 1: Flow of Actions
+
+**Figure 1** illustrates the architecture of the proposed policy-based approach for optimizing RAG. Here's a breakdown of the flow of actions:
+
+1. **User Query:** A user submits a query to the chatbot.
+2. **State Representation:** The current query, along with previous queries and actions, are encoded into a state representation.
+3. **Policy Network:** The policy network receives the state representation as input and predicts the probability of taking each action: [FETCH] or [NO_FETCH].
+4. **Action Selection:** An action is selected based on the predicted probabilities. Monte Carlo dropout is used to estimate uncertainty and improve selection reliability.
+5. **Context Retrieval (Conditional):** If the action is [FETCH], the RAG pipeline retrieves the top-k relevant FAQs from the knowledge base based on similarity to the query.
+6. **LLM Input:** The current query and the retrieved context (if any) are passed as input to the LLM.
+7. **Answer Generation:** The LLM generates a response based on the input.
+8. **GPT-4 Evaluation:** The generated response, along with the current query and conversation history, are provided to GPT-4 for quality evaluation.
+9. **Reward Calculation:** The GPT-4 evaluation is translated into a numeric reward based on the action taken and the quality of the response.
+10. **Policy Update:** The policy network is updated using the calculated reward to improve its decision-making in future interactions.
+
+### Example images
+
+#### gpt4 - Good
+![](../../assets/images/Pasted%20image%2020241121022853.png)
+![](../../assets/images/Pasted%20image%2020241121023049.png)
+OOD - Out of domain 
+
+#### Gpt - Bad
+![](../../assets/images/Pasted%20image%2020241121023142.png)
+### Key Findings
+
+- The policy-based approach achieved significant token savings (~31%) compared to a standard RAG pipeline, while maintaining or even slightly improving accuracy.
+- A combination of the policy-based approach and a similarity threshold, which leverages the discriminative power of the in-house embedding model, contributed to the overall savings.
+- The choice of reward shaping significantly influenced the token saving achieved.
+- The in-house pre-trained BERT model outperformed the public gpt-2 model as the policy network, highlighting the benefits of domain-specific pre-training.
+
+In conclusion, the sources demonstrate the effectiveness of RLHF in optimizing RAG for domain-specific chatbots, enabling significant cost reduction without compromising answer quality. This approach leverages the power of LLMs like GPT-4 for evaluation and demonstrates the potential of policy-based learning for enhancing the efficiency and cost-effectiveness of RAG-based systems.
+
+
+## 

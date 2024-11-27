@@ -1,18 +1,32 @@
 {
 	"nodes":[
-		{"id":"82cff306ad5456ce","type":"text","text":"LLM","x":-200,"y":40,"width":250,"height":60},
-		{"id":"3825300f64c824d4","type":"text","text":"prompt\n","x":-440,"y":-40,"width":145,"height":50},
-		{"id":"487eda4a6f6798dc","type":"text","text":"reward model","x":160,"y":-20,"width":250,"height":60},
-		{"id":"c953b2018ebad410","type":"text","text":"Comparision DB, cái này mình tạo ra các câu trả lời so sánh. ","x":140,"y":-260,"width":250,"height":140},
-		{"id":"e74711b2b0abc075","type":"text","text":"DB embedding\n","x":-200,"y":-180,"width":250,"height":60},
-		{"id":"61ce7bcb2f9418df","type":"text","text":"output\n","x":100,"y":140,"width":120,"height":60}
+		{"id":"35b28c94448da0b0","type":"file","file":"assets/images/Pasted image 20241125184857.png","x":-460,"y":600,"width":1224,"height":270},
+		{"id":"9557f51406d971b4","type":"file","file":"assets/images/Pasted image 20241125185021.png","x":-700,"y":960,"width":1240,"height":441},
+		{"id":"1d634b6610bf1968","type":"text","text":"Pdf","x":-492,"y":-340,"width":145,"height":60,"color":"4"},
+		{"id":"82cff306ad5456ce","type":"text","text":"Retrieval","x":-240,"y":-180,"width":250,"height":50},
+		{"id":"e74711b2b0abc075","type":"text","text":"DB embedding\nVector DB.","x":-240,"y":-340,"width":250,"height":60},
+		{"id":"61ce7bcb2f9418df","type":"text","text":"LLM\n","x":180,"y":-190,"width":120,"height":60},
+		{"id":"0b103db29c908360","type":"file","file":"assets/images/Pasted image 20241125184712.png","x":-600,"y":264,"width":900,"height":293},
+		{"id":"3825300f64c824d4","type":"text","text":"1 . prompt\n","x":-492,"y":-180,"width":145,"height":50,"color":"2"},
+		{"id":"9b5dbe49bd4517fe","type":"text","text":"Thắc mắc về hương collect data để train reward model.\n\n\n","x":-419,"y":-60,"width":304,"height":180},
+		{"id":"c35e4cf9ef64b4eb","type":"text","text":"2. **prompt**\n","x":147,"y":-390,"width":187,"height":50,"color":"6"},
+		{"id":"ab89d22c30d051d4","type":"text","text":"Answers","x":355,"y":-185,"width":250,"height":60,"color":"2"},
+		{"id":"487eda4a6f6798dc","type":"text","text":"reward model","x":334,"y":25,"width":250,"height":55,"color":"4"},
+		{"id":"c953b2018ebad410","type":"text","text":"Comparision DB, cái này mình tạo ra các câu trả lời so sánh. ","x":680,"y":-225,"width":250,"height":140},
+		{"id":"28aa071f823cdf81","type":"text","text":"","x":22,"y":1709,"width":250,"height":60},
+		{"id":"3fd74f366abb6f5e","type":"text","text":"![](../../assets/images/Pasted%20image%2020241125163732.png)","x":-267,"y":1520,"width":1347,"height":640},
+		{"id":"4b5fb3e2b322cb22","type":"file","file":"assets/images/Pasted image 20241125190502.png","x":1280,"y":-447,"width":1119,"height":535},
+		{"id":"66f8c255d4a664df","type":"file","file":"assets/images/Pasted image 20241125185219.png","x":1160,"y":223,"width":1140,"height":512}
 	],
 	"edges":[
-		{"id":"8594fe5a9f09c632","fromNode":"3825300f64c824d4","fromSide":"right","toNode":"e74711b2b0abc075","toSide":"left"},
 		{"id":"83936a67f6753fd0","fromNode":"3825300f64c824d4","fromSide":"right","toNode":"82cff306ad5456ce","toSide":"left"},
-		{"id":"34bd8cf36877252b","fromNode":"e74711b2b0abc075","fromSide":"bottom","toNode":"82cff306ad5456ce","toSide":"top","label":"Retrieval"},
-		{"id":"49bf636929bdbf70","fromNode":"82cff306ad5456ce","fromSide":"right","toNode":"61ce7bcb2f9418df","toSide":"left"},
-		{"id":"9693ea7bbd01a093","fromNode":"c953b2018ebad410","fromSide":"bottom","toNode":"487eda4a6f6798dc","toSide":"top"},
-		{"id":"c2632670512cf2b8","fromNode":"61ce7bcb2f9418df","fromSide":"right","toNode":"487eda4a6f6798dc","toSide":"bottom"}
+		{"id":"49bf636929bdbf70","fromNode":"82cff306ad5456ce","fromSide":"right","toNode":"61ce7bcb2f9418df","toSide":"left","label":"Docs"},
+		{"id":"38c652ab7120fc3a","fromNode":"1d634b6610bf1968","fromSide":"right","toNode":"e74711b2b0abc075","toSide":"left"},
+		{"id":"7278525763258f6f","fromNode":"e74711b2b0abc075","fromSide":"bottom","toNode":"82cff306ad5456ce","toSide":"top"},
+		{"id":"8807ae9018f44378","fromNode":"61ce7bcb2f9418df","fromSide":"right","toNode":"ab89d22c30d051d4","toSide":"left"},
+		{"id":"dbf19ec3a94f1b36","fromNode":"ab89d22c30d051d4","fromSide":"right","toNode":"c953b2018ebad410","toSide":"left"},
+		{"id":"f7b2acb3ad941399","fromNode":"c953b2018ebad410","fromSide":"bottom","toNode":"487eda4a6f6798dc","toSide":"right"},
+		{"id":"92037725566ece72","fromNode":"487eda4a6f6798dc","fromSide":"left","toNode":"61ce7bcb2f9418df","toSide":"bottom","label":"Train"},
+		{"id":"2792dac4f1e8b54c","fromNode":"c35e4cf9ef64b4eb","fromSide":"bottom","toNode":"61ce7bcb2f9418df","toSide":"top"}
 	]
 }

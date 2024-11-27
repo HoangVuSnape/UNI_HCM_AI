@@ -15,3 +15,7 @@ notebooks/Problems/Link.md
 /notebooks/Crawldata/data_new_raw
 /notebooks/Crawldata/empty
 /OCR
+.vscode/settings.json
+/notebooks/data_finetune/Slip_md
+/notebooks/data_finetune/excel
+/notebooks/data_finetune/Donedata
