@@ -13,7 +13,7 @@ Cái này hơi vượt mức vì nó nặng tới 369M paramesters lận nên kh
 
 Trên đây có nhiều mô hình đã finetune tại sao mình không finetune để cho dữ liệu data hợp lý để hiểu trường mình. 
 #### Note:
-- Đã thực nghiệm với mô hình
+- Đã thực nghiệm với mô hình 
 
 # PhoGPT-4B-Chat
 [PhoGPT-4B-Chat](https://huggingface.co/vinai/PhoGPT-4B-Chat)

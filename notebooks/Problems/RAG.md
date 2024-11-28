@@ -63,6 +63,7 @@ Post-retrieval
 
 ![](../../assets/images/Pasted%20image%2020241125165511.png)
 ![](../../assets/images/Pasted%20image%2020241125170017.png)
+
 ## 3. Retrieval 
 
 

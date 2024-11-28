@@ -18,7 +18,7 @@ Phản hồi từ người dùng nên được thu thập như thế nào để 
 - Trong này Mình dùng 1 mô hình LLM rồi dùng prompt để cho ra kết quả hả thầy hay là mình dùng Retrieval để ra kết quả để thu thập dữ liệu để dùng đó là data để đánh giá
 
 - Với lại mình có tạo ra 1 bộ data để finetune để làm thành LLM của mình không. 
-	- Nếu như vậy thì khi có LLM thì nó đã finetune thì nó đâu có đúng với RAG là truy xuất thông tin đúng không thầy.
+	- Nếu như vậy thì khi có LLM thì nó đã finetune thì nó đâu có đúng với RAG là truy xuất thông tin đúng không thầy. 
 
 - Theo thầy mình dùng cái gì để đánh giá câu trả lời của mình. Dùng Mô hình hay là mình đánh giá bằng tay. 
 
