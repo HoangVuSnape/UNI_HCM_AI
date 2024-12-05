@@ -1,4 +1,9 @@
+"""
+Mình có 1 file pdf mà chỉ dạng ảnh trong đó và mình dùng 1 mô hình ocr để từ ảnh qua text rồi nhưng mà nó bị lỗi nhiều chỗ và không được clean cho lắm. Bạn giúp mình clean lại với data sạch hơn. Vì lý do Là nhiều chữ nên mỗi lần mình sẽ gửi tầm 3 pages và bạn sẽ clean lại giúp mình:
 
+Chỉ clean lại thôi chứ không tóm tắt.
+
+"""
 
 
 **define tiêu chí đánh giá với tự động với** 
@@ -29,7 +34,10 @@ Note lại
 - Mình đang có 2 hướng là 
 	- 1, Lấy data mà không có retrieval mà ra đc output rồi -> reward
 	- 2, Là từ retrieval của Vector DB để -> output rồi mới lấy đó để làm LLM.
-	- 
+
+Hiện tại về toán mình không đá động nhiều không biết là trong báo cáo mình có cần trình bay toán không ạ. 
+Tiêu chí đánh giá 1 bài báo cáo thường là gì vậy ạ. 
+
 
 ## RLHF
 ### **4. Các câu hỏi để làm rõ RLHF**

@@ -16,7 +16,20 @@
 		{"id":"28aa071f823cdf81","type":"text","text":"","x":22,"y":1709,"width":250,"height":60},
 		{"id":"3fd74f366abb6f5e","type":"text","text":"![](../../assets/images/Pasted%20image%2020241125163732.png)","x":-267,"y":1520,"width":1347,"height":640},
 		{"id":"4b5fb3e2b322cb22","type":"file","file":"assets/images/Pasted image 20241125190502.png","x":1280,"y":-447,"width":1119,"height":535},
-		{"id":"66f8c255d4a664df","type":"file","file":"assets/images/Pasted image 20241125185219.png","x":1160,"y":223,"width":1140,"height":512}
+		{"id":"66f8c255d4a664df","type":"file","file":"assets/images/Pasted image 20241125185219.png","x":1160,"y":223,"width":1140,"height":512},
+		{"id":"7f2f2cff495fe8c9","type":"text","text":"**Có 2 Hướng mình sẽ phải làm **","x":-180,"y":2620,"width":200,"height":100},
+		{"id":"25b93a1e0e37d44d","type":"text","text":"Fine tuning data: Mình test tầm 3 mô hình\n- Vit5-base\n- PhoGPT\n- vinallama-7b","x":100,"y":2488,"width":250,"height":189},
+		{"id":"f3e7ffd017291242","type":"text","text":"Làm như 1 bài finetune bình thường. \n- Chia data - train / test\n- Đánh giá\n- Tạo kiểu few shot/ zero shot để test thử mo hình\n- Loss và evaluate\n\t- Bleu score\n\t- f1, recall, accuracy...\n\t- ROC. \n- Push lên huggingface\n- ","x":424,"y":2333,"width":296,"height":416},
+		{"id":"137899e570aace3e","type":"text","text":"RAG advance:\n- Mình phải làm được các bước trong Hình\n- Thực nghiệm các bước Từ query transformer, router...","x":100,"y":2814,"width":250,"height":264},
+		{"id":"7bdb1a8a28fd8064","type":"text","text":"Đầu tiên là thực nghiệm với Retriever advance như B25, semetic search...","x":470,"y":2814,"width":250,"height":220},
+		{"id":"dc63d007311af398","type":"text","text":"Transfomation query, router. Retriever..... ","x":548,"y":3064,"width":212,"height":56},
+		{"id":"a948a9ecb532dcfd","type":"text","text":"","x":897,"y":3300,"width":250,"height":140},
+		{"id":"872d187fd74f43d7","type":"text","text":"Kết hợp lại ","x":1200,"y":2864,"width":250,"height":60},
+		{"id":"44f8b373e1949046","type":"text","text":"Chuẩn bị code k lỗi cho 3 mô hình này\nTrain thử , đánh giá\nSo sánh 3 mô hình\n","x":860,"y":2613,"width":260,"height":129},
+		{"id":"3a40c9525a87e9ae","type":"text","text":"??? Thêm dần data. ","x":1218,"y":2642,"width":250,"height":60},
+		{"id":"b51059d2478d479a","type":"text","text":"RLHF....","x":1548,"y":2461,"width":250,"height":60},
+		{"id":"0ef4f64bf65bac2c","type":"text","text":"Data:\n- Cần tạo thêm data để train mô hình\n- Cái data của mình tạm thời hơi ít quá\n- Cái này tạo data thì để cho tạo vs gpt thôi chứ đừng làm tay ","x":901,"y":2240,"width":358,"height":301},
+		{"id":"44a1562858562176","type":"text","text":"Đang có 1 cái repo:\n- đang clone và xài thử nhưng bị lỗi 1 tí đang đọc để hiểu repo và sẽ custome lại \n- Nó đang bị lỗi việc sử dụng gpt-4","x":411,"y":3250,"width":349,"height":380}
 	],
 	"edges":[
 		{"id":"83936a67f6753fd0","fromNode":"3825300f64c824d4","fromSide":"right","toNode":"82cff306ad5456ce","toSide":"left"},
@@ -27,6 +40,18 @@
 		{"id":"dbf19ec3a94f1b36","fromNode":"ab89d22c30d051d4","fromSide":"right","toNode":"c953b2018ebad410","toSide":"left"},
 		{"id":"f7b2acb3ad941399","fromNode":"c953b2018ebad410","fromSide":"bottom","toNode":"487eda4a6f6798dc","toSide":"right"},
 		{"id":"92037725566ece72","fromNode":"487eda4a6f6798dc","fromSide":"left","toNode":"61ce7bcb2f9418df","toSide":"bottom","label":"Train"},
-		{"id":"2792dac4f1e8b54c","fromNode":"c35e4cf9ef64b4eb","fromSide":"bottom","toNode":"61ce7bcb2f9418df","toSide":"top"}
+		{"id":"2792dac4f1e8b54c","fromNode":"c35e4cf9ef64b4eb","fromSide":"bottom","toNode":"61ce7bcb2f9418df","toSide":"top"},
+		{"id":"cf26dfa476faf7cd","fromNode":"7f2f2cff495fe8c9","fromSide":"right","toNode":"25b93a1e0e37d44d","toSide":"left"},
+		{"id":"54d98c636cb3f871","fromNode":"7f2f2cff495fe8c9","fromSide":"right","toNode":"137899e570aace3e","toSide":"left"},
+		{"id":"2c538cb71bd62a60","fromNode":"25b93a1e0e37d44d","fromSide":"right","toNode":"f3e7ffd017291242","toSide":"left"},
+		{"id":"8032e558183373ba","fromNode":"f3e7ffd017291242","fromSide":"right","toNode":"44f8b373e1949046","toSide":"left"},
+		{"id":"e4b2a36fad41cbc9","fromNode":"f3e7ffd017291242","fromSide":"right","toNode":"0ef4f64bf65bac2c","toSide":"left","label":"Data thiếu? "},
+		{"id":"9063afe2256dab0e","fromNode":"137899e570aace3e","fromSide":"right","toNode":"7bdb1a8a28fd8064","toSide":"left"},
+		{"id":"3f928e54a66050a1","fromNode":"137899e570aace3e","fromSide":"right","toNode":"44a1562858562176","toSide":"left","label":"Thực tế t đang làm"},
+		{"id":"d39e438492b85126","fromNode":"137899e570aace3e","fromSide":"right","toNode":"dc63d007311af398","toSide":"left"},
+		{"id":"e4a1bea598beef7b","fromNode":"44a1562858562176","fromSide":"right","toNode":"a948a9ecb532dcfd","toSide":"left"},
+		{"id":"5157f2c0ec4f2a35","fromNode":"a948a9ecb532dcfd","fromSide":"right","toNode":"872d187fd74f43d7","toSide":"left"},
+		{"id":"7746b1f3b8925717","fromNode":"44f8b373e1949046","fromSide":"right","toNode":"3a40c9525a87e9ae","toSide":"left"},
+		{"id":"6ae83277a0f5e190","fromNode":"3a40c9525a87e9ae","fromSide":"right","toNode":"b51059d2478d479a","toSide":"left"}
 	]
 }
