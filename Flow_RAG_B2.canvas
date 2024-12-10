@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"99867ea480263463","type":"text","text":"Tạo ra demo","x":-240,"y":80,"width":120,"height":60},
+		{"id":"9cffb5952091d796","type":"text","text":"Embedding","x":-80,"y":-60,"width":155,"height":60},
+		{"id":"54067c920cde442a","type":"text","text":"Lưu ở đâu và \n- 1 Drive \n- Qdrant : 1 cái gì đó api\n- Chroma","x":144,"y":-200,"width":250,"height":200},
+		{"id":"6eda7682435c3d89","type":"text","text":"Retrieval","x":-57,"y":80,"width":132,"height":60},
+		{"id":"af90e4c376c66b2b","type":"text","text":"Đánh giá bằng gì chỉ số gì. \n- Dùng bao nhiêu data để đánh giá \n- cosine similarity\n- ","x":125,"y":40,"width":250,"height":200},
+		{"id":"b5783212a12c1f99","type":"text","text":"Generation trả lời","x":-104,"y":400,"width":203,"height":60},
+		{"id":"0db93ed7212beb44","type":"text","text":"LLM","x":172,"y":390,"width":128,"height":60},
+		{"id":"95a9736ded387c00","type":"text","text":"Đánh giá tiếp ","x":388,"y":392,"width":250,"height":60},
+		{"id":"203a224302349ff3","type":"text","text":"Pretrain model nhỏ 7B","x":-490,"y":210,"width":250,"height":60},
+		{"id":"fee715f0b8c7f8bc","type":"text","text":"- Cái này viết trên notebook để phân tích\n- Làm sai hay gì thì không có xóa đi mà dữ lại xem nó sai ở đâu. (Cap màn hình lại)\n- Điều chỉnh tham số gì hay làm gì thì note lại.","x":460,"y":20,"width":280,"height":310,"color":"1"},
+		{"id":"e5159b5c8456323e","type":"text","text":"API model ","x":-490,"y":540,"width":250,"height":60},
+		{"id":"b85e0b18239baee8","type":"text","text":"Tương tự cũng sinh ra và test thử nó ra như thế nào","x":-165,"y":541,"width":250,"height":60},
+		{"id":"b2928a0e785a4edd","type":"text","text":"Rerank hay gì similarity ","x":-40,"y":270,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"3f75c79bc023a6a7","fromNode":"99867ea480263463","fromSide":"right","toNode":"9cffb5952091d796","toSide":"left"},
+		{"id":"053d85d7a5c53def","fromNode":"9cffb5952091d796","fromSide":"right","toNode":"54067c920cde442a","toSide":"left"},
+		{"id":"b4c6739119e51d7e","fromNode":"99867ea480263463","fromSide":"right","toNode":"6eda7682435c3d89","toSide":"left"},
+		{"id":"f72bb23a8937f594","fromNode":"6eda7682435c3d89","fromSide":"right","toNode":"af90e4c376c66b2b","toSide":"left"},
+		{"id":"98f502959c8ab7bc","fromNode":"99867ea480263463","fromSide":"right","toNode":"b5783212a12c1f99","toSide":"left"},
+		{"id":"bb2ddf760c087a0f","fromNode":"6eda7682435c3d89","fromSide":"bottom","toNode":"b2928a0e785a4edd","toSide":"top"},
+		{"id":"f2f14297a00ca39b","fromNode":"b5783212a12c1f99","fromSide":"right","toNode":"0db93ed7212beb44","toSide":"left"},
+		{"id":"dc2ee03bb8b31490","fromNode":"b2928a0e785a4edd","fromSide":"right","toNode":"0db93ed7212beb44","toSide":"top"},
+		{"id":"0fecbee8834a55a1","fromNode":"0db93ed7212beb44","fromSide":"right","toNode":"95a9736ded387c00","toSide":"left"},
+		{"id":"16efff6c60ab519b","fromNode":"203a224302349ff3","fromSide":"right","toNode":"99867ea480263463","toSide":"left"},
+		{"id":"9b8f58064f45cbcb","fromNode":"e5159b5c8456323e","fromSide":"right","toNode":"b85e0b18239baee8","toSide":"left"}
+	]
+}

@@ -17,6 +17,7 @@ Theo nghiên cứu của Zhang et al. (2024), **meta prompting** có những đ�
     
     - Cung cấp các ví dụ mang tính khái quát để minh họa cấu trúc của vấn đề và cách giải quyết, không tập trung vào chi tiết cụ thể.
     - Ví dụ: Thay vì đưa một bài toán cụ thể, meta prompt đưa ra dạng bài toán chung: _“Nếu bài toán là f(x) = g(y), làm thế nào để giải y?”
+    - ![](../../assets/images/Pasted%20image%2020241206153056.png)
 4. **Đa năng (Versatile)**
     
     - Có thể áp dụng trong nhiều lĩnh vực, giúp cung cấp các phản hồi có cấu trúc cho nhiều loại vấn đề khác nhau.
@@ -27,6 +28,7 @@ Theo nghiên cứu của Zhang et al. (2024), **meta prompting** có những đ�
 
 ---
 ![](../../assets/images/Pasted%20image%2020241202155807.png)
+![](../../assets/images/Pasted%20image%2020241206161430.png)
 """ 
 câu hỏi: ddđ?
 trả lời: 

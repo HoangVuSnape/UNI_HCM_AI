@@ -21,7 +21,7 @@ towardsdatascience.com/2Fautohyde-making-hyde-better-for-advanced-1lm-rag-619e58
 
 Advance RAG Th.Cuong: https://www.purpleslate.com/the-ultimate-guide-to-understanding-advanced-retrieval-augmented-generation-methodologies/ 
 https://www.anthropic.com/news/contextual-retrieval
-
+https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb
 RAG 
 - LangChain: https://python.langchain.com/docs/introduction/
   - Agents: https://python.langchain.com/docs/tutorials/qa_chat_history/#tying-it-together-1
