@@ -1,8 +1,9 @@
 # Link
 - https://viblo.asia/p/retrieval-augmented-generation-phuong-phap-khong-the-thieu-khi-trien-khai-cac-du-an-llm-trong-thuc-te-phan-1-Ny0VG7yzVPA
-- [Đánh gái retrieval](https://blog.duyet.net/2019/08/ir-evaluation.html)4
+- [Đánh giá retrieval](https://blog.duyet.net/2019/08/ir-evaluation.html)
 - https://qdrant.tech/articles/hybrid-search/
 - https://github.com/langchain-ai/langchain/blob/master/libs/partners/qdrant/langchain_qdrant/sparse_embeddings.py
+- https://developer.chatx.vn/ii-tinh-nang-co-ban/rag-tao-tang-cuong-truy-xuat/rerank-sap-xep-lai
 # Rerank
 Việc **rerank** sau khi đã lấy kết quả tìm kiếm (như trong trường hợp bạn đã tìm được 5 kết quả tốt nhất dựa trên cosine similarity) có thể là **cần thiết** hoặc **không cần thiết**, tùy thuộc vào mục tiêu và yêu cầu cụ thể của bài toán bạn đang giải quyết.
 
@@ -43,6 +44,13 @@ Giả sử bạn đang xây dựng một hệ thống trả lời câu hỏi t�
 
 
 ![](../../assets/images/Pasted%20image%2020241208204220.png)![](../../assets/images/Pasted%20image%2020241208204248.png)
+## Blog 
+- đây là tìm trên mì AI để về rerank tiếng việt
+
+[Link post Nguyễn Bá đại](https://www.facebook.com/groups/miaigroup/posts/1653862535385012/)
+Ở đây có nói các mô hình rerank để đánh giá và so sánh nó
+![](../../assets/images/Pasted%20image%2020241211223340.png)
+![](../../assets/images/Pasted%20image%2020241211223408.png)
 
 
 # Evaluation
@@ -50,6 +58,7 @@ Giả sử bạn đang xây dựng một hệ thống trả lời câu hỏi t�
 
 # Hybrid seach
 - https://qdrant.tech/articles/hybrid-search/
+- https://github.com/qdrant/workshop-ultimate-hybrid-search/blob/main/notebooks/02-hybrid-search.ipynb
 ![](../../assets/images/Pasted%20image%2020241210141239.png)
 ![](../../assets/images/Pasted%20image%2020241210141335.png)
 ![](../../assets/images/Pasted%20image%2020241210141402.png)
@@ -98,3 +107,32 @@ Mặc dù kết hợp tuyến tính không hiệu quả trong trường hợp n�
 - - **Bi-encoder:** Phương pháp này sẽ sử dụng một mô hình embedding vector để embedding Query và Document chunks (cái này đã được lưu trước đó vào vector database rồi). Sau đó sử dụng một số phép tính độ tương đồng giữa hai vector như _**cosine similarity**_, _**euclidean distance**_ hay _**Jaccard similarity**_ để tính toán độ tương đồng giữa Query và Document chunks. Sau đó lấy ra top K documents có similarity score cao nhất.
 - **Cross-encoder:** Đối với Cross-encoder thì nó có một ưu điểm là mang lại độ chính xác tốt hơn Bi-encoder, thế nhưng nó lại có một nhược điểm là chạy chậm hơn. Vậy nên, thông thường người ta hay sử dụng Cross-encoder như một bước re-rank lại relevant documents sau khi lấy ra được từ bước Bi-encoder. Về cách hoạt động thì nó thực hiện ghép nối Query và Document lại với nhau, sau đó cho qua một Encoder model, từ đó có thể tận dụng được phép tính self-attention nhờ đó khiến cho mô hình mang lại độ chính xác rất cao. Đầu ra của mô hình là một candidate embedding tương ứng. Sau đó embedding sẽ được đi qua một head classifier cho ra score 0->1.
 
+
+
+# Ground truth
+
+- Link : [BeIR/scifact](https://huggingface.co/datasets/BeIR/scifact)
+- [BeIR/scifact-qrels](https://huggingface.co/datasets/BeIR/scifact-qrels)
+- [code Hybrid search](https://github.com/qdrant/workshop-ultimate-hybrid-search/blob/main/notebooks/02-hybrid-search.ipynb)
+
+
+- Hiếu :
+- https://huggingface.co/datasets/hiieu/legal_eval/viewer/default/corpus
+- https://huggingface.co/datasets/hiieu/legal_eval_label
+	- ở đây ảnh nói về Data để check. 
+
+![](../../assets/images/Pasted%20image%2020241211204529.png)
+
+![](../../assets/images/Pasted%20image%2020241211222034.png)
+![](../../assets/images/Pasted%20image%2020241211222102.png)
+
+
+![](../../assets/images/Pasted%20image%2020241212150010.png)
+corpus
+![](../../assets/images/Pasted%20image%2020241212150041.png)
+
+queries
+![](../../assets/images/Pasted%20image%2020241212150106.png)
+
+label query và courpu
+![](../../assets/images/Pasted%20image%2020241212150654.png)

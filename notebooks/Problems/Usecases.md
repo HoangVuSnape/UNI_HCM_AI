@@ -38,61 +38,15 @@ Note lại
 Hiện tại về toán mình không đá động nhiều không biết là trong báo cáo mình có cần trình bay toán không ạ. 
 Tiêu chí đánh giá 1 bài báo cáo thường là gì vậy ạ. 
 
-
-## RLHF
-### **4. Các câu hỏi để làm rõ RLHF**
-
-#### **4.1 Về cơ bản RLHF là gì?**
-
-- RLHF cải thiện mô hình bằng cách nào so với huấn luyện thông thường?
-- Sự khác biệt giữa RLHF và các phương pháp tinh chỉnh khác (fine-tuning)?
-- RLHF phù hợp với các loại mô hình và ứng dụng nào?
-
-#### **4.2 Về dữ liệu và phản hồi**
-
-- Phản hồi từ người dùng nên được thu thập như thế nào để đảm bảo tính hiệu quả?
-- Làm sao để xử lý dữ liệu phản hồi không đồng nhất hoặc mâu thuẫn?
-- Những dạng phản hồi nào có thể giúp cải thiện mô hình?
-    - Ví dụ: **Tốt/Xấu** hay **Xếp hạng nhiều phản hồi**.
-
-#### **4.3 Về mô hình phần thưởng**
-
-- Mô hình phần thưởng học như thế nào từ dữ liệu phản hồi?
-- Làm sao để đánh giá chất lượng của mô hình phần thưởng?
-- Mô hình phần thưởng có thể bị sai lệch (bias) không? Nếu có thì cách xử lý?
-
-#### **4.4 Về thuật toán PPO**
-
-- PPO hoạt động như thế nào trong RLHF?
-- Tại sao PPO được ưa chuộng hơn các thuật toán RL khác (như Q-learning hoặc DDPG)?
-- Làm thế nào để chọn các siêu tham số (hyperparameters) trong PPO?
-
-#### **4.5 Về ứng dụng thực tế**
-
-- RLHF áp dụng hiệu quả nhất trong các lĩnh vực nào? (Ví dụ: chatbot, hỗ trợ y tế, tài chính...)
-- Các tiêu chí nào đánh giá RLHF thành công?
-- Những thách thức khi triển khai RLHF (tốn thời gian, dữ liệu phản hồi chất lượng kém...).
-
 ---
+# Tiếp tuần này:
+- Mình đang cần tạo ra data ground truth. để đánh giá về retrieval và rerank
+- Mình chưa matryoskla và những khía cảnh khác như transformation và router.
+- https://github.com/langchain-ai/rag-from-scratch
+[Rerank_Retrieval_Evaluation](Rerank_Retrieval_Evaluation.md)
 
-## **5. Các yếu tố cần chú ý khi triển khai RLHF**
 
-### **5.1 Dữ liệu phản hồi**
 
-- **Số lượng phản hồi:** RLHF cần lượng lớn phản hồi chất lượng cao để mô hình phần thưởng hoạt động tốt.
-- **Đa dạng:** Phản hồi cần đến từ nhiều người dùng với các nhu cầu khác nhau.
-
-### **5.2 Độ chính xác của mô hình phần thưởng**
-
-- Một mô hình phần thưởng kém chính xác sẽ làm mô hình chính học sai lệch.
-- Nên sử dụng tập dữ liệu kiểm thử để đánh giá mô hình phần thưởng.
-
-### **5.3 Tinh chỉnh PPO**
-
-- Chọn đúng tỷ lệ giữa dữ liệu mới (từ RLHF) và dữ liệu cũ để tránh mất kiến thức ban đầu.
-- PPO cần được kiểm soát để không thay đổi hành vi mô hình quá mức.
-
----
 
 ## **6. Kịch bản đánh giá và câu hỏi cho RLHF**
 

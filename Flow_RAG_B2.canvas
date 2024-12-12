@@ -12,7 +12,25 @@
 		{"id":"fee715f0b8c7f8bc","type":"text","text":"- Cái này viết trên notebook để phân tích\n- Làm sai hay gì thì không có xóa đi mà dữ lại xem nó sai ở đâu. (Cap màn hình lại)\n- Điều chỉnh tham số gì hay làm gì thì note lại.","x":460,"y":20,"width":280,"height":310,"color":"1"},
 		{"id":"e5159b5c8456323e","type":"text","text":"API model ","x":-490,"y":540,"width":250,"height":60},
 		{"id":"b85e0b18239baee8","type":"text","text":"Tương tự cũng sinh ra và test thử nó ra như thế nào","x":-165,"y":541,"width":250,"height":60},
-		{"id":"b2928a0e785a4edd","type":"text","text":"Rerank hay gì similarity ","x":-40,"y":270,"width":250,"height":60}
+		{"id":"b2928a0e785a4edd","type":"text","text":"Rerank hay gì similarity ","x":-40,"y":270,"width":250,"height":60},
+		{"id":"2354ab27a650ccf5","type":"file","file":"notebooks/Problems/Rerank_Retrieval_Evaluation.md","x":307,"y":894,"width":400,"height":400},
+		{"id":"bbacd8a7de1f3015","type":"text","text":"Enhance retrieval : Ft Embedding model","x":-580,"y":1180,"width":250,"height":60},
+		{"id":"7045d05b1a8bc19a","type":"text","text":"[Link YB](https://www.youtube.com/watch?v=oUFyFjGnXXw&t=698s)\n\n- Phục vụ mục đích là nâng cao peformance dựa vào text embedding","x":-220,"y":1062,"width":250,"height":198},
+		{"id":"3cd37f73a70b8c69","type":"text","text":"Hiện tại thì phải là xong tất cả rồi mới build cái này để nâng cao hiệu quả chứ không phải làm cái này. ","x":-240,"y":1323,"width":250,"height":137},
+		{"id":"5ae2051ab3282b22","type":"text","text":"Ground truth ","x":-615,"y":839,"width":125,"height":50},
+		{"id":"63bb6fadc457c641","type":"text","text":"Xây dựng để đánh giá.\n- Nó giúp đánh giá retrieval, rerank, hyrid search.","x":-400,"y":726,"width":250,"height":138},
+		{"id":"4c51076b68dc7205","type":"text","text":"[Rerank_Retrieval_Evaluation](notebooks/Problems/Rerank_Retrieval_Evaluation.md)","x":-60,"y":696,"width":250,"height":60},
+		{"id":"81f15ff8e7ae80e8","type":"text","text":"Xây dựng data test ","x":-520,"y":1620,"width":190,"height":60},
+		{"id":"504605f4e2abc7ac","type":"text","text":"Chunk data","x":-313,"y":1520,"width":147,"height":60},
+		{"id":"774fc46d943966b8","type":"text","text":"Query và answer (khá giống). (Tạo ra từ chat)","x":320,"y":1594,"width":250,"height":86},
+		{"id":"1f8c6034e0902c63","type":"text","text":"Dùng txt tạo ra bộ câu hỏi và trả lời. Nhưng mà embedding qdrant thì id nó bị khác.","x":-180,"y":2080,"width":250,"height":140},
+		{"id":"3cfa713e4e0e48fb","type":"text","text":"Hướng hiện tại nhưng gặp vấn đề ID. ","x":-540,"y":1900,"width":250,"height":60},
+		{"id":"48d994e8306a1463","type":"text","text":"Chưa tạo txt","x":122,"y":2122,"width":250,"height":60},
+		{"id":"00505275d70df60e","type":"text","text":"Khi có bộ data hỏi và tả lời. Thì dùng answer để embedding. và đánh số id của embeding qdrant.","x":40,"y":1840,"width":250,"height":120},
+		{"id":"c7a93bf5fb4645b8","type":"file","file":"assets/images/Pasted image 20241212182439.png","x":372,"y":1738,"width":577,"height":222},
+		{"id":"ddc0e551d8af2edf","type":"text","text":"Dùng chat GPT để sinh ra câu hỏi và nói nó giữ nguyên giữ liệu và không Có xin thêm. ","x":500,"y":2041,"width":250,"height":111},
+		{"id":"a6ffb85b4bc30d4c","type":"file","file":"assets/images/Pasted image 20241212175145.png","x":-580,"y":2280,"width":490,"height":377},
+		{"id":"a9cfd5a4d4715fce","type":"text","text":"Qdrant:\n- Nó sẽ có ID, text(chunk)\n- Export excel : Chunk: Id , file .txt","x":-115,"y":1517,"width":250,"height":207}
 	],
 	"edges":[
 		{"id":"3f75c79bc023a6a7","fromNode":"99867ea480263463","fromSide":"right","toNode":"9cffb5952091d796","toSide":"left"},
@@ -25,6 +43,18 @@
 		{"id":"dc2ee03bb8b31490","fromNode":"b2928a0e785a4edd","fromSide":"right","toNode":"0db93ed7212beb44","toSide":"top"},
 		{"id":"0fecbee8834a55a1","fromNode":"0db93ed7212beb44","fromSide":"right","toNode":"95a9736ded387c00","toSide":"left"},
 		{"id":"16efff6c60ab519b","fromNode":"203a224302349ff3","fromSide":"right","toNode":"99867ea480263463","toSide":"left"},
-		{"id":"9b8f58064f45cbcb","fromNode":"e5159b5c8456323e","fromSide":"right","toNode":"b85e0b18239baee8","toSide":"left"}
+		{"id":"9b8f58064f45cbcb","fromNode":"e5159b5c8456323e","fromSide":"right","toNode":"b85e0b18239baee8","toSide":"left"},
+		{"id":"62c53c9ca8a79dde","fromNode":"5ae2051ab3282b22","fromSide":"right","toNode":"63bb6fadc457c641","toSide":"left"},
+		{"id":"6a61ec9b164380b1","fromNode":"63bb6fadc457c641","fromSide":"right","toNode":"4c51076b68dc7205","toSide":"left"},
+		{"id":"47f38c09bf1c4b41","fromNode":"bbacd8a7de1f3015","fromSide":"right","toNode":"7045d05b1a8bc19a","toSide":"left"},
+		{"id":"fa9c289d6ef87d23","fromNode":"7045d05b1a8bc19a","fromSide":"bottom","toNode":"3cd37f73a70b8c69","toSide":"top"},
+		{"id":"bfbcfec34b7b85e4","fromNode":"81f15ff8e7ae80e8","fromSide":"right","toNode":"504605f4e2abc7ac","toSide":"left"},
+		{"id":"accc1d7e45c68a78","fromNode":"504605f4e2abc7ac","fromSide":"right","toNode":"a9cfd5a4d4715fce","toSide":"left"},
+		{"id":"77319d1ec29ebae0","fromNode":"a9cfd5a4d4715fce","fromSide":"right","toNode":"774fc46d943966b8","toSide":"left","label":"Tạo data"},
+		{"id":"e5ab55965128abee","fromNode":"3cfa713e4e0e48fb","fromSide":"right","toNode":"1f8c6034e0902c63","toSide":"left","label":"??"},
+		{"id":"0adebc57f6465f6a","fromNode":"1f8c6034e0902c63","fromSide":"right","toNode":"48d994e8306a1463","toSide":"left"},
+		{"id":"00afcff8507d6b54","fromNode":"1f8c6034e0902c63","fromSide":"top","toNode":"00505275d70df60e","toSide":"left"},
+		{"id":"696d2646a69fbbf5","fromNode":"00505275d70df60e","fromSide":"bottom","toNode":"ddc0e551d8af2edf","toSide":"top"},
+		{"id":"e3e90f838b413b25","fromNode":"00505275d70df60e","fromSide":"right","toNode":"c7a93bf5fb4645b8","toSide":"left"}
 	]
 }
