@@ -10,3 +10,5 @@ notebooks/Crawldata/credentials.json
 /notebooks/Crawldata/dataScreen
 /notebooks/Crawldata/Linkpdf
 notebooks/Problems/Link.md
+/OCR
+credentials.json

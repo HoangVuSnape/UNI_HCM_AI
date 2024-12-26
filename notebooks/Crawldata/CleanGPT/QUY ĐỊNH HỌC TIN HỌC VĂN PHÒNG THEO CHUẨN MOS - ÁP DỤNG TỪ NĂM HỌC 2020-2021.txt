@@ -1,0 +1,77 @@
+Page 1:
+
+TỔNG LIÊN ĐOÀN LAO ĐỘNG VIỆT NAM  
+TRƯỜNG ĐẠI HỌC TÔN ĐỨC THẮNG  
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
+Độc lập – Tự do – Hạnh phúc  
+
+QUY ĐỊNH  
+Về việc đào tạo Cơ sở tin học cho sinh viên trình độ đại học  
+(Ban hành kèm theo Quyết định số 2202/QĐ-TĐT ngày 26/11/2020)  
+
+Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng  
+1. Văn bản này quy định về chương trình học Cơ sở tin học theo chuẩn Microsoft Office Specialist (MOS), điều kiện dự thi, quy định về xét miễn môn Cơ sở tin học khi sinh viên nộp chứng chỉ MOS quốc tế.  
+2. Đối tượng áp dụng: Tất cả sinh viên trình độ đại học tại Trường Đại học Tôn Đức Thắng (trừ ngành Khoa học máy tính, Kỹ thuật phần mềm, Mạng máy tính và truyền thông dữ liệu, Thống kê, Toán ứng dụng).  
+
+Điều 2. Chương trình học Cơ sở tin học  
+1. Chương trình Cơ sở tin học trình độ đại học của sinh viên được quy định chi tiết trong chương trình đào tạo của từng ngành, gồm các học phần: Cơ sở tin học 1, Cơ sở tin học 2, Cơ sở tin học 3.  
+2. Sinh viên tham gia học các học phần Cơ sở tin học, đảm bảo các yêu cầu của môn học được quy định tại Điều 3; đồng thời phải dự thi bài thi đánh giá kỹ năng tin học văn phòng MOS để được xét đạt học phần và ghi nhận điểm “M” theo Bảng 1. Chi phí thi các kỳ thi MOS sẽ do sinh viên đóng.  
+
+Bảng 1: Thang điểm đạt tính theo chuẩn quốc tế MOS  
+| Môn học             | Chứng chỉ MOS                | Điểm đạt |  
+|----------------------|------------------------------|-----------|  
+| Cơ sở tin học 1     | Microsoft Office Word        | 750       |  
+| Cơ sở tin học 2     | Microsoft Office Excel       | 750       |  
+| Cơ sở tin học 3     | Microsoft Office PowerPoint  | 750       |  
+
+Điều 3: Xét điều kiện dự thi  
+1. Điều kiện dự thi Cơ sở tin học (thi chứng chỉ MOS):  
+   - Hoàn tất học phí theo đúng quy định.  
+   - Tham gia học 80% số buổi học của học phần.  
+   - Kết quả bài thi thử trên phần mềm luyện thi đạt từ 700 điểm trở lên (trong các buổi học ôn tập của học phần, sinh viên được thi thử nhiều lần trên phần mềm luyện thi và được lấy kết quả thi thử cao nhất).  
+   - Điểm trung bình các bài tập kiểm tra trong quá trình học đạt từ 5.0 điểm trở lên.  
+
+Page 2:
+
+2. Danh sách sinh viên đủ điều kiện và không đủ điều kiện dự thi sẽ được giảng viên thông báo tại lớp vào buổi học cuối cùng. Trong thời hạn 03 ngày, nếu sinh viên không phản hồi thì mọi khiếu nại sau đó sẽ không được giải quyết.  
+3. Sinh viên không đạt một trong các điều kiện ở Mục 1 Điều này sẽ không đủ điều kiện dự thi, và phải đăng ký học lại học phần này.  
+
+Điều 4: Thi học phần Cơ sở tin học (thi chứng chỉ MOS)  
+1. Kết thúc học phần Cơ sở tin học, sinh viên đủ điều kiện dự thi theo Điều 3 sẽ đăng ký ngôn ngữ dự thi MOS (sinh viên thi bằng ngôn ngữ mặc định sẽ không đăng ký ngôn ngữ dự thi) theo thông báo của phòng Đại học. Sinh viên học chương trình đại học bằng tiếng Anh dự thi bằng ngôn ngữ tiếng Anh.  
+2. Chi phí dự thi MOS do sinh viên đóng như sau:  
+   - Sinh viên học các học phần Cơ sở tin học và dự thi MOS ngay trong đợt thi mà Trường tổ chức cho sinh viên thi trong cùng học kỳ: Chi phí thi MOS theo mức trợ giá của Trường (do Phòng Tài chính thông báo).  
+   - Sinh viên chưa đạt điểm MOS theo quy định tại Bảng 1, hoặc đăng ký thi cải thiện điểm: Chi phí thi theo mức giá đang áp dụng tại IIG Việt Nam (không được nhà trường hỗ trợ).  
+
+Điều 5: Ghi nhận điểm học phần Cơ sở tin học  
+1. Sinh viên đủ điều kiện dự thi theo Điều 3, có kết quả thi MOS đạt từ mức điểm theo Bảng 1 trở lên sẽ được ghi nhận điểm “M” cuối kỳ.  
+2. Sinh viên đủ điều kiện dự thi theo Điều 3 và đã hoàn tất chi phí thi MOS nhưng vì lý do khách quan (bệnh, mất bản chính CMND/CCCD/Hộ chiếu,…) phải làm đơn hoãn thi theo thời gian quy định để được ghi nhận điểm “H” cuối kỳ. Sinh viên phải đăng ký dự thi lại trong vòng 01 năm tính từ học kỳ sinh viên hoãn thi. Sau thời gian này, nếu sinh viên không đăng ký dự thi, điểm “H” sẽ chuyển thành điểm “0”. Sinh viên có điểm “H” đăng ký dự thi lại không phải nộp chi phí tổ chức thi.  
+3. Sinh viên không đủ điều kiện dự thi theo Điều 3 sẽ bị ghi nhận điểm “F” cuối kỳ.  
+4. Sinh viên đủ điều kiện dự thi theo Điều 3 nhưng không hoàn tất chi phí tổ chức thi sẽ bị ghi nhận điểm “0” cuối kỳ.  
+5. Sinh viên đủ điều kiện dự thi theo Điều 3, đã hoàn tất chi phí tổ chức thi nhưng vắng thi không có lý do chính đáng sẽ bị ghi nhận điểm “V” cuối kỳ.  
+
+Điều 6: Quy định xét miễn các học phần Cơ sở tin học  
+Trong quá trình đào tạo, sinh viên nếu có các chứng chỉ MOS đạt từ mức điểm theo quy định ở Bảng 1 trở lên sẽ được xem xét miễn các học phần Cơ sở tin học, cụ thể như sau:  
+- Trường hợp 1: Sinh viên nộp chứng chỉ MOS ngay sau khi làm thủ tục nhập học sẽ được xét miễn (học, thi và học phí) học phần Cơ sở tin học tương ứng.  
+- Trường hợp 2: Sinh viên đang học đúng lộ trình đào tạo học phần Cơ sở tin học theo chương trình đào tạo.
+
+Page 3:
+
+(2.1) Nộp chứng chỉ MOS trước khi bắt đầu học kỳ ít nhất 02 tuần sẽ được xét miễn (học, thi và học phí) học phần Cơ sở tin học tương ứng theo lộ trình đào tạo; sinh viên đồng thời phải làm đơn đề nghị hủy kết quả đăng ký môn học (nếu có) để được miễn học và không đóng học phí học phần này.  
+
+(2.2) Nộp chứng chỉ MOS sau thời hạn quy định ở trường hợp (2.1) sẽ được miễn học phần Cơ sở tin học đang học; sinh viên đồng thời phải làm đơn đề nghị rút môn học (không hoàn học phí), điểm R được ghi nhận cho học phần trong học kỳ hiện tại; trường hợp sinh viên không làm đơn đề nghị rút học phần, sinh viên vẫn phải thực hiện nghĩa vụ học và thi theo quy định.  
+
+Trường hợp 3:  
+Sinh viên học trễ lộ trình đào tạo học phần Cơ sở tin học, sinh viên được xét miễn học phần Cơ sở tin học tương ứng nếu thỏa:  
+(1) Nộp chứng chỉ MOS đạt từ mức điểm quy định ở Bảng 1;  
+(2) Đang trong quá trình học hoặc đã học và đủ điều kiện dự thi theo mục 1 Điều 3 trước đó.  
+Sinh viên đồng thời phải làm đơn đề nghị rút môn học (không hoàn học phí), điểm R được ghi nhận cho môn học trong học kỳ hiện tại; trường hợp sinh viên không làm đơn đề nghị rút môn học, sinh viên vẫn phải thực hiện nghĩa vụ học và thi theo quy định.  
+
+Điểm “M” của các học phần Cơ sở tin học được xét miễn theo các trường hợp trên được ghi nhận vào điểm bảo lưu (nằm ngoài bảng điểm các học kỳ sinh viên học tại trường).  
+
+Điều 7. Hiệu lực thi hành  
+1. Quy định này thay thế cho Quy định số 900/2015/TĐT-QĐ ngày 13/7/2015 và Quy định số 1784/2016/QĐ-TĐT ngày 01/11/2016 và có hiệu lực áp dụng từ năm học 2020-2021. Riêng các khóa tuyển sinh từ 2015 trở về trước vẫn áp dụng Thang điểm đạt học phần Cơ sở tin học theo chuẩn quốc tế tại Quy định số 1784/2016/QĐ-TĐT ngày 01/11/2016.  
+2. Phòng Đại học, Phòng Khảo thí và Kiểm định Chất lượng, Phòng Thanh tra - Pháp chế và An ninh, các Khoa, Trung tâm Công nghệ thông tin ứng dụng có trách nhiệm phối hợp tổ chức quản lý sinh viên, giám sát và đảm bảo chương trình học Cơ sở tin học theo chuẩn MOS được triển khai theo đúng quy định.  
+
+ĐẠI DIỆN TRƯỜNG  
+Đã ký  
+TS. Trần Trọng Đạo  
