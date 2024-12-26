@@ -38,14 +38,43 @@ Note lại
 Hiện tại về toán mình không đá động nhiều không biết là trong báo cáo mình có cần trình bay toán không ạ. 
 Tiêu chí đánh giá 1 bài báo cáo thường là gì vậy ạ. 
 
+# Data tuyển sinh
+- Nếu table tạo thành text thì rất rắc rối. 
+- cái thứ 2 là mô tả về ngành đào tạo rất nhiều. 
+	- Không biết có nên tải pdf về để lấy không
+
+
+SQL data - query construction 
+- [sql](https://python.langchain.com/docs/tutorials/sql_qa/)
+- [sql agent](https://langchain-ai.github.io/langgraph/tutorials/sql-agent/)
+web search, 
+data 
+function calling api geminai. 
+- Nếu sử dụng api thì không cần colab
+- Còn nếu mô hình thì có thể colab rồi tạo thử function calling
+- Không thì tải bản gguf rồi ccmap để làm sever chạy thử. Đọc xem nó có hỗ trợ thử 
+	- Tìm hiểu thử mô hình này có hỗ trợ tiếng việt không. 
+
 ---
+# Để giải quyết vấn đề này, bạn có thể sử dụng một giải pháp kết hợp:
+
+1. **Vẫn dùng Qdrant cho văn bản**: Để tìm kiếm các thông tin liên quan đến văn bản (ví dụ: câu hỏi trả lời hoặc tìm kiếm ngữ nghĩa trong văn bản), Qdrant là công cụ rất hiệu quả.
+    
+2. **Sử dụng cơ sở dữ liệu quan hệ (SQL) cho bảng**: Khi dữ liệu có cấu trúc bảng, bạn nên lưu trữ và truy vấn thông tin từ một cơ sở dữ liệu quan hệ (ví dụ: MySQL, PostgreSQL). Sau đó, bạn có thể sử dụng các truy vấn SQL để lấy dữ liệu từ các bảng đó, đảm bảo tính chính xác và hiệu quả khi làm việc với dữ liệu có cấu trúc.
+    
+3. **Kết hợp cả hai**: Bạn có thể kết hợp kết quả từ Qdrant (tìm kiếm văn bản) và SQL (truy vấn dữ liệu bảng). Ví dụ, khi cần thông tin từ bảng, bạn có thể truy vấn SQL để lấy dữ liệu có cấu trúc, trong khi Qdrant có thể giúp bạn tìm kiếm thông tin từ văn bản hoặc các câu hỏi không có cấu trúc. Một cách tiếp cận phổ biến là sử dụng cả hai nguồn dữ liệu và kết hợp kết quả từ chúng trong một hệ thống RAG.
+    
+
+Vậy bạn sẽ cần dùng nhiều DB (Qdrant cho embedding và một DB quan hệ như PostgreSQL hoặc MySQL cho bảng), nhưng bạn chỉ cần quản lý một cách hợp lý để truy vấn và kết hợp thông tin từ cả hai nguồn.
 # Tiếp tuần này:
 - Mình đang cần tạo ra data ground truth. để đánh giá về retrieval và rerank
 - Mình chưa matryoskla và những khía cảnh khác như transformation và router.
 - https://github.com/langchain-ai/rag-from-scratch
 [Rerank_Retrieval_Evaluation](Rerank_Retrieval_Evaluation.md)
 
-
+Tuần này:
+- https://blog.langchain.dev/query-construction/
+- 
 
 
 ## **6. Kịch bản đánh giá và câu hỏi cho RLHF**

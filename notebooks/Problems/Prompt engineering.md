@@ -1,4 +1,4 @@
-# Meta 
+	# Meta 
 ### **Phân Tích Chi Tiết Meta Prompting**
 
 #### 1. **Đặc điểm chính** _(Key Characteristics)_

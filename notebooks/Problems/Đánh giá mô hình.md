@@ -1,7 +1,5 @@
 
 ![](../../assets/images/Performace_Models.png)
-
-
 # Bartpho-fine-tuning-model
 [Bartpho-fine-tuning-model](https://huggingface.co/PhucDanh/Bartpho-fine-tuning-model-for-question-answering)
 ![](../../assets/images/bartpho.png)

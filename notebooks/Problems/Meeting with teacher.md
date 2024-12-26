@@ -29,7 +29,7 @@ Prompting -> thì cần gì
 Đánh giá: 2 cái dưới kết quả là bao nhiêu và generation thì bao nhiêu 
 Retrieval -> 
 Generation ->
-
+		Rag checker
 Lưu lại các giải pháp để có cái nói 
 - Có cái demo sai cũng đc.
 1, API +rag
@@ -41,4 +41,24 @@ Test sâu 1 lĩnh vực ....
 - Chạy thử nhiều test rồi để so sánh chứ k có nói xuông. 
 	- Nhóm đầu:
 	- 2 vector database họ sử dụng Qdrant và chroma. 
-	- 
+
+
+# Buổi 3:
+- Sursey : xuất bản và lấy từ nguồn nào. 
+- Thầy nói điều chỉnh về tuyển sinh. 
+	- Thu thập data từ nhiều nguồn tuyển sinh. ....
+- 7 Tiêu chí đánh giá của mô hình. (CHat gpt, geminai)
+- Cần crawl data thêm hoặc làm những thứ.  
+- Cảm giác bộ data vẫn chưa đủ. 
+- Áp dụng semetic chunk. ---- 2 cái **recursive split, semetic chunk.** 
+- CHiến lược ---- thì mình sẽ những câu hỏi thường gặp. 
+- GỢi ý câu hỏi.
+------
+- Function calling 
+- sql table function, 
+- Contexual rag, 
+- thầy đang hướng đến luồng tuyển sinh 
+- Của nhiều trương có thể là 10, 20 trường
+- Các phương thức tuyển sinh 
+- Nên chọn trường nào. Chat với thí sinh 
+- 

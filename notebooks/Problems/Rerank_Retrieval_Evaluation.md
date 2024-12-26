@@ -55,7 +55,36 @@ Giả sử bạn đang xây dựng một hệ thống trả lời câu hỏi t�
 
 # Evaluation
 - ![](../../assets/images/Pasted%20image%2020241210140202.png)
+## Các metric đánh giá:
+- Dưới đây là cách đánh giá metric của retrieval
+- Cần tạo ra bộ data đánh giá ground truth
 
+### 1. Precision@10 (P@10)
+- ![](../../assets/images/Pasted%20image%2020241220140323.png)
+
+### 2. **Recall@10**:
+- ![](../../assets/images/Pasted%20image%2020241220140451.png)
+- ![](../../assets/images/Pasted%20image%2020241220142313.png)
+### 3. **MRR@10 (Mean Reciprocal Rank at 10)**
+- ![](../../assets/images/Pasted%20image%2020241220140521.png)
+- ![](../../assets/images/Pasted%20image%2020241220141142.png)
+- ![](../../assets/images/Pasted%20image%2020241220141159.png)
+### 4. **DCG@10 (Discounted Cumulative Gain at 10)**:
+- ![](../../assets/images/Pasted%20image%2020241220140740.png)
+
+#### VÍ dụ
+- ![](../../assets/images/Pasted%20image%2020241220142722.png)
+- ![](../../assets/images/Pasted%20image%2020241220142734.png)
+- ![](../../assets/images/Pasted%20image%2020241220142745.png)
+
+### 5. **NDCG@10 (Normalized Discounted Cumulative Gain at 10)**:
+- ![](../../assets/images/Pasted%20image%2020241220140755.png)
+
+#### Ví dụ 
+- ![](../../assets/images/Pasted%20image%2020241220143123.png)
+- ![](../../assets/images/Pasted%20image%2020241220143138.png)
+- ![](../../assets/images/Pasted%20image%2020241220143203.png)
+- ![](../../assets/images/Pasted%20image%2020241220143218.png)
 # Hybrid seach
 - https://qdrant.tech/articles/hybrid-search/
 - https://github.com/qdrant/workshop-ultimate-hybrid-search/blob/main/notebooks/02-hybrid-search.ipynb
@@ -68,7 +97,7 @@ Giả sử bạn đang xây dựng một hệ thống trả lời câu hỏi t�
 
 1. **Không tách biệt rõ ràng**:
     
-    - Khi bạn vẽ phân phối các điểm số từ hai phương pháp tìm kiếm trong không gian 2D, nếu các tài liệu liên quan và không liên quan bị trộn lẫn mà không có sự phân tách rõ ràng, thì một công thức tuyến tính (như Scorefinal=w1×ScoreQdrant+w2×ScoreBM25\text{Score}_{final} = w_1 \times \text{Score}_{Qdrant} + w_2 \times \text{Score}_{BM25}) sẽ không có khả năng phân biệt được tài liệu nào là liên quan và tài liệu nào không liên quan.
+    - Khi bạn vẽ phân phối các điểm số từ hai phương pháp tìm kiếm trong không gian 2D, nếu các tài liệu liên quan và không liên quan bị trộn lẫn mà không có sự phân tách rõ ràng, thì một công thức tuyến tính  sẽ không có khả năng phân biệt được tài liệu nào là liên quan và tài liệu nào không liên quan.
     - Điều này giống như việc cố gắng vẽ một đường thẳng để phân tách hai nhóm điểm mà chúng lại nằm lẫn vào nhau, không có cách nào chỉ dùng một đường thẳng để phân loại chính xác.
 2. **Điểm số không đồng nhất**:
     
@@ -136,3 +165,21 @@ queries
 
 label query và courpu
 ![](../../assets/images/Pasted%20image%2020241212150654.png)
+
+
+TTCPB 1-> 6 
+- Phòng Tổ chức hành chính làm gì? TTCPB_1, TTCPB_2
+- Liên hệ Phòng Tổ chức hành chính ở đâu? TTCPB_2, TTCPB_3
+- Số điện thoại của Phòng Thanh tra pháp chế & An ninh là gì? 
+- Email của Phòng Khảo thí & Kiểm định chất lượng là gì?
+- Phòng Khảo thí & Kiểm định chất lượng làm nhiệm vụ gì?
+
+
+
+
+# Function calling 
+- ![](../../assets/images/Pasted%20image%2020241215173612.png)
+- Bước ảnh này lấy từ Mì AI
+- Tại sao dùng function calling vì Nó sẽ giải quyết vấn đề của rag là real time. Với rag chung ta phải có dữ liệu và bỏ vào vector DB. Thì vì vậy những thông tin giá vàng hay thời tiết hôm nay, ... khá năng cao là model không biết được 
+- Vì vậy Function calling giúp chúng tạo gọi đến 1 tool để xử lý vấn đề trên và cho ra kết quả mong muốn. 
+- Ở đây là chúng ta chú ý đến việc làm cách nào để model điều hương tool đến và trả ra kết quả người dùng. 

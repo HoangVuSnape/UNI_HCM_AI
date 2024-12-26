@@ -29,8 +29,20 @@
 		{"id":"00505275d70df60e","type":"text","text":"Khi có bộ data hỏi và tả lời. Thì dùng answer để embedding. và đánh số id của embeding qdrant.","x":40,"y":1840,"width":250,"height":120},
 		{"id":"c7a93bf5fb4645b8","type":"file","file":"assets/images/Pasted image 20241212182439.png","x":372,"y":1738,"width":577,"height":222},
 		{"id":"ddc0e551d8af2edf","type":"text","text":"Dùng chat GPT để sinh ra câu hỏi và nói nó giữ nguyên giữ liệu và không Có xin thêm. ","x":500,"y":2041,"width":250,"height":111},
-		{"id":"a6ffb85b4bc30d4c","type":"file","file":"assets/images/Pasted image 20241212175145.png","x":-580,"y":2280,"width":490,"height":377},
-		{"id":"a9cfd5a4d4715fce","type":"text","text":"Qdrant:\n- Nó sẽ có ID, text(chunk)\n- Export excel : Chunk: Id , file .txt","x":-115,"y":1517,"width":250,"height":207}
+		{"id":"a9cfd5a4d4715fce","type":"text","text":"Qdrant:\n- Nó sẽ có ID, text(chunk)\n- Export excel : Chunk: Id , file .txt","x":-115,"y":1517,"width":250,"height":207},
+		{"id":"a6ffb85b4bc30d4c","type":"file","file":"assets/images/Pasted image 20241212175145.png","x":704,"y":2220,"width":490,"height":377},
+		{"id":"545cf2507db0e7c7","type":"text","text":"Chunk txt","x":-600,"y":2400,"width":185,"height":60},
+		{"id":"2c099dc6d42c7d8b","type":"text","text":"Data chunk\nDựa vào đó tạo ra bộ test \n- Nó dùng 1 câu hỏi thì ra lời và sẽ ra câu chunk đó\n- Vậy cảm thấy chunk không ổn thì phải thay đổi data test hay sao vậy thầy?","x":-299,"y":2317,"width":299,"height":343},
+		{"id":"c7967c3ba99ed642","type":"text","text":"Có phương hướng khác để tạo ra bộ data test không ạ.","x":107,"y":2421,"width":250,"height":159},
+		{"id":"8f0446591ceff3d6","type":"text","text":"Data\n","x":-740,"y":3040,"width":155,"height":60},
+		{"id":"45666961ed8a93c1","type":"text","text":"SQL","x":-536,"y":3202,"width":148,"height":60},
+		{"id":"11e81e826d81a959","type":"text","text":"Mỗi trường là 1 collections và sẽ search thì từ khóa của trường (TDTU = TDTU)","x":-440,"y":3000,"width":250,"height":140},
+		{"id":"dc563b299559b40d","type":"text","text":"gom chung collection ","x":-513,"y":2860,"width":250,"height":60},
+		{"id":"51c6b6f534c2f681","type":"text","text":"- điểm chuẩn:  Tổ hợp, năm,  \n- Quy đổi điểm: ielts, N1 \n- Học phí\n- ","x":-315,"y":3172,"width":250,"height":248},
+		{"id":"5615ca23d37aa88a","x":-880,"y":3760,"width":340,"height":151,"type":"file","file":"assets/images/Pasted image 20241223221013.png"},
+		{"id":"865e56eb8e172c0b","x":-900,"y":3960,"width":120,"height":63,"type":"text","text":"for i\ni=1,2 "},
+		{"id":"24feaafbbbd27f98","x":-610,"y":3963,"width":140,"height":60,"type":"text","text":"question"},
+		{"id":"ceff22a52400253f","x":-799,"y":4077,"width":250,"height":60,"type":"text","text":"id_question - id corpus"}
 	],
 	"edges":[
 		{"id":"3f75c79bc023a6a7","fromNode":"99867ea480263463","fromSide":"right","toNode":"9cffb5952091d796","toSide":"left"},
@@ -55,6 +67,15 @@
 		{"id":"0adebc57f6465f6a","fromNode":"1f8c6034e0902c63","fromSide":"right","toNode":"48d994e8306a1463","toSide":"left"},
 		{"id":"00afcff8507d6b54","fromNode":"1f8c6034e0902c63","fromSide":"top","toNode":"00505275d70df60e","toSide":"left"},
 		{"id":"696d2646a69fbbf5","fromNode":"00505275d70df60e","fromSide":"bottom","toNode":"ddc0e551d8af2edf","toSide":"top"},
-		{"id":"e3e90f838b413b25","fromNode":"00505275d70df60e","fromSide":"right","toNode":"c7a93bf5fb4645b8","toSide":"left"}
+		{"id":"e3e90f838b413b25","fromNode":"00505275d70df60e","fromSide":"right","toNode":"c7a93bf5fb4645b8","toSide":"left"},
+		{"id":"aae41a1e25d33ef7","fromNode":"545cf2507db0e7c7","fromSide":"right","toNode":"2c099dc6d42c7d8b","toSide":"left"},
+		{"id":"10670afdd1a7c4c4","fromNode":"2c099dc6d42c7d8b","fromSide":"right","toNode":"c7967c3ba99ed642","toSide":"left"},
+		{"id":"ac0ea34c6b3f5c96","fromNode":"8f0446591ceff3d6","fromSide":"right","toNode":"dc563b299559b40d","toSide":"left"},
+		{"id":"fbb46e29494065ad","fromNode":"8f0446591ceff3d6","fromSide":"right","toNode":"11e81e826d81a959","toSide":"left"},
+		{"id":"ff6664f22f4ba97f","fromNode":"8f0446591ceff3d6","fromSide":"right","toNode":"45666961ed8a93c1","toSide":"left"},
+		{"id":"a5d36b5904a90ce9","fromNode":"45666961ed8a93c1","fromSide":"right","toNode":"51c6b6f534c2f681","toSide":"left"},
+		{"id":"91e2067dde4a7e91","fromNode":"865e56eb8e172c0b","fromSide":"top","toNode":"5615ca23d37aa88a","toSide":"bottom"},
+		{"id":"7ca62a2f3b11f4d0","fromNode":"865e56eb8e172c0b","fromSide":"right","toNode":"24feaafbbbd27f98","toSide":"left","label":"LLM"},
+		{"id":"f05bdedac6998c53","fromNode":"24feaafbbbd27f98","fromSide":"bottom","toNode":"ceff22a52400253f","toSide":"top"}
 	]
 }
