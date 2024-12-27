@@ -21,3 +21,5 @@ notebooks/Problems/Link.md
 /notebooks/data_finetune/Donedata
 credentials.json
 /notebooks/Crawldata/CleanGPT
+/volumes
+.env

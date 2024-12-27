@@ -61,4 +61,7 @@ Test sâu 1 lĩnh vực ....
 - Của nhiều trương có thể là 10, 20 trường
 - Các phương thức tuyển sinh 
 - Nên chọn trường nào. Chat với thí sinh 
-- 
+
+
+# Buổi 4
+- Mục tiêu tuần tiếp là hỏi đáp đi test demo thử 
