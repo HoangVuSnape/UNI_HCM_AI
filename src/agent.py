@@ -115,3 +115,4 @@ def get_llm_and_agent(_retriever, model_choice="gpt4") -> AgentExecutor:
 # Khởi tạo retriever và agent
 retriever = get_retriever()
 agent_executor = get_llm_and_agent(retriever)
+#Comment
