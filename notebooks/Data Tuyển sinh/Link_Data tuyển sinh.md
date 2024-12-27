@@ -59,10 +59,16 @@ Dưới đây là **Top 5 khối ngành hot 2024 tại Việt Nam** cùng với 
 **Trường đại học nổi bật**:
 
 - Đại học Ngoại Thương TP.HCM (FTU)
-- Đại học Kinh tế Quốc dân (NEU) 
-- Đại học Marketing
-- Đại học Tài chính – Marketing 
-- Đại học Học viện Ngân hàng
+- Đại học Kinh tế Quốc dân (NEU)  - Trường này có thành viên trường công nghệ nên hơi khó hiểu
+- Đại học Marketing - ufm
+	- https://tuyensinh.ufm.edu.vn/vi/thong-tin-tuyen-sinh-dai-hoc-chinh-quy/thong-bao-nhan-dang-ky-nguyen-vong-xet-tuyen-nam-2024-cac-phuong-thuc-xet-tuyen-som
+	- https://images.tuyensinh247.com/user_data/2024/0404/de-an-ts-dh-tai-chinh-marketing-2024.pdf
+	- https://tuyensinh.ufm.edu.vn/vi/dai-hoc-chinh-quy-1517/de-an-tuyen-sinh-dai-hoc-tai-chinh-marketing-nam-2023
+	- https://tuyensinh.ufm.edu.vn/vi/dai-hoc-chinh-quy-1517
+- Đại học Kinh tế Thành phố Hồ Chí Minh  ueh
+	- https://tuyensinh.ueh.edu.vn/bai-viet/de-an-tuyen-sinh-dai-hoc-nam-2023-cua-truong-dai-hoc-kinh-te-tp-ho-chi-minh-dao-tao-tai-co-so-tp-ho-chi-minh-ma-dang-ky-xet-tuyen-ksa/
+	- https://drive.google.com/file/d/1zw7xjROJS6P7Rybi1ub4ez6sqkFZhfJn/view : đề án 2022
+	- https://tuyensinh.ueh.edu.vn/bai-viet/de-an-tuyen-sinh-dai-hoc-nam-2021-cua-truong-dai-hoc-kinh-te-tp-hcm-dao-tao-tai-co-so-tp-ho-chi-minh-ma-dang-ky-xet-tuyen-ksa/
 
 ### 3. **Khối ngành Y dược**
 
