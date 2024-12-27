@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 import os
 import openai
 
-load_dotenv("E:\LLM_clone\Tdtu-chatbot\.env", override= True)
+load_dotenv(override= True)
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY: 
