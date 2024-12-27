@@ -12,3 +12,7 @@ notebooks/Crawldata/credentials.json
 notebooks/Problems/Link.md
 /OCR
 credentials.json
+/volumes
+.env
+.env
+.env
