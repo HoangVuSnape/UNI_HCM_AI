@@ -85,7 +85,7 @@ def get_llm_and_agent(_retriever, model_choice="gpt4") -> AgentExecutor:
         llm = ChatOpenAI(
             temperature=0,
             streaming=True,
-            model='gpt-4',
+            model='gpt-4o-mini',
             api_key=OPENAI_API_KEY)
     else:  # grok
         llm = ChatOpenAI(
