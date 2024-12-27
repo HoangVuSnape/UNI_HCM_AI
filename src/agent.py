@@ -11,13 +11,15 @@ from langchain_community.retrievers import BM25Retriever  # Retriever dựa trê
 from langchain_core.documents import Document  # Lớp Document
 from dotenv import load_dotenv
 import os
+import openai
 
-load_dotenv()
+load_dotenv("E:\LLM_clone\Tdtu-chatbot\.env", override= True)
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-if not OPENAI_API_KEY:
+if not OPENAI_API_KEY: 
     raise ValueError("OPENAI_API_KEY not found in environment variables")
 
+print(OPENAI_API_KEY)
 XAI_API_KEY = os.getenv("XAI_API_KEY")
 if not XAI_API_KEY:
     raise ValueError("XAI_API_KEY not found in environment variables")
@@ -85,7 +87,7 @@ def get_llm_and_agent(_retriever, model_choice="gpt4") -> AgentExecutor:
         llm = ChatOpenAI(
             temperature=0,
             streaming=True,
-            model='gpt-4',
+            model='gpt-4o-mini',
             api_key=OPENAI_API_KEY)
     else:  # grok
         llm = ChatOpenAI(
