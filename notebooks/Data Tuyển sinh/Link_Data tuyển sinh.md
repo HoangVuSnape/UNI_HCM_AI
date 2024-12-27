@@ -1,4 +1,24 @@
 # 2024
+# Trường
+| STT | Mã Trường | Viết Tắt | Tên Trường                                                                                                  |
+| --- | --------- | -------- | ----------------------------------------------------------------------------------------------------------- |
+| 1   | QSB       | BKU      | Trường Đại học Bách Khoa TP. Hồ Chí Minh (Ho Chi Minh City University of Technology)                        |
+| 2   | SPK       | HCMUTE   | Trường Đại học Sư phạm Kỹ thuật TP. Hồ Chí Minh (Ho Chi Minh City University of Technology and Education)   |
+| 3   | FPT       | FPT      | Trường Đại học FPT (FPT University)                                                                         |
+| 4   | NTS       | FTU2     | Trường Đại học Ngoại thương - Cơ sở 2 TP. Hồ Chí Minh (Foreign Trade University, Campus 2)                  |
+| 5   | QST       | HCMUS    | Trường Đại học Khoa học Tự nhiên TP. Hồ Chí Minh (University of Science, Ho Chi Minh City)                  |
+| 6   | TTD       | TDTU     | Trường Đại học Tôn Đức Thắng (Ton Duc Thang University)                                                     |
+| 7   | KSA       | UEH      | Trường Đại học Kinh tế TP. Hồ Chí Minh (University of Economics Ho Chi Minh City)                           |
+| 8   | DMS       | UFM      | Trường Đại học Tài chính - Marketing (University of Finance and Marketing)                                  |
+| 9   | QSC       | UIT      | Trường Đại học Công nghệ Thông tin TP. Hồ Chí Minh (University of Information Technology, Ho Chi Minh City) |
+| 10  | DVL       | VLU      | Trường Đại học Văn Lang (Van Lang University)                                                               |
+| 11  | YDS       | UMP      | Trường Đại học Y Dược TP. Hồ Chí Minh (University of Medicine and Pharmacy, Ho Chi Minh City)               |
+| 12  | TYS       | PNTU     | Trường Đại học Y khoa Phạm Ngọc Thạch (Pham Ngoc Thach University of Medicine)                              |
+| 13  | MBS       | OU       | Trường Đại học Mở TP. Hồ Chí Minh (Ho Chi Minh City Open University)                                        |
+| 14  | NTT       | NTTU     | Trường Đại học Nguyễn Tất Thành (Nguyen Tat Thanh University)                                               |
+| 15  | SPS       | HCMUE    | Trường Đại học Sư phạm TP. Hồ Chí Minh (Ho Chi Minh City University of Education)                           |
+
+
 ## Link
 
 Link khác:
@@ -49,6 +69,8 @@ Dưới đây là **Top 5 khối ngành hot 2024 tại Việt Nam** cùng với 
 - Đại học Khoa học Tự nhiên (ĐHQG TP.HCM)
 -  Đại học công nghệ tin UIT
 -  Đại học tôn đức thắng. 
+	- https://drive.google.com/file/d/1dvmWgypQzRt0HuOUGRN0wdlJPqQLre03/view : 2022
+	- https://drive.google.com/file/d/1u2sXxEU3TMPcWuacR0lUh_p149o1srZF/view : 2024
 - Đại học FPT
 - Đại học sư phạm kỹ thuật
 

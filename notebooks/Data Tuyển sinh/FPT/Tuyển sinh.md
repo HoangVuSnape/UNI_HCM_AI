@@ -132,3 +132,81 @@ Thí sinh đạt một trong các điều kiện sau sẽ được xét tuyển 
    - **Top 1000** trong 3 bảng xếp hạng gần nhất: QS, ARWU, THE.
    - Hoặc các trường đạt chứng nhận QS Star 5 sao về chất lượng đào tạo.
 7. Tốt nghiệp **Top40 Hệ Phổ thông Cao đẳng (9+)** tại FPT Polytechnic.
+
+# 2022 
+Trường Đại học FPT đã công bố các phương thức xét tuyển cho năm 2022 như sau:
+
+1. **Xét tuyển thẳng**: Áp dụng cho thí sinh thuộc diện được xét tuyển thẳng theo Quy chế tuyển sinh Đại học, Cao đẳng hệ chính quy của Bộ Giáo dục và Đào tạo năm 2022.
+    
+    [FPT University](https://daihoc.fpt.edu.vn/tuyen-sinh/phuong-thuc-xet-tuyen/?utm_source=chatgpt.com)
+    
+2. **Xét kết quả học tập cấp THPT (học bạ)**:
+    
+    - Thí sinh đạt xếp hạng Top40 theo học bạ THPT năm 2022, chứng nhận trên trang SchoolRank.
+    - Đối với thí sinh thuộc "Thế hệ 1" (người đầu tiên trong gia đình học đại học), đạt xếp hạng Top50 theo học bạ THPT năm 2022 trên SchoolRank.
+        
+        [FPT University](https://daihoc.fpt.edu.vn/tuyen-sinh/phuong-thuc-xet-tuyen/?utm_source=chatgpt.com)
+        
+3. **Xét kết quả thi tốt nghiệp THPT**:
+    
+    - Thí sinh đạt xếp hạng Top40 theo điểm thi THPT năm 2022, chứng nhận trên trang SchoolRank theo số liệu Đại học FPT tổng hợp và công bố sau kỳ thi THPT 2022.
+    - Đối với thí sinh thuộc "Thế hệ 1", đạt xếp hạng Top50 theo điểm thi THPT năm 2022 trên SchoolRank.
+        
+        [FPT University](https://daihoc.fpt.edu.vn/tuyen-sinh/phuong-thuc-xet-tuyen/?utm_source=chatgpt.com)
+        
+4. **Sử dụng kết quả thi đánh giá năng lực**:
+    
+    - Thí sinh đạt từ 90/150 điểm trở lên trong kỳ thi Đánh giá năng lực Đại học Quốc gia Hà Nội năm 2022.
+    - Hoặc đạt từ 670/1200 điểm trở lên trong kỳ thi Đánh giá năng lực Đại học Quốc gia TP HCM năm 2022.
+        
+        [FPT University](https://daihoc.fpt.edu.vn/tuyen-sinh/phuong-thuc-xet-tuyen/?utm_source=chatgpt.com)
+        
+5. **Xét tuyển dựa trên chứng chỉ quốc tế**:
+    
+    - Ngành Ngôn ngữ Anh: Có chứng chỉ TOEFL iBT từ 80 hoặc IELTS (Học thuật) từ 6.0 hoặc tương đương.
+    - Ngành Ngôn ngữ Nhật: Có chứng chỉ JLPT từ N3 trở lên.
+    - Ngành Ngôn ngữ Hàn Quốc: Có chứng chỉ TOPIK cấp độ 4 trong kỳ thi TOPIK II.
+        
+        [FPT University](https://daihoc.fpt.edu.vn/tuyen-sinh/phuong-thuc-xet-tuyen/?utm_source=chatgpt.com)
+        
+6. **Xét tuyển thí sinh tốt nghiệp THPT ở nước ngoài**: Áp dụng cho thí sinh đã tốt nghiệp THPT ở nước ngoài.
+    
+    [FPT University](https://daihoc.fpt.edu.vn/tuyen-sinh/phuong-thuc-xet-tuyen/?utm_source=chatgpt.com)
+    
+7. **Phương thức khác**:
+    
+    - Tốt nghiệp các chương trình như APTECH HDSE/ADSE (đối với ngành Công nghệ thông tin), ARENA ADIM (đối với chuyên ngành Thiết kế Mỹ thuật số), BTEC HND, FUNiX Software Engineering.
+    - Tốt nghiệp đại học.
+    - Sinh viên từ nước ngoài về từ các trường đại học thuộc Top 1000 trong các bảng xếp hạng QS, ARWU và THE hoặc các trường đạt chứng nhận QS Star 5 sao về chất lượng đào tạo.
+
+# **ĐIỀU KIỆN XÉT TUYỂN VÀO TRƯỜNG ĐH FPT NĂM 2021**
+
+1. **Đối tượng tuyển sinh**
+
+Các thí sinh đã tốt nghiệp Trung học Phổ thông hoặc tương đương tính đến thời điểm nhập học, có nguyện vọng theo học tại Trường Đại học FPT.
+
+2. **Phương thức tuyển sinh**
+
+Các thí sinh có nguyện vọng theo học tại Trường Đại học FPT cần đáp ứng một trong các điều kiện sau:
+
+1. Thuộc diện được xét tuyển thẳng thực hiện theo Quy định của Bộ Giáo dục & Đào tạo;
+2. Đạt xếp hạng Top50 theo học bạ THPT năm 2021 (chứng nhận thực hiện trên trang [http://SchoolRank.fpt.edu.vn](http://schoolrank.fpt.edu.vn/)). Trường hợp thí sinh chỉ có điểm học bạ lớp 12 ở Việt Nam (lớp 11 học ở nước ngoài), thì điểm lớp 12 sẽ được dùng để xếp hạng (khi nhập SchoolRank điểm lớp 11 nhập giống điểm lớp 12);
+3. Đạt xếp hạng Top50 theo điểm thi THPT năm 2021 (chứng nhận thực hiện trên trang http://SchoolRank.fpt.edu.vn theo số liệu Đại học FPT tổng hợp và công bố sau kỳ thi THPT 2021) và điểm theo khối xét tuyển đạt từ trung bình trở lên (15*/30 điểm);
+4. Có chứng chỉ tiếng Anh TOEFL iBT từ 80 hoặc IELTS (Học thuật) từ 6.0 hoặc quy đổi tương đương (áp dụng đối với ngành Ngôn Ngữ Anh); có chứng chỉ tiếng Nhật JLPT từ N3 trở lên (áp dụng đối với ngành Ngôn Ngữ Nhật); có chứng chỉ tiếng Hàn TOPIK cấp độ 4 trong kỳ thi TOPIK II (áp dụng đối với ngành Ngôn Ngữ Hàn Quốc);
+5. Tốt nghiệp một trong các chương trình sau: Chương trình APTECH HDSE (đối với ngành Công nghệ thông tin); Chương trình ARENA ADIM (đối với chuyên ngành Thiết kế Mỹ thuật số); Chương trình BTEC HND; FUNiX Software Engineering;
+6. Tốt nghiệp THPT ở nước ngoài;
+7. Tốt nghiệp Đại học;
+8. Sinh viên chuyển trường từ các trường đại học thuộc Top 1000 trong 3 bảng xếp hạng gần nhất: QS, ARWU và THE hoặc các trường đạt chứng nhận QS Star 5 sao về chất lượng đào tạo;
+9. Đạt từ 23 điểm (bao gồm điểm ưu tiên đối tượng và khu vực theo Quy định của Bộ Giáo dục & Đào tạo) tổ hợp các môn thi THPT năm 2021 tương ứng với ngành đăng ký học tại mục II.3 (áp dụng với thí sinh không có đủ điểm 6 môn thi THPT năm 2021).
+
+Ghi chú: (*) Làm tròn đến hai chữ số thập phân (ví dụ: nếu thí sinh đạt 14,991 đến 14,994 điểm thì làm tròn thành 14,99 điểm; trường hợp từ 14,995 đến 14,999 mới được làm tròn thành 15,00 điểm).
+
+3. **Các tổ hợp môn xét tuyển**
+
+|**TT**|**Ngành**|**Mã ngành**|**Mã tổ hợp**|**Tổ hợp môn xét tuyển**|
+|---|---|---|---|---|
+|1.|Quản trị kinh doanh|7340101|D01A00<br><br>A01<br><br>C00|Toán, Ngữ Văn, Tiếng AnhToán, Vật lý, Hoá học<br><br>Toán, Vật lý, Tiếng Anh<br><br>Ngữ Văn, Lịch Sử, Địa Lý|
+|2.|Ngôn ngữ Anh|7220201|
+|3.|Ngôn ngữ Nhật|7220209|
+|4.|Ngôn ngữ Hàn Quốc|7220210|
+|5.|Công nghệ thông tin|7480201|D01A00<br><br>A01<br><br>D90|Toán, Ngữ Văn, Tiếng AnhToán, Vật lý, Hoá học<br><br>Toán, Vật lý, Tiếng Anh<br><br>Toán, Tiếng Anh, KHTN|
