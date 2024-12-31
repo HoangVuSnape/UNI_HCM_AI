@@ -1,64 +1,64 @@
 # 2024
 ### **Điểm chuẩn theo phương thức Điểm thi THPT năm 2024**
 
-|STT|Mã ngành|Tên ngành|Tổ hợp môn|Điểm chuẩn|Ghi chú|
-|---|---|---|---|---|---|
-|1|7220201|Tiếng Anh thương mại|D01; D96|26.3||
-|2|7310101|Kinh tế|A00; A01; D01; D07|26.3||
-|3|7310102|Kinh tế chính trị|A00; A01; D01; D07|24.9||
-|4|7310104_01|Kinh tế đầu tư|A00; A01; D01; D07|26.1||
-|5|7310104_02|Thẩm định giá và quản trị tài sản|A00; A01; D01; D07|24.8||
-|6|7310107|Thống kê kinh doanh|A00; A01; D01; D07|26.01||
-|7|7310108_01|Toán tài chính|A00; A01; D01; D07|25.72||
-|8|7310108_02|Phân tích rủi ro và định phí bảo hiểm|A00; A01; D01; D07|25||
-|9|7320106|Truyền thông số và thiết kế đa phương tiện|A00; A01; D01; V00|26.6||
-|10|7340101_01|Quản trị kinh doanh|A00; A01; D01; D07|25.8||
-|11|7340101_02|Kinh doanh số|A00; A01; D01; D07|26.41||
-|12|7340101_03|Quản trị bệnh viện|A00; A01; D01; D07|24.1||
-|13|7340115_01|Marketing|A00; A01; D01; D07|26.8||
-|14|7340115_02|Công nghệ marketing|A00; A01; D01; D07|27.2||
-|15|7340116|Bất động sản|A00; A01; D01; D07|24.5||
-|16|7340120|Kinh doanh quốc tế|A00; A01; D01; D07|26.72||
-|17|7340121|Kinh doanh thương mại|A00; A01; D01; D07|26.54||
-|18|7340122|Thương mại điện tử|A00; A01; D01; D07|26.5||
-|19|7340201_01|Tài chính công|A00; A01; D01; D07|25.5||
-|20|7340201_02|Thuế|A00; A01; D01; D07|25.2||
-|21|7340201_03|Ngân hàng|A00; A01; D01; D07|25.6||
-|22|7340201_04|Thị trường chứng khoán|A00; A01; D01; D07|25||
-|23|7340201_05|Tài chính|A00; A01; D01; D07|26.03||
-|24|7340201_06|Đầu tư tài chính|A00; A01; D01; D07|26.03||
-|25|7340201_07|Quản trị Hải quan - Ngoại thương|A00; A01; D01; D07|25.8||
-|26|7340204|Bảo hiểm|A00; A01; D01; D07|24.5||
-|27|7340205|Công nghệ tài chính|A00; A01; D01; D07|26.5||
-|28|7340206|Tài chính quốc tế|A00; A01; D01; D07|26.5||
-|29|7340301_01|Chương trình Kế toán tích hợp chứng chỉ nghề nghiệp quốc tế (của tổ chức nghề nghiệp ICAEW và ACCA)|A00; A01; D01; D07|25.2||
-|30|7340301_02|Kế toán công|A00; A01; D01; D07|25.5||
-|31|7340301_03|Kế toán doanh nghiệp|A00; A01; D01; D07|25.4||
-|32|7340302|Kiểm toán|A00; A01; D01; D07|26.5||
-|33|7340403|Quản lý công|A00; A01; D01; D07|24.93||
-|34|7340404|Quản trị nhân lực|A00; A01; D01; D07|26||
-|35|7340405_01|Hệ thống thông tin kinh doanh|A00; A01; D01; D07|26.1||
-|36|7340405_02|Hệ thống hoạch định nguồn lực doanh nghiệp|A00; A01; D01; D07|25.51||
-|37|7380101|Luật kinh doanh quốc tế|A00; A01; D01; D96|25.8||
-|38|7380107|Luật kinh tế|A00; A01; D01; D96|25.6||
-|39|7460108|Khoa học dữ liệu|A00; A01; D01; D07|26.3||
-|40|7480101|Khoa học máy tính|A00; A01; D01; D07|25||
-|41|7480103|Kỹ thuật phần mềm|A00; A01; D01; D07|25.43||
-|42|7480107_01|Robot và Trí tuệ nhân tạo (hệ kỹ sư)|A00; A01; D01; D07|24.7||
-|43|7480107_02|Điều khiển thông minh và tự động hóa|A00; A01; D01; D07|23.8||
-|44|7480201_01|Công nghệ thông tin|A00; A01; D01; D07|25.4||
-|45|7480201_02|Công nghệ nghệ thuật (Arttech)|A00; A01; D01; D07|26.23||
-|46|7480201_03|Công nghệ và đổi mới sáng tạo|A00; A01; D01; D07|25.5||
-|47|7480202|An toàn thông tin|A00; A01; D01; D07|24.8||
-|48|7510605_01|Logistics và Quản lý chuỗi cung ứng|A00; A01; D01; D07|27.1||
-|49|7510605_02|Công nghệ Logistics (hệ kỹ sư)|A00; A01; D01; D07|26.3||
-|50|7580104|Kiến trúc và thiết kế đô thị thông minh|A00; A01; D01; V00|24.7||
-|51|7620114|Kinh doanh nông nghiệp|A00; A01; D01; D07|25.35||
-|52|7810103|Quản trị dịch vụ du lịch và lữ hành|A00; A01; D01; D07|25.2||
-|53|7810201_01|Quản trị khách sạn|A00; A01; D01; D07|25.5||
-|54|7810201_02|Quản trị sự kiện và dịch vụ giải trí|A00; A01; D01; D07|26.1||
-|55|ASA_Co-op|Cử nhân ISB ASEAN Co-op|A00; A01; D01; D07|25.3|Chương trình Cử nhân tài năng; Asean Co-op|
-|56|ISB_CNTN|Cử nhân Tài năng ISB BBus|A00; A01; D01; D07|27.15|Chương trình Cử nhân tài năng; Asean Co-op|
+| STT | Mã ngành   | Tên ngành                                                                                           | Tổ hợp môn         | Điểm chuẩn | Ghi chú                                    |
+| --- | ---------- | --------------------------------------------------------------------------------------------------- | ------------------ | ---------- | ------------------------------------------ |
+| 1   | 7220201    | Tiếng Anh thương mại                                                                                | D01; D96           | 26.3       |                                            |
+| 2   | 7310101    | Kinh tế                                                                                             | A00; A01; D01; D07 | 26.3       |                                            |
+| 3   | 7310102    | Kinh tế chính trị                                                                                   | A00; A01; D01; D07 | 24.9       |                                            |
+| 4   | 7310104_01 | Kinh tế đầu tư                                                                                      | A00; A01; D01; D07 | 26.1       |                                            |
+| 5   | 7310104_02 | Thẩm định giá và quản trị tài sản                                                                   | A00; A01; D01; D07 | 24.8       |                                            |
+| 6   | 7310107    | Thống kê kinh doanh                                                                                 | A00; A01; D01; D07 | 26.01      |                                            |
+| 7   | 7310108_01 | Toán tài chính                                                                                      | A00; A01; D01; D07 | 25.72      |                                            |
+| 8   | 7310108_02 | Phân tích rủi ro và định phí bảo hiểm                                                               | A00; A01; D01; D07 | 25         |                                            |
+| 9   | 7320106    | Truyền thông số và thiết kế đa phương tiện                                                          | A00; A01; D01; V00 | 26.6       |                                            |
+| 10  | 7340101_01 | Quản trị kinh doanh                                                                                 | A00; A01; D01; D07 | 25.8       |                                            |
+| 11  | 7340101_02 | Kinh doanh số                                                                                       | A00; A01; D01; D07 | 26.41      |                                            |
+| 12  | 7340101_03 | Quản trị bệnh viện                                                                                  | A00; A01; D01; D07 | 24.1       |                                            |
+| 13  | 7340115_01 | Marketing                                                                                           | A00; A01; D01; D07 | 26.8       |                                            |
+| 14  | 7340115_02 | Công nghệ marketing                                                                                 | A00; A01; D01; D07 | 27.2       |                                            |
+| 15  | 7340116    | Bất động sản                                                                                        | A00; A01; D01; D07 | 24.5       |                                            |
+| 16  | 7340120    | Kinh doanh quốc tế                                                                                  | A00; A01; D01; D07 | 26.72      |                                            |
+| 17  | 7340121    | Kinh doanh thương mại                                                                               | A00; A01; D01; D07 | 26.54      |                                            |
+| 18  | 7340122    | Thương mại điện tử                                                                                  | A00; A01; D01; D07 | 26.5       |                                            |
+| 19  | 7340201_01 | Tài chính công                                                                                      | A00; A01; D01; D07 | 25.5       |                                            |
+| 20  | 7340201_02 | Thuế                                                                                                | A00; A01; D01; D07 | 25.2       |                                            |
+| 21  | 7340201_03 | Ngân hàng                                                                                           | A00; A01; D01; D07 | 25.6       |                                            |
+| 22  | 7340201_04 | Thị trường chứng khoán                                                                              | A00; A01; D01; D07 | 25         |                                            |
+| 23  | 7340201_05 | Tài chính                                                                                           | A00; A01; D01; D07 | 26.03      |                                            |
+| 24  | 7340201_06 | Đầu tư tài chính                                                                                    | A00; A01; D01; D07 | 26.03      |                                            |
+| 25  | 7340201_07 | Quản trị Hải quan - Ngoại thương                                                                    | A00; A01; D01; D07 | 25.8       |                                            |
+| 26  | 7340204    | Bảo hiểm                                                                                            | A00; A01; D01; D07 | 24.5       |                                            |
+| 27  | 7340205    | Công nghệ tài chính                                                                                 | A00; A01; D01; D07 | 26.5       |                                            |
+| 28  | 7340206    | Tài chính quốc tế                                                                                   | A00; A01; D01; D07 | 26.5       |                                            |
+| 29  | 7340301_01 | Chương trình Kế toán tích hợp chứng chỉ nghề nghiệp quốc tế (của tổ chức nghề nghiệp ICAEW và ACCA) | A00; A01; D01; D07 | 25.2       |                                            |
+| 30  | 7340301_02 | Kế toán công                                                                                        | A00; A01; D01; D07 | 25.5       |                                            |
+| 31  | 7340301_03 | Kế toán doanh nghiệp                                                                                | A00; A01; D01; D07 | 25.4       |                                            |
+| 32  | 7340302    | Kiểm toán                                                                                           | A00; A01; D01; D07 | 26.5       |                                            |
+| 33  | 7340403    | Quản lý công                                                                                        | A00; A01; D01; D07 | 24.93      |                                            |
+| 34  | 7340404    | Quản trị nhân lực                                                                                   | A00; A01; D01; D07 | 26         |                                            |
+| 35  | 7340405_01 | Hệ thống thông tin kinh doanh                                                                       | A00; A01; D01; D07 | 26.1       |                                            |
+| 36  | 7340405_02 | Hệ thống hoạch định nguồn lực doanh nghiệp                                                          | A00; A01; D01; D07 | 25.51      |                                            |
+| 37  | 7380101    | Luật kinh doanh quốc tế                                                                             | A00; A01; D01; D96 | 25.8       |                                            |
+| 38  | 7380107    | Luật kinh tế                                                                                        | A00; A01; D01; D96 | 25.6       |                                            |
+| 39  | 7460108    | Khoa học dữ liệu                                                                                    | A00; A01; D01; D07 | 26.3       |                                            |
+| 40  | 7480101    | Khoa học máy tính                                                                                   | A00; A01; D01; D07 | 25         |                                            |
+| 41  | 7480103    | Kỹ thuật phần mềm                                                                                   | A00; A01; D01; D07 | 25.43      |                                            |
+| 42  | 7480107_01 | Robot và Trí tuệ nhân tạo (hệ kỹ sư)                                                                | A00; A01; D01; D07 | 24.7       |                                            |
+| 43  | 7480107_02 | Điều khiển thông minh và tự động hóa                                                                | A00; A01; D01; D07 | 23.8       |                                            |
+| 44  | 7480201_01 | Công nghệ thông tin                                                                                 | A00; A01; D01; D07 | 25.4       |                                            |
+| 45  | 7480201_02 | Công nghệ nghệ thuật (Arttech)                                                                      | A00; A01; D01; D07 | 26.23      |                                            |
+| 46  | 7480201_03 | Công nghệ và đổi mới sáng tạo                                                                       | A00; A01; D01; D07 | 25.5       |                                            |
+| 47  | 7480202    | An toàn thông tin                                                                                   | A00; A01; D01; D07 | 24.8       |                                            |
+| 48  | 7510605_01 | Logistics và Quản lý chuỗi cung ứng                                                                 | A00; A01; D01; D07 | 27.1       |                                            |
+| 49  | 7510605_02 | Công nghệ Logistics (hệ kỹ sư)                                                                      | A00; A01; D01; D07 | 26.3       |                                            |
+| 50  | 7580104    | Kiến trúc và thiết kế đô thị thông minh                                                             | A00; A01; D01; V00 | 24.7       |                                            |
+| 51  | 7620114    | Kinh doanh nông nghiệp                                                                              | A00; A01; D01; D07 | 25.35      |                                            |
+| 52  | 7810103    | Quản trị dịch vụ du lịch và lữ hành                                                                 | A00; A01; D01; D07 | 25.2       |                                            |
+| 53  | 7810201_01 | Quản trị khách sạn                                                                                  | A00; A01; D01; D07 | 25.5       |                                            |
+| 54  | 7810201_02 | Quản trị sự kiện và dịch vụ giải trí                                                                | A00; A01; D01; D07 | 26.1       |                                            |
+| 55  | ASA_Co-op  | Cử nhân ISB ASEAN Co-op                                                                             | A00; A01; D01; D07 | 25.3       | Chương trình Cử nhân tài năng; Asean Co-op |
+| 56  | ISB_CNTN   | Cử nhân Tài năng ISB BBus                                                                           | A00; A01; D01; D07 | 27.15      | Chương trình Cử nhân tài năng; Asean Co-op |
 ### **Điểm chuẩn theo phương thức Điểm học bạ năm 2024**
 
 | STT | Mã ngành   | Tên ngành                                                                                           | Tổ hợp môn                                                                                                   | Điểm chuẩn | Ghi chú                                            |
@@ -483,8 +483,6 @@
 |33|7810201|Quản trị khách sạn|A00;A01;D01;D07|52|
 
 ### Điểm chuẩn theo phương thức Điểm ĐGNL HCM năm 2022
-
-# Điểm trúng tuyển
 
 | STT | Mã ngành   | Ngành/Chương trình                        | Điểm PT đánh giá năng lực |
 | --- | ---------- | ----------------------------------------- | ------------------------- |
