@@ -13,13 +13,13 @@ from dotenv import load_dotenv
 import os
 import openai
 
+
 load_dotenv(override= True)
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY: 
     raise ValueError("OPENAI_API_KEY not found in environment variables")
 
-print(OPENAI_API_KEY)
 XAI_API_KEY = os.getenv("XAI_API_KEY")
 if not XAI_API_KEY:
     raise ValueError("XAI_API_KEY not found in environment variables")

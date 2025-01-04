@@ -10,12 +10,13 @@ Chức năng:
 import streamlit as st  # Thư viện tạo giao diện web
 from dotenv import load_dotenv  # Đọc file .env chứa API key
 
-from seed_data import seed_milvus, seed_milvus_live  # Hàm xử lý dữ liệu
-from agent import get_retriever as get_openai_retriever, get_llm_and_agent as get_openai_agent
-from local_ollama import get_retriever as get_ollama_retriever, get_llm_and_agent as get_ollama_agent
+# from seed_data import seed_milvus, seed_milvus_live  # Hàm xử lý dữ liệu
+# from agent import get_retriever as get_openai_retriever, get_llm_and_agent as get_openai_agent
+# from local_ollama import get_retriever as get_ollama_retriever, get_llm_and_agent as get_ollama_agent
 
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
+from agentGemi import get_llm_and_agent
 
 # === THIẾT LẬP GIAO DIỆN TRANG WEB ===-+
 def setup_page():
@@ -59,25 +60,25 @@ def setup_sidebar():
         st.title("⚙️ Cấu hình")
         
         # Phần 1: Chọn Embeddings Model
-        st.header("🔤 Embeddings Model")
-        embeddings_choice = st.radio(
-            "Chọn Embeddings Model:",
-            ["OpenAI", "Ollama"]
-        )
-        use_ollama_embeddings = (embeddings_choice == "Ollama")
+        # st.header("🔤 Embeddings Model")
+        # embeddings_choice = st.radio(
+        #     "Chọn Embeddings Model:",
+        #     ["OpenAI", "Ollama"]
+        # )
+        # use_ollama_embeddings = (embeddings_choice == "Ollama")
         
-        # Phần 2: Cấu hình Data
-        st.header("📚 Nguồn dữ liệu")
-        data_source = st.radio(
-            "Chọn nguồn dữ liệu:",
-            ["File Local", "URL trực tiếp"]
-        )
+        # # Phần 2: Cấu hình Data
+        # st.header("📚 Nguồn dữ liệu")
+        # data_source = st.radio(
+        #     "Chọn nguồn dữ liệu:",
+        #     ["File Local", "URL trực tiếp"]
+        # )
         
         # Xử lý nguồn dữ liệu dựa trên embeddings đã chọn
-        if data_source == "File Local":
-            handle_local_file(use_ollama_embeddings)
-        else:
-            handle_url_input(use_ollama_embeddings)
+        # if data_source == "File Local":
+        #     handle_local_file(use_ollama_embeddings)
+        # else:
+        #     handle_url_input(use_ollama_embeddings)
             
         # Thêm phần chọn collection để query
         st.header("🔍 Collection để truy vấn")
@@ -91,8 +92,9 @@ def setup_sidebar():
         st.header("🤖 Model AI")
         model_choice = st.radio(
             "Chọn AI Model để trả lời:",
-            ["OpenAI GPT-4", "OpenAI Grok", "Ollama (Local)"]
+            ["Geminai", "OpenAI GPT-4", "OpenAI Grok", "Ollama (Local)"]
         )
+
         
         return model_choice, collection_to_query
 
@@ -231,28 +233,32 @@ def main():
     initialize_app()
     prompt = st.chat_input("Hãy hỏi tôi bất cứ điều gì về Stack AI!")
     tab1, tab2= st.tabs(["Chat", "Contact"])
+    # agent_executor = None  # Đảm bảo biến được khởi tạo
+    
+    
     with tab1:
         model_choice, collection_to_query = setup_sidebar()
         msgs = setup_chat_interface(model_choice)
         
         # Khởi tạo AI dựa trên lựa chọn model để trả lời
         
-        if model_choice == "OpenAI GPT-4":
-            retriever = get_openai_retriever(collection_to_query)
-            agent_executor = get_openai_agent(retriever, "gpt4")
-        elif model_choice == "OpenAI Grok":
-            retriever = get_openai_retriever(collection_to_query)
-            agent_executor = get_openai_agent(retriever, "grok")
-        else:
-            retriever = get_ollama_retriever(collection_to_query)
-            agent_executor = get_ollama_agent(retriever)
+        # if model_choice == "OpenAI GPT-4":
+        #     retriever = get_openai_retriever(collection_to_query)
+        #     agent_executor = get_openai_agent(retriever, "gpt4")
+        # elif model_choice == "OpenAI Grok":
+        #     retriever = get_openai_retriever(collection_to_query)
+        #     agent_executor = get_openai_agent(retriever, "grok")
+        if model_choice == "Geminai":
+            agent_executor = get_llm_and_agent()
+            
+        # else:
+        #     retriever = get_ollama_retriever(collection_to_query)
+        #     agent_executor = get_ollama_agent(retriever)
 
         if prompt:
             handle_user_input(prompt, msgs, agent_executor)
-        # handle_user_input(msgs, agent_executor)
-    
+
     with tab2:
-        
         
         show_contact()
 
