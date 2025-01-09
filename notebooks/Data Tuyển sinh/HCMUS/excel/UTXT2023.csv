@@ -1,0 +1,30 @@
+STT,Mã ngành,Tên ngành,Tổ hợp môn,UTXT
+1,7420101,Sinh học,A02 B00 B08,8.16
+2,7420101_DKD,Sinh học (CTTCTA),A02 B00 B08,8.6
+3,7420201,Công nghệ Sinh học,A02 B00 B08 D90,9.35
+4,7420201_DKD,Công nghệ Sinh học (CTTCTA),A02 B00 B08 D90,9.35
+5,7440102_DKD,Vật lý học (CTTCTA),A00 A01 A02 D90,
+6,7440102_NN,"VL học, CNVLĐT&TH, CN bán dẫn",A00 A01 A02 D90,8.0
+7,7440112,Hoá học,A00 B00 D07 D90,9.3
+8,7440112_DKD,Hóa học (CTTCTA),A00 B00 D07 D90,9.1
+9,7440122,Khoa học Vật liệu,A00 A01 B00 D07,8.5
+10,7440122_DKD,Khoa học Vật liệu (CTTCTA),A00 A01 B00 D07,
+11,7440201_NN,"Địa chất học, KHQL & kinh tế đất đai",A00 B00 C04 D07,8.56
+12,7440228,Hải dương học,A00 A01 B00 D07,8.39
+13,7440301,Khoa học Môi trường,A00 B00 B08 D07,8.36
+14,7440301_DKD,Khoa học Môi trường (CTTCTA),A00 B00 B08 D07,8.37
+15,7460101_NN,"Toán học, Toán Tin, Toán Ứng dụng",A00 A01 B00 D01,8.5
+16,7460108,Khoa học Dữ liệu,A00 A01 B08 D07,9.67
+17,7480101_TT,Khoa học Máy tính (CT Tiên tiến),A00 A01 B08 D07,10.0
+18,7480107,Trí tuệ Nhân tạo,A00 A01 B08 D07,9.9
+19,7480201_DKD,Công nghệ Thông tin (CTTCTA),A00 A01 B08 D07,9.4
+20,7480201_NN,Nhóm ngành Máy tính và CNTT,A00 A01 B08 D07,9.5
+21,7510401_DKD,Công nghệ KT Hoá học (CTTCTA),A00 B00 D07 D90,9.1
+22,7510402,Công nghệ Vật liệu,A00 A01 B00 D07,8.0
+23,7510406,Công nghệ Kỹ thuật Môi trường,A00 B00 B08 D07,8.61
+24,7520207_DKD,KT Điện tử - Viễn thông (CTTCTA),A00 A01 D07 D90,8.1
+25,7520207_NN,"KT Điện tử - Viễn thông, TK vi mạch",A00 A01 D07 D90,8.1
+26,7520402,Kỹ thuật Hạt nhân,A00 A01 A02 D90,8.06
+27,7520403,Vật lý Y khoa,A00 A01 A02 D90,9.0
+28,7520501,Kỹ thuật Địa chất,A00 A01 B00 D07,8.0
+29,7850101,Quản lý Tài nguyên và Môi trường,A00 B00 B08 D07,8.23

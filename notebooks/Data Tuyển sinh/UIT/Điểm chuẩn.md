@@ -1,7 +1,7 @@
 # 2021
 ## **Điểm chuẩn trúng tuyển đợt 1 năm 2021**
 
-| **STT** | **NGÀNH TUYỂN SINH**                                     | **MÃ NGÀNH** | **ĐIỂM CHUẨN** |
+| STT | NGÀNH TUYỂN SINH                                     | MÃ NGÀNH | ĐIỂM CHUẨN |
 | ------- | -------------------------------------------------------- | ------------ | -------------- |
 | 1       | Khoa học Máy tính                                        | 7480101      | **920**        |
 | 2       | Khoa học Máy tính (Hướng Trí tuệ Nhân tạo)               | 7480101_TTNT | **950**        |
@@ -217,7 +217,7 @@ Here is the **structured data** extracted from the image:
 
 ---
 
-### **Công thức tính điểm ưu tiên**
+ **Công thức tính điểm ưu tiên**
 
 Áp dụng cho **thí sinh đạt tổng điểm từ 22,5 trở lên**  
 (khi quy đổi về thang điểm 10 và tổng điểm 3 môn tối đa là 30):

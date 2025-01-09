@@ -199,60 +199,60 @@
 # 2023
 ### Điểm chuẩn theo phương thức Điểm thi THPT năm 2023
 
-|STT|Mã ngành|Tên ngành|Tổ hợp môn|Điểm chuẩn|Ghi chú|
-|---|---|---|---|---|---|
-|1|7220201|Ngôn ngữ Anh|D01;D72;D78;D96|24|Tiếng Anh nhân 2|
-|2|7310101|Kinh tế|A00;A01;D01;D96|24.8||
-|3|7310108|Toán kinh tế|A00;A01;D01;D96|23.6||
-|4|7340101|Quản trị kinh doanh|A00;A01;D01;D96|24.6||
-|5|7340101_TATP|Quản trị kinh doanh (CT Tiếng Anh toàn phần)|A00;A01;D01;D96|23.3||
-|6|7340101_TH|Quản trị kinh doanh (CT tích hợp)|A00;A01;D01;D96|23.4||
-|7|7340115|Marketing|A00;A01;D01;D96|25.9||
-|8|7340115_TATP|Marketing (CT Tiếng Anh toàn phần)|A00;A01;D01;D96|26||
-|9|7340115_TH|Marketing (CT tích hợp)|A00;A01;D01;D96|24.9||
-|10|7340116|Bất động sản|A00;A01;D01;D96|21.9||
-|11|7340116_TH|Bất động sản (CT tích hợp)|A00;A01;D01;D96|21.1||
-|12|7340120|Kinh doanh quốc tế|A00;A01;D01;D96|25.8||
-|13|7340120_TATP|Kinh doanh quốc tế (CT Tiếng Anh toàn phần)|A00;A01;D01;D96|25.8||
-|14|7340120_TH|Kinh doanh quốc tế (CT tích hợp)|A00;A01;D01;D96|24.7||
-|15|7340201|Tài chính - Ngân hàng|A00;A01;D01;D96|24.2||
-|16|7340201_TH|Tài chính - Ngân hàng (CT tích hợp)|A00;A01;D01;D96|23.1||
-|17|7340205|Công nghệ tài chính|A00;A01;D01;D96|24.1||
-|18|7340301|Kế toán|A00;A01;D01;D96|24.6||
-|19|7340301_TH|Kế toán (CT tích hợp)|A00;A01;D01;D96|23||
-|20|7340405|Hệ thống thông tin quán lý|A00;A01;D01;D96|24.4||
-|21|7380107|Luật kinh tế|A00;A01;D01;D96|24.8||
-|22|7810103_DT|Quản trị dịch vụ du lịch và lữ hành (CT đặc thù)|D01;D72;D78;D96|23.7||
-|23|7810201DT|Quản trị khách sạn (CT đặc thù)|D01;D72;D78;D96|23.4||
-|24|7810202DT|Quản trị nhà hàng và dịch vụ ăn uống (CT đặc thù)|D01;D72;D78;D96|22.6|
+| STT | Mã ngành     | Tên ngành                                         | Tổ hợp môn      | Điểm chuẩn | Ghi chú          |
+| --- | ------------ | ------------------------------------------------- | --------------- | ---------- | ---------------- |
+| 1   | 7220201      | Ngôn ngữ Anh                                      | D01;D72;D78;D96 | 24         | Tiếng Anh nhân 2 |
+| 2   | 7310101      | Kinh tế                                           | A00;A01;D01;D96 | 24.8       |                  |
+| 3   | 7310108      | Toán kinh tế                                      | A00;A01;D01;D96 | 23.6       |                  |
+| 4   | 7340101      | Quản trị kinh doanh                               | A00;A01;D01;D96 | 24.6       |                  |
+| 5   | 7340101_TATP | Quản trị kinh doanh (CT Tiếng Anh toàn phần)      | A00;A01;D01;D96 | 23.3       |                  |
+| 6   | 7340101_TH   | Quản trị kinh doanh (CT tích hợp)                 | A00;A01;D01;D96 | 23.4       |                  |
+| 7   | 7340115      | Marketing                                         | A00;A01;D01;D96 | 25.9       |                  |
+| 8   | 7340115_TATP | Marketing (CT Tiếng Anh toàn phần)                | A00;A01;D01;D96 | 26         |                  |
+| 9   | 7340115_TH   | Marketing (CT tích hợp)                           | A00;A01;D01;D96 | 24.9       |                  |
+| 10  | 7340116      | Bất động sản                                      | A00;A01;D01;D96 | 21.9       |                  |
+| 11  | 7340116_TH   | Bất động sản (CT tích hợp)                        | A00;A01;D01;D96 | 21.1       |                  |
+| 12  | 7340120      | Kinh doanh quốc tế                                | A00;A01;D01;D96 | 25.8       |                  |
+| 13  | 7340120_TATP | Kinh doanh quốc tế (CT Tiếng Anh toàn phần)       | A00;A01;D01;D96 | 25.8       |                  |
+| 14  | 7340120_TH   | Kinh doanh quốc tế (CT tích hợp)                  | A00;A01;D01;D96 | 24.7       |                  |
+| 15  | 7340201      | Tài chính - Ngân hàng                             | A00;A01;D01;D96 | 24.2       |                  |
+| 16  | 7340201_TH   | Tài chính - Ngân hàng (CT tích hợp)               | A00;A01;D01;D96 | 23.1       |                  |
+| 17  | 7340205      | Công nghệ tài chính                               | A00;A01;D01;D96 | 24.1       |                  |
+| 18  | 7340301      | Kế toán                                           | A00;A01;D01;D96 | 24.6       |                  |
+| 19  | 7340301_TH   | Kế toán (CT tích hợp)                             | A00;A01;D01;D96 | 23         |                  |
+| 20  | 7340405      | Hệ thống thông tin quán lý                        | A00;A01;D01;D96 | 24.4       |                  |
+| 21  | 7380107      | Luật kinh tế                                      | A00;A01;D01;D96 | 24.8       |                  |
+| 22  | 7810103_DT   | Quản trị dịch vụ du lịch và lữ hành (CT đặc thù)  | D01;D72;D78;D96 | 23.7       |                  |
+| 23  | 7810201DT    | Quản trị khách sạn (CT đặc thù)                   | D01;D72;D78;D96 | 23.4       |                  |
+| 24  | 7810202DT    | Quản trị nhà hàng và dịch vụ ăn uống (CT đặc thù) | D01;D72;D78;D96 | 22.6       |                  |
 ### Điểm chuẩn theo phương thức Điểm học bạ năm 2023
 
-|STT|Mã ngành|Tên ngành|Tổ hợp môn|Điểm chuẩn|Ghi chú|
-|---|---|---|---|---|---|
-|1|7220201|Ngôn ngữ Anh|D01;D72;D78;D96|27.5|Điểm bài thi tiếng Anh nhân hệ số 2|
-|2|7310101|Kinh tế|A00;A01;D01;D96|28.7||
-|3|7310108|Toán kinh tế|A00;A01;D01;D96|28.2||
-|4|7340101|Quản trị kinh doanh|A00;A01;D01;D96|28.2||
-|5|7340101_TATP|Quản trị kinh doanh|A00;A01;D01;D96|27|Chương trình Tiếng Anh toàn phần|
-|6|7340101_TH|Quản trị kinh doanh|A00;A01;D01;D96|27.5|Chương trình tích hợp|
-|7|7340115|Marketing|A00;A01;D01;D96|28.7||
-|8|7340115_TATP|Marketing|A00;A01;D01;D96|27|Chương trình Tiếng Anh toàn phần|
-|9|7340115_TH|Marketing|A00;A01;D01;D96|28|Chương trình tích hợp|
-|10|7340116|Bất động sản|A00;A01;D01;D96|27.5||
-|11|7340116_TH|Bất động sản|A00;A01;D01;D96|27|Chương trình tích hợp|
-|12|7340120|Kinh doanh quốc tế|A00;A01;D01;D96|28.7||
-|13|7340120_TATP|Kinh doanh quốc tế|A00;A01;D01;D96|27|Chương trình Tiếng Anh toàn phần|
-|14|7340120_TH|Kinh doanh quốc tế|A00;A01;D01;D96|27.8|Chương trình tích hợp|
-|15|7340201|Tài chính - Ngân hàng|A00;A01;D01;D96|28.2||
-|16|7340201_TH|Tài chính - Ngân hàng|A00;A01;D01;D96|27.5|Chương trình tích hợp|
-|17|7340205|Công nghệ tài chính|A00;A01;D01;D96|28.5||
-|18|7340301|Kế toán|A00;A01;D01;D96|28.2||
-|19|7340301_TH|Kế toán|A00;A01;D01;D96|27.5|Chương trình tích hợp|
-|20|7340405|Hệ thống thông tin quản lý|A00;A01;D01;D96|28||
-|21|7380107|Luật kinh tế|A00;A01;D01;D96|28.5||
-|22|7810103_DT|Quản trị dịch vụ du lịch và lữ hành|D01;D72;D78;D96|27.5|Chương trình đặc thù|
-|23|7810201_DT|Quản trị khách sạn|D01;D72;D78;D96|27|Chương trình đặc thù|
-|24|7810202_DT|Quản trị nhà hàng và dịch vụ ăn uống|D01;D72;D78;D96|27|Chương trình đặc thù|
+| STT | Mã ngành     | Tên ngành                            | Tổ hợp môn      | Điểm chuẩn | Ghi chú                             |
+| --- | ------------ | ------------------------------------ | --------------- | ---------- | ----------------------------------- |
+| 1   | 7220201      | Ngôn ngữ Anh                         | D01;D72;D78;D96 | 27.5       | Điểm bài thi tiếng Anh nhân hệ số 2 |
+| 2   | 7310101      | Kinh tế                              | A00;A01;D01;D96 | 28.7       |                                     |
+| 3   | 7310108      | Toán kinh tế                         | A00;A01;D01;D96 | 28.2       |                                     |
+| 4   | 7340101      | Quản trị kinh doanh                  | A00;A01;D01;D96 | 28.2       |                                     |
+| 5   | 7340101_TATP | Quản trị kinh doanh                  | A00;A01;D01;D96 | 27         | Chương trình Tiếng Anh toàn phần    |
+| 6   | 7340101_TH   | Quản trị kinh doanh                  | A00;A01;D01;D96 | 27.5       | Chương trình tích hợp               |
+| 7   | 7340115      | Marketing                            | A00;A01;D01;D96 | 28.7       |                                     |
+| 8   | 7340115_TATP | Marketing                            | A00;A01;D01;D96 | 27         | Chương trình Tiếng Anh toàn phần    |
+| 9   | 7340115_TH   | Marketing                            | A00;A01;D01;D96 | 28         | Chương trình tích hợp               |
+| 10  | 7340116      | Bất động sản                         | A00;A01;D01;D96 | 27.5       |                                     |
+| 11  | 7340116_TH   | Bất động sản                         | A00;A01;D01;D96 | 27         | Chương trình tích hợp               |
+| 12  | 7340120      | Kinh doanh quốc tế                   | A00;A01;D01;D96 | 28.7       |                                     |
+| 13  | 7340120_TATP | Kinh doanh quốc tế                   | A00;A01;D01;D96 | 27         | Chương trình Tiếng Anh toàn phần    |
+| 14  | 7340120_TH   | Kinh doanh quốc tế                   | A00;A01;D01;D96 | 27.8       | Chương trình tích hợp               |
+| 15  | 7340201      | Tài chính - Ngân hàng                | A00;A01;D01;D96 | 28.2       |                                     |
+| 16  | 7340201_TH   | Tài chính - Ngân hàng                | A00;A01;D01;D96 | 27.5       | Chương trình tích hợp               |
+| 17  | 7340205      | Công nghệ tài chính                  | A00;A01;D01;D96 | 28.5       |                                     |
+| 18  | 7340301      | Kế toán                              | A00;A01;D01;D96 | 28.2       |                                     |
+| 19  | 7340301_TH   | Kế toán                              | A00;A01;D01;D96 | 27.5       | Chương trình tích hợp               |
+| 20  | 7340405      | Hệ thống thông tin quản lý           | A00;A01;D01;D96 | 28         |                                     |
+| 21  | 7380107      | Luật kinh tế                         | A00;A01;D01;D96 | 28.5       |                                     |
+| 22  | 7810103_DT   | Quản trị dịch vụ du lịch và lữ hành  | D01;D72;D78;D96 | 27.5       | Chương trình đặc thù                |
+| 23  | 7810201_DT   | Quản trị khách sạn                   | D01;D72;D78;D96 | 27         | Chương trình đặc thù                |
+| 24  | 7810202_DT   | Quản trị nhà hàng và dịch vụ ăn uống | D01;D72;D78;D96 | 27         | Chương trình đặc thù                |
 ### Điểm chuẩn theo phương thức Điểm ĐGNL HCM năm 2023
 
 | STT | Mã ngành     | Tên ngành                            | Tổ hợp môn | Điểm chuẩn | Ghi chú                          |
@@ -285,31 +285,31 @@
 
 ### Điểm chuẩn theo phương thức Điểm thi THPT năm 2022
 
-|STT|Mã ngành|Tên ngành|Tổ hợp môn|Điểm chuẩn|Ghi chú|
-|---|---|---|---|---|---|
-|1|7220201|Ngôn ngữ Anh|D01;D72;D78;D96|23.6||
-|2|7310101|Kinh tế|A00;A01;D01;D96|25.6||
-|3|7310108|Toán kinh tế|A00;A01;D01;D96|24.6||
-|4|7340101|Quản trị kinh doanh|A00;A01;D01;D96|25||
-|5|7340101C|Quản trị kinh doanh|A00;A01;D01;D96|23.5|Chương trình CLC|
-|6|7340101Q|Quản trị kinh doanh|A00;A01;D01;D96|23|Chương trình CLC Tiếng Anh toàn phần|
-|7|7340115|Marketing|A00;A01;D01;D96|26.7||
-|8|7340115C|Marketing|A00;A01;D01;D96|25.3|Chương trình CLC|
-|9|7340115Q|Marketing|A00;A01;D01;D96|25|Chương trình CLC Tiếng Anh toàn phần|
-|10|7340116|Bất động sản|A00;A01;D01;D96|23||
-|11|7340116C|Bất động sản|A00;A01;D01;D96|23|Chương trình CLC|
-|12|7340120|Kinh doanh quốc tế|A00;A01;D01;D96|25.7||
-|13|7340120C|Kinh doanh quốc tế|A00;A01;D01;D96|24.7|Chương trình CLC|
-|14|7340120Q|Kinh doanh quốc tế|A00;A01;D01;D96|24.3|Chương trình CLC Tiếng Anh toàn phần|
-|15|7340201|Tài chính - Ngân hàng|A00;A01;D01;D96|24.8||
-|16|7340201C|Tài chính - Ngân hàng|A00;A01;D01;D96|23.5|Chương trình CLC|
-|17|7340301|Kế toán|A00;A01;D01;D96|25.2||
-|18|7340301C|Kế toán|A00;A01;D01;D96|23.8|Chương trình CLC|
-|19|7340405D|Hệ thống thông tin QL|A00;A01;D01;D96|24.5||
-|20|7380107|Luật kinh tế|A00;A01;D01;D96|25.2||
-|21|7810103D|Quản trị dịch vụ du lịch và lữ hành|D01;D72;D78;D96|22|Chương trình đặc thù|
-|22|7810201D|Quản trị khách sạn|D01;D72;D78;D96|22|Chương trình đặc thù|
-|23|7810202D|Quản trị nhà hàng và dịch vụ ăn uống|D01;D72;D78;D96|22|Chương trình đặc thù|
+| STT | Mã ngành | Tên ngành                            | Tổ hợp môn      | Điểm chuẩn | Ghi chú                              |
+| --- | -------- | ------------------------------------ | --------------- | ---------- | ------------------------------------ |
+| 1   | 7220201  | Ngôn ngữ Anh                         | D01;D72;D78;D96 | 23.6       |                                      |
+| 2   | 7310101  | Kinh tế                              | A00;A01;D01;D96 | 25.6       |                                      |
+| 3   | 7310108  | Toán kinh tế                         | A00;A01;D01;D96 | 24.6       |                                      |
+| 4   | 7340101  | Quản trị kinh doanh                  | A00;A01;D01;D96 | 25         |                                      |
+| 5   | 7340101C | Quản trị kinh doanh                  | A00;A01;D01;D96 | 23.5       | Chương trình CLC                     |
+| 6   | 7340101Q | Quản trị kinh doanh                  | A00;A01;D01;D96 | 23         | Chương trình CLC Tiếng Anh toàn phần |
+| 7   | 7340115  | Marketing                            | A00;A01;D01;D96 | 26.7       |                                      |
+| 8   | 7340115C | Marketing                            | A00;A01;D01;D96 | 25.3       | Chương trình CLC                     |
+| 9   | 7340115Q | Marketing                            | A00;A01;D01;D96 | 25         | Chương trình CLC Tiếng Anh toàn phần |
+| 10  | 7340116  | Bất động sản                         | A00;A01;D01;D96 | 23         |                                      |
+| 11  | 7340116C | Bất động sản                         | A00;A01;D01;D96 | 23         | Chương trình CLC                     |
+| 12  | 7340120  | Kinh doanh quốc tế                   | A00;A01;D01;D96 | 25.7       |                                      |
+| 13  | 7340120C | Kinh doanh quốc tế                   | A00;A01;D01;D96 | 24.7       | Chương trình CLC                     |
+| 14  | 7340120Q | Kinh doanh quốc tế                   | A00;A01;D01;D96 | 24.3       | Chương trình CLC Tiếng Anh toàn phần |
+| 15  | 7340201  | Tài chính - Ngân hàng                | A00;A01;D01;D96 | 24.8       |                                      |
+| 16  | 7340201C | Tài chính - Ngân hàng                | A00;A01;D01;D96 | 23.5       | Chương trình CLC                     |
+| 17  | 7340301  | Kế toán                              | A00;A01;D01;D96 | 25.2       |                                      |
+| 18  | 7340301C | Kế toán                              | A00;A01;D01;D96 | 23.8       | Chương trình CLC                     |
+| 19  | 7340405D | Hệ thống thông tin QL                | A00;A01;D01;D96 | 24.5       |                                      |
+| 20  | 7380107  | Luật kinh tế                         | A00;A01;D01;D96 | 25.2       |                                      |
+| 21  | 7810103D | Quản trị dịch vụ du lịch và lữ hành  | D01;D72;D78;D96 | 22         | Chương trình đặc thù                 |
+| 22  | 7810201D | Quản trị khách sạn                   | D01;D72;D78;D96 | 22         | Chương trình đặc thù                 |
+| 23  | 7810202D | Quản trị nhà hàng và dịch vụ ăn uống | D01;D72;D78;D96 | 22         | Chương trình đặc thù                 |
 ### Điểm chuẩn theo phương thức Điểm học bạ năm 2022
 
 | STT | Mã ngành | Tên ngành                            | Tổ hợp môn      | Điểm chuẩn | Ghi chú                                         |

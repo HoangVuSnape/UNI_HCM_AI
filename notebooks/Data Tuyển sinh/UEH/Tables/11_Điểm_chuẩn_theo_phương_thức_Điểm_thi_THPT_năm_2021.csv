@@ -1,0 +1,46 @@
+STT,Mã ngành,Tên ngành,Tổ hợp môn,Điểm chuẩn,Ghi chú
+---,---,---,---,---,---
+1,7220201,Ngành Ngôn ngữ Anh,D01;D96,27,TPHCM
+2,7220201,Ngành Ngôn ngữ Anh,D01;D96,17,Phân hiệu Vĩnh Long
+3,7310101,Ngành Kinh tế,A00;A01;D01;D07,26.3,TPHCM
+4,7310104,Ngành Kinh tế đầu tư,A00;A01;D01;D07,25.4,TPHCM
+5,7310107,Ngành Thống kê kinh tế,A00;A01;D01;D07,25.9,TPHCM
+6,7310108,Ngành Toán kinh tế,A00;A01;D01;D07,25.2,TPHCM
+7,7340101,Ngành Quản trị kinh doanh,A00;A01;D01;D07,26.2,TPHCM
+8,7340101,Ngành Quản trị kinh doanh,A00;A01;D01;D07,27,ISB - Chương trình cứ nhân tài năng
+9,7340101,Ngành Quản trị kinh doanh,A00;A01;D01;D07,17,Phân hiệu Vĩnh Long
+10,7340115,Ngành Marketing,A00;A01;D01;D07,27.4,ISB - Chương trình cứ nhân tài năng
+11,7340115,Ngành Marketing,A00;A01;D01;D07,17,Phân hiệu Vĩnh Long
+12,7340115,Ngành Marketing,A00;A01;D01;D07,27.5,TPHCM
+13,7340116,Ngành Bất động sản,A00;A01;D01;D07,24.2,TPHCM
+14,7340120,Ngành Kinh doanh quốc tế,A00;A01;D01;D07,27.5,ISB - Chương trình cứ nhân tài năng
+15,7340120,Ngành Kinh doanh quốc tế,A00;A01;D01;D07,17,Phân hiệu Vĩnh Long
+16,7340120,Ngành Kinh doanh quốc tế,A00;A01;D01;D07,27,TPHCM
+17,7340121,Ngành Kinh doanh thương mại,A00;A01;D01;D07,27,TPHCM
+18,7340122,Ngành Thương mại điện tử,A00;A01;D01;D07,26.9,TPHCM
+19,7340122,Ngành Thương mại điện tử,A00;A01;D01;D07,17,Phân hiệu Vĩnh Long
+20,7340201,Ngành Tài chính - Ngân hàng,A00;A01;D01;D07,25.3,ISB - Chương trình cứ nhân tài năng
+21,7340201,Ngành Tài chính - Ngân hàng,A00;A01;D01;D07,17,Phân hiệu Vĩnh Long
+22,7340201,Ngành Tài chính - Ngân hàng,A00;A01;D01;D07,25.9,TPHCM
+23,7340204,Ngành Bảo hiểm,A00;A01;D01;D07,25,TPHCM
+24,7340206,Ngành Tài chính quốc tế,A00;A01;D01;D07,26.8,TPHCM
+25,7340301,Ngành Kế toán,A00;A01;D01;D07,17,Phân hiệu Vĩnh Long
+26,7340301,Ngành Kế toán,A00;A01;D01;D07,22,ISB - Chương trình cứ nhân tài năng
+27,7340301,Ngành Kế toán,A00;A01;D01;D07,25.4,TPHCM
+28,7340302,Ngành Kiểm toán,A00;A01;D01;D07,26.1,TPHCM
+29,7340403,Ngành Quản lý công,A00;A01;D01;D07,25,TPHCM
+30,7340404,Ngành Quản trị nhân lực,A00;A01;D01;D07,26.6,TPHCM
+31,7340405,Ngành Hệ thống thông tin quản lý,A00;A01;D01;D07,26.2,TPHCM
+32,7380101,Ngành Luật,A00;A01;D01;D96,25.8,TPHCM
+33,7380107,Ngành Luật kinh tế,A00;A01;D01;D96,16,Phân hiệu Vĩnh Long
+34,7380107,Ngành Luật kinh tế,A00;A01;D01;D96,25.8,TPHCM
+35,7480103,Ngành Kỹ thuật phần mềm,A00;A01;D01;D07,26.2,TPHCM
+36,7480109,Ngành Khoa học dữ liệu,A00;A01;D01;D07,26,TPHCM
+37,7510605,Ngành Logistics và Quản lý chuỗi cung ứng,A00;A01;D01;D07,27.4,TPHCM
+38,7580104,Ngành Kiến trúc đô thị,A00;A01;D01;V00,22.8,TPHCM
+39,7620114,Ngành Kinh doanh nông nghiệp,A00;A01;D01;D07,22,TPHCM
+40,7620114,Ngành Kinh doanh nông nghiệp,A00;A01;D01;D07,16,Phân hiệu Vĩnh Long
+41,7720802,Ngành Quản lý bệnh viện,A00;A01;D01;D07,24.2,TPHCM
+42,7810103,Ngành Quản trị dịch vụ du lịch và lữ hành,A00;A01;D01;D07,24,TPHCM
+43,7810103,Ngành Quản trị dịch vụ du lịch và lữ hành,A00;A01;D01;D07,16,Phân hiệu Vĩnh Long
+44,7810201,Ngành Quản trị khách sạn,A00;A01;D01;D07,25.3,TPHCM
