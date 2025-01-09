@@ -1,0 +1,542 @@
+1. Các ngành và chỉ tiêu tuyển sinh Đại học Sư Phạm Thành phố Hồ Chí Minh 2023
+Thông tin về các ngành, mã ngành, tổ hợp xét tuyển và chỉ tiêu tuyển sinh của Trường Đại học Sư phạm TPHCM năm 2023 như sau:
+Tên ngành: Giáo dục học
+•	Mã ngành: 7140101
+•	Tổ hợp xét tuyển: D01, A00, A01, C14
+•	Chỉ tiêu xét tuyển thẳng: 6
+•	Chỉ tiêu ưu tiên xét tuyển: 12
+•	Chỉ tiêu xét học bạ THPT: 6
+•	Chỉ tiêu xét điểm thi THPT: 36
+Tên ngành: Quản lý giáo dục
+•	Mã ngành: 7140114
+•	Tổ hợp xét tuyển: A00, D01, A01, C14
+•	Chỉ tiêu xét tuyển thẳng: 6
+•	Chỉ tiêu ưu tiên xét tuyển: 12
+•	Chỉ tiêu xét học bạ THPT: 6
+•	Chỉ tiêu xét điểm thi THPT: 36
+Tên ngành: Giáo dục mầm non
+•	Mã ngành: 7140201
+•	Tổ hợp xét tuyển: M02, M03
+•	Chỉ tiêu xét tuyển thẳng: 20
+•	Chỉ tiêu ưu tiên xét tuyển: 40
+•	Chỉ tiêu xét học bạ THPT: 20
+•	Chỉ tiêu xét điểm thi THPT: 120
+Tên ngành: Giáo dục tiểu học
+•	Mã ngành: 7140202
+•	Tổ hợp xét tuyển: A00, A01, D01
+•	Chỉ tiêu xét tuyển thẳng: 32
+•	Chỉ tiêu ưu tiên xét tuyển: 64
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 96
+•	Chỉ tiêu xét học bạ THPT: 32
+•	Chỉ tiêu xét điểm thi THPT: 96
+Tên ngành: Giáo dục đặc biệt
+•	Mã ngành: 7140203
+•	Tổ hợp xét tuyển: D01, C00, C15
+•	Chỉ tiêu xét tuyển thẳng: 6
+•	Chỉ tiêu ưu tiên xét tuyển: 12
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 18
+•	Chỉ tiêu xét học bạ THPT: 6
+•	Chỉ tiêu xét điểm thi THPT: 18
+Tên ngành: Giáo dục công dân
+•	Mã ngành: 7140204
+•	Tổ hợp xét tuyển: C00, C19, D01
+•	Chỉ tiêu xét tuyển thẳng: 2
+•	Chỉ tiêu ưu tiên xét tuyển: 4
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 6
+•	Chỉ tiêu xét học bạ THPT: 2
+•	Chỉ tiêu xét điểm thi THPT: 6
+Tên ngành: Giáo dục chính trị
+•	Mã ngành: 7140205
+•	Tổ hợp xét tuyển: C00, C19, D01
+•	Chỉ tiêu xét tuyển thẳng: 5
+•	Chỉ tiêu ưu tiên xét tuyển: 10
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 15
+•	Chỉ tiêu xét học bạ THPT: 5
+•	Chỉ tiêu xét điểm thi THPT: 15
+Tên ngành: Giáo dục thể chất
+•	Mã ngành: 7140206
+•	Tổ hợp xét tuyển: T01, M08
+•	Chỉ tiêu xét tuyển thẳng: 5
+•	Chỉ tiêu ưu tiên xét tuyển: 10
+•	Chỉ tiêu xét học bạ THPT: 5
+•	Chỉ tiêu xét điểm thi THPT: 30
+Tên ngành: Giáo dục Quốc phòng – An ninh
+•	Mã ngành: 7140208
+•	Tổ hợp xét tuyển: C00, C19, A08
+•	Chỉ tiêu xét tuyển thẳng: 8
+•	Chỉ tiêu ưu tiên xét tuyển: 16
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 24
+•	Chỉ tiêu xét học bạ THPT: 8
+•	Chỉ tiêu xét điểm thi THPT: 24
+Tên ngành: Sư phạm Toán học
+•	Mã ngành: 7140209
+•	Tổ hợp xét tuyển: A00, A01
+•	Chỉ tiêu xét tuyển thẳng: 11
+•	Chỉ tiêu ưu tiên xét tuyển: 22
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 33
+•	Chỉ tiêu xét học bạ THPT: 11
+•	Chỉ tiêu xét điểm thi THPT: 33
+Tên ngành: Sư phạm Tin học
+•	Mã ngành: 7140210
+•	Tổ hợp xét tuyển: A00, A01, B08
+•	Chỉ tiêu xét tuyển thẳng: 9
+•	Chỉ tiêu ưu tiên xét tuyển: 18
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 27
+•	Chỉ tiêu xét học bạ THPT: 9
+•	Chỉ tiêu xét điểm thi THPT: 27
+Tên ngành: Sư phạm Vật lý
+•	Mã ngành: 7140211
+•	Tổ hợp xét tuyển: A00, A01, C01
+•	Chỉ tiêu xét tuyển thẳng: 4
+•	Chỉ tiêu ưu tiên xét tuyển: 8
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 12
+•	Chỉ tiêu xét học bạ THPT: 4
+•	Chỉ tiêu xét điểm thi THPT: 12
+Tên ngành: Sư phạm Hóa học
+•	Mã ngành: 7140212
+•	Tổ hợp xét tuyển: A00, B00, D07
+•	Chỉ tiêu xét tuyển thẳng: 3
+•	Chỉ tiêu ưu tiên xét tuyển: 6
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 9
+•	Chỉ tiêu xét học bạ THPT: 3
+•	Chỉ tiêu xét điểm thi THPT: 9
+Tên ngành: Sư phạm Sinh học
+•	Mã ngành: 7140213
+•	Tổ hợp xét tuyển: B00, D08
+•	Chỉ tiêu xét tuyển thẳng: 4
+•	Chỉ tiêu ưu tiên xét tuyển: 9
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 13
+•	Chỉ tiêu xét học bạ THPT: 4
+•	Chỉ tiêu xét điểm thi THPT: 15
+Tên ngành: Sư phạm Ngữ văn
+•	Mã ngành: 7140217
+•	Tổ hợp xét tuyển: D01, C00, D78
+•	Chỉ tiêu xét tuyển thẳng: 8
+•	Chỉ tiêu ưu tiên xét tuyển: 16
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 24
+•	Chỉ tiêu xét học bạ THPT: 8
+•	Chỉ tiêu xét điểm thi THPT: 24
+Tên ngành: Sư phạm Lịch sử
+•	Mã ngành: 7140218
+•	Tổ hợp xét tuyển: C00, D14
+•	Chỉ tiêu xét tuyển thẳng: 6
+•	Chỉ tiêu ưu tiên xét tuyển: 12
+•	Chỉ tiêu xét học bạ THPT: 6
+•	Chỉ tiêu xét điểm thi THPT: 36
+Tên ngành: Sư phạm Địa lý
+•	Mã ngành: 7140219
+•	Tổ hợp xét tuyển: C00, C04, D15, D78
+•	Chỉ tiêu xét tuyển thẳng: 3
+•	Chỉ tiêu ưu tiên xét tuyển: 6
+•	Chỉ tiêu xét học bạ THPT: 3
+•	Chỉ tiêu xét điểm thi THPT: 18
+Tên ngành: Sư phạm Tiếng Anh
+•	Mã ngành: 7140231
+•	Tổ hợp xét tuyển: D01
+•	Chỉ tiêu xét tuyển thẳng: 15
+•	Chỉ tiêu ưu tiên xét tuyển: 30
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 45
+•	Chỉ tiêu xét học bạ THPT: 15
+•	Chỉ tiêu xét điểm thi THPT: 45
+Tên ngành: Sư phạm Tiếng Nga
+•	Mã ngành: 7140232
+•	Tổ hợp xét tuyển: D01, D02, D78, D80
+•	Chỉ tiêu xét tuyển thẳng: 3
+•	Chỉ tiêu ưu tiên xét tuyển: 6
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 9
+•	Chỉ tiêu xét học bạ THPT: 3
+•	Chỉ tiêu xét điểm thi THPT: 9
+Tên ngành: Sư phạm Tiếng Pháp
+•	Mã ngành: 7140233
+•	Tổ hợp xét tuyển: D01, D03
+•	Chỉ tiêu xét tuyển thẳng: 5
+•	Chỉ tiêu ưu tiên xét tuyển: 10
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 15
+•	Chỉ tiêu xét học bạ THPT: 5
+•	Chỉ tiêu xét điểm thi THPT: 15
+Tên ngành: Sư phạm Tiếng Trung Quốc
+•	Mã ngành: 7140234
+•	Tổ hợp xét tuyển: D01, D04
+•	Chỉ tiêu xét tuyển thẳng: 3
+•	Chỉ tiêu ưu tiên xét tuyển: 6
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 9
+•	Chỉ tiêu xét học bạ THPT: 3
+•	Chỉ tiêu xét điểm thi THPT: 9
+Tên ngành: Sư phạm Công nghệ
+•	Mã ngành: 7140246
+•	Tổ hợp xét tuyển: A00, A02, D90, A01
+•	Chỉ tiêu xét tuyển thẳng: 5
+•	Chỉ tiêu ưu tiên xét tuyển: 10
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 15
+•	Chỉ tiêu xét học bạ THPT: 5
+•	Chỉ tiêu xét điểm thi THPT: 15
+Tên ngành: Sư phạm Khoa học tự nhiên
+•	Mã ngành: 7140247
+•	Tổ hợp xét tuyển: A00, A02, B00, D90
+•	Chỉ tiêu xét tuyển thẳng: 20
+•	Chỉ tiêu ưu tiên xét tuyển: 40
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 60
+•	Chỉ tiêu xét học bạ THPT: 20
+•	Chỉ tiêu xét điểm thi THPT: 60
+Tên ngành: Sư phạm Lịch sử – Địa lý
+•	Mã ngành: 7140249
+•	Tổ hợp xét tuyển: C00, C19, C20, D78
+•	Chỉ tiêu xét tuyển thẳng: 20
+•	Chỉ tiêu ưu tiên xét tuyển: 40
+•	Chỉ tiêu xét học bạ THPT: 20
+•	Chỉ tiêu xét điểm thi THPT: 120
+Tên ngành: Tiếng Việt và Văn hóa Việt Nam
+•	Mã ngành: 7220101
+•	Sử dụng phương thức khác.
+•	Chỉ tiêu: 40
+•	Tên ngành: Ngôn ngữ Anh
+•	Mã ngành: 7220201
+•	Tổ hợp xét tuyển: D01
+•	Chỉ tiêu xét tuyển thẳng: 19
+•	Chỉ tiêu ưu tiên xét tuyển: 38
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 57
+•	Chỉ tiêu xét học bạ THPT: 19
+•	Chỉ tiêu xét điểm thi THPT: 57
+Tên ngành: Ngôn ngữ Nga
+•	Mã ngành: 7220202
+•	Tổ hợp xét tuyển: D01, D02, D80, D78
+•	Chỉ tiêu xét tuyển thẳng: 10
+•	Chỉ tiêu ưu tiên xét tuyển: 20
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 30
+•	Chỉ tiêu xét học bạ THPT: 10
+•	Chỉ tiêu xét điểm thi THPT: 30
+Tên ngành: Ngôn ngữ Pháp
+•	Mã ngành: 7220203
+•	Tổ hợp xét tuyển: D01, D03
+•	Chỉ tiêu xét tuyển thẳng: 10
+•	Chỉ tiêu ưu tiên xét tuyển: 20
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 30
+•	Chỉ tiêu xét học bạ THPT: 10
+•	Chỉ tiêu xét điểm thi THPT: 30
+Tên ngành: Ngôn ngữ Trung Quốc
+•	Mã ngành: 7220204
+•	Tổ hợp xét tuyển: D01, D04
+•	Chỉ tiêu xét tuyển thẳng: 20
+•	Chỉ tiêu ưu tiên xét tuyển: 40
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 60
+•	Chỉ tiêu xét học bạ THPT: 20
+•	Chỉ tiêu xét điểm thi THPT: 60
+Tên ngành: Ngôn ngữ Nhật
+•	Mã ngành: 7220209
+•	Tổ hợp xét tuyển: D01, D06
+•	Chỉ tiêu xét tuyển thẳng: 15
+•	Chỉ tiêu ưu tiên xét tuyển: 30
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 45
+•	Chỉ tiêu xét học bạ THPT: 15
+•	Chỉ tiêu xét điểm thi THPT: 45
+Tên ngành: Ngôn ngữ Hàn Quốc
+•	Mã ngành: 7220210
+•	Tổ hợp xét tuyển: D01, D96, D78, DD2
+•	Chỉ tiêu xét tuyển thẳng: 9
+•	Chỉ tiêu ưu tiên xét tuyển: 18
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 27
+•	Chỉ tiêu xét học bạ THPT: 9
+•	Chỉ tiêu xét điểm thi THPT: 27
+Tên ngành: Văn học
+•	Mã ngành: 7229030
+•	Tổ hợp xét tuyển: D01, C00, D78
+•	Chỉ tiêu xét tuyển thẳng: 9
+•	Chỉ tiêu ưu tiên xét tuyển: 18
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 27
+•	Chỉ tiêu xét học bạ THPT: 9
+•	Chỉ tiêu xét điểm thi THPT: 27
+Tên ngành: Tâm lý học
+•	Mã ngành: 7310401
+•	Tổ hợp xét tuyển: B00, C00, D01
+•	Chỉ tiêu xét tuyển thẳng: 10
+•	Chỉ tiêu ưu tiên xét tuyển: 20
+•	Chỉ tiêu xét học bạ THPT: 10
+•	Chỉ tiêu xét điểm thi THPT: 60
+Tên ngành: Tâm lý học giáo dục
+•	Mã ngành: 7310403
+•	Tổ hợp xét tuyển: A00, D01, C00
+•	Chỉ tiêu xét tuyển thẳng: 9
+•	Chỉ tiêu ưu tiên xét tuyển: 18
+•	Chỉ tiêu xét học bạ THPT: 9
+•	Chỉ tiêu xét điểm thi THPT: 54
+Tên ngành: Địa lý học
+•	Mã ngành: 7310501
+•	Tổ hợp xét tuyển: D10, D15, D78, C00
+•	Chỉ tiêu xét tuyển thẳng: 3
+•	Chỉ tiêu ưu tiên xét tuyển: 6
+•	Chỉ tiêu xét học bạ THPT: 3
+•	Chỉ tiêu xét điểm thi THPT: 18
+Tên ngành: Quốc tế học
+•	Mã ngành: 7310601
+•	Tổ hợp xét tuyển: D01, D14, D78
+•	Chỉ tiêu xét tuyển thẳng: 10
+•	Chỉ tiêu ưu tiên xét tuyển: 20
+•	Chỉ tiêu xét học bạ THPT: 10
+•	Chỉ tiêu xét điểm thi THPT: 60
+Tên ngành: Việt Nam học
+•	Mã ngành: 7310630
+•	Tổ hợp xét tuyển: C00, D01, D78
+•	Chỉ tiêu xét tuyển thẳng: 9
+•	Chỉ tiêu ưu tiên xét tuyển: 18
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 27
+•	Chỉ tiêu xét học bạ THPT: 9
+•	Chỉ tiêu xét điểm thi THPT: 27
+Tên ngành: Vật lý học
+•	Mã ngành: 7440102
+•	Tổ hợp xét tuyển: A00, A01, D90
+•	Chỉ tiêu xét tuyển thẳng: 5
+•	Chỉ tiêu ưu tiên xét tuyển: 10
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 15
+•	Chỉ tiêu xét học bạ THPT: 5
+•	Chỉ tiêu xét điểm thi THPT: 15
+Tên ngành: Hóa học
+•	Mã ngành: 7440112
+•	Tổ hợp xét tuyển: A00, B00, D07
+•	Chỉ tiêu xét tuyển thẳng: 10
+•	Chỉ tiêu ưu tiên xét tuyển: 20
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 30
+•	Chỉ tiêu xét học bạ THPT: 10
+•	Chỉ tiêu xét điểm thi THPT: 30
+Tên ngành: Công nghệ thông tin
+•	Mã ngành: 7480201
+•	Tổ hợp xét tuyển: A00, A01, B08
+•	Chỉ tiêu xét tuyển thẳng: 15
+•	Chỉ tiêu ưu tiên xét tuyển: 30
+•	Chỉ tiêu xét học bạ kết hợp thi ĐGNL chuyên biệt: 45
+•	Chỉ tiêu xét học bạ THPT: 15
+•	Chỉ tiêu xét điểm thi THPT: 45
+Tên ngành: Công tác xã hội
+•	Mã ngành: 7760101
+•	Tổ hợp xét tuyển: A00, D01, C00
+•	Chỉ tiêu xét tuyển thẳng: 9
+•	Chỉ tiêu ưu tiên xét tuyển: 18
+•	Chỉ tiêu xét học bạ THPT: 9
+•	Chỉ tiêu xét điểm thi THPT: 54
+
+2. Phương thức xét tuyển Đại học Sư Phạm Thành phố Hồ Chí Minh 2023
+ A.	Phương thức 1 của Trường ĐH Sư phạm TP HCM là tuyển thẳng theo quy định của Quy chế tuyển sinh (10% tổng chỉ tiêu). 
+Riêng đối với ngành giáo dục mầm non, thí sinh phải tham gia kỳ thi năng khiếu do trường tổ chức và đạt từ 6,5 điểm trở lên.
+B.	Phương thức 2, Trường xét tuyển và ưu tiên xét tuyển thí sinh là học sinh lớp chuyên, (20% tổng chỉ tiêu). 
+Theo đó, mỗi ngành học, trường xét tuyển những thí sinh đã tốt nghiệp các trường THPT có xếp loại học lực lớp 12 chuyên năm học 2022-2023 từ giỏi trở lên và đạt một trong các điều kiện theo thứ tự ưu tiên sau vào ngành đúng hoặc ngành gần: tham gia đội tuyển học sinh giỏi quốc gia hoặc đội tuyển cuộc thi khoa học kỹ thuật cấp quốc gia;đạt giải nhất, nhì, ba kỳ thi học sinh giỏi do cấp tỉnh trở lên tổ chức; thí sinh có chứng chỉ ngoại ngữ B2 trở lên hoặc tương đương (áp dụng đối với các ngành ngoại ngữ theo danh mục ngành đúng ngành gần); có học lực năm học lớp 10 và 11 chuyên đạt học sinh giỏi.
+Riêng đối với ngành giáo dục mầm non, giáo dục thể chất, thí sinh phải tham gia kỳ thi năng khiếu do trường tổ chức và đạt từ 6,5 điểm trở lên.
+C.	Phương thức 3, Trường xét tuyển sử dụng kết quả học tập THPT kết hợp kết quả thi đánh giá năng lực chuyên biệt (30% tổng chỉ tiêu).
+Trường xét tuyển các thí sinh dựa vào kết quả bài thi đánh giá năng lực chuyên biệt do trường tổ chức trong năm 2022, 2023 hoặc Trường ĐH Sư phạm Hà Nội tổ chức năm 2023 (được quy đổi về thang điểm 10) của môn chính (được nhân hệ số 2), cộng với điểm 2 môn còn lại trong tổ hợp là điểm trung bình môn 6 học kỳ ở THPT.
+Tổng điểm này được quy đổi về thang điểm 30 và cộng điểm ưu tiên đối tượng, khu vực theo quy định của Bộ GD&ĐT, được làm tròn đến hai chữ số thập phân.
+Ở phương thức này, Trường ĐH Sư phạm TP HCM chỉ áp dụng với một số ngành đào tạo, ngoài các ngành đã áp dụng như năm 2022 trường còn mở rộng thêm một số ngành khác gồm: sư phạm toán học, sư phạm tin học, công nghệ thông tin, sư phạm vật lý, vật lý học, sư phạm hóa học, hoá học, sư phạm sinh học, sư phạm ngữ văn, văn học, Việt Nam học, sư phạm tiếng Anh, ngôn ngữ Anh, sư phạm tiếng Trung Quốc, ngôn ngữ Trung Quốc, sư phạm tiếng Pháp, ngôn ngữ Pháp, sư phạm tiếng Nga, ngôn ngữ Nga, ngôn ngữ Nhật, ngôn ngữ Hàn Quốc, giáo dục tiểu học, giáo dục đặc biệt, giáo dục công dân, giáo dục chính trị, giáo dục quốc phòng - an ninh, sư phạm công nghệ và sư phạm khoa học tự nhiên.
+D.	Phương thức 4, Trường xét tuyển sử dụng kết quả học tập THPT (10% tổng chỉ tiêu).
+Trường xét tuyển các thí sinh dựa vào tổng điểm trung bình của 3 môn học 6 học kỳ ở THPT (tương ứng với tổ hợp môn xét tuyển dựa vào kết quả thi tốt nghiệp THPT năm 2023) cộng điểm ưu tiên đối tượng, khu vực theo quy định của Bộ GD&ĐT và được làm tròn đến 2 chữ số thập phân.
+E.	Phương thức 5, Trường xét tuyển sử dụng kết quả thi tốt nghiệp THPT năm 2023, (30% tổng chỉ tiêu hoặc 60% tổng chỉ tiêu đối với các ngành không sử dụng phương thức 3).
+Trường xét tuyển các thí sinh dựa vào tổng điểm các bài thi/môn thi của từng tổ hợp xét tuyển (từng bài thi/môn thi chấm theo thang điểm 10) của kỳ thi tốt nghiệp THPT năm 2023, cộng với điểm ưu tiên đối tượng, khu vực theo quy định của Bộ GD&ĐT và được làm tròn đến 2 chữ số thập phân.
+Năm học 2023-2024, Trường ĐH Sư phạm TP HCM bắt đầu tuyển chương trình song ngành sư phạm Toán học và Giáo dục tiểu học.
+
+3.Ngưỡng đảm bảo chất lượng đầu vào
+a. Xét tuyển thẳng và ưu tiên xét tuyển
+Thông tin xét tuyển thẳng, ưu tiên xét tuyển - HCMUE năm 2023
+1.1. Xét tuyển thẳng
+a. Đối tượng xét tuyển thẳng
+1. Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ thi đua toàn quốc được tuyển thẳng vào các ngành, chương trình do cơ sở đào tạo quy định.
+2. Thí sinh đạt thành tích cao trong các kỳ thi, cuộc thi, giải đấu cấp quốc gia hoặc quốc tế, do Bộ GDĐT, Bộ Văn hóa, Thể thao và Du lịch tổ chức, cử tham gia, được xét tuyển thẳng trong năm tốt nghiệp Trung học phổ thông (hoặc tốt nghiệp trung cấp) vào các ngành phù hợp với môn thi, nội dung đề tài hoặc nghề dự thi, thi đấu, đoạt giải; cụ thể trong các trường hợp sau:
+a) Thí sinh đoạt giải nhất, nhì, ba trong kỳ thi chọn học sinh giỏi quốc gia, quốc tế hoặc thi khoa học, kỹ thuật cấp quốc gia, quốc tế do Bộ GDĐT tổ chức, cử tham gia; thời gian đoạt giải không quá 03 năm tính tới thời điểm xét tuyển thẳng;
+b) Thí sinh đoạt giải chính thức trong các cuộc thi nghệ thuật quốc tế về ca, múa, nhạc, mỹ thuật được Bộ Văn hóa, Thể thao và Du lịch công nhận; thời gian đoạt giải không quá 04 năm tính tới thời điểm xét tuyển thẳng;
+c) Thí sinh tham gia đội tuyển quốc gia thi đấu tại các giải quốc tế chính thức được Bộ Văn hoá, Thể thao và Du lịch xác nhận đã hoàn thành nhiệm vụ, bao gồm: Giải vô địch thế giới, Cúp thế giới, Thế vận hội Olympic, Đại hội Thể thao châu Á (ASIAD), Giải vô địch châu Á, Cúp châu Á, Giải vô địch Đông Nam Á, Đại hội Thể thao Đông Nam Á (SEA Games), Cúp Đông Nam Á; thời gian đoạt giải không quá 04 năm tính tới thời điểm xét tuyển thẳng;
+d) Thí sinh đoạt giải nhất, nhì, ba trong các kỳ thi tay nghề khu vực ASEAN và thi tay nghề quốc tế do Bộ Lao động - Thương binh và Xã hội cử đi; thời gian đoạt giải không quá 03 năm tính tới thời điểm xét tuyển thẳng.
+3. Hiệu trưởng căn cứ kết quả học tập cấp Trung học phổ thông (THPT) của thí sinh và yêu cầu của ngành đào tạo để xem xét, quyết định nhận vào học những trường hợp quy định dưới đây (trường hợp cần thiết kèm theo điều kiện thí sinh phải học 01 năm bổ sung kiến thức trước khi vào học chính thức):
+a) Thí sinh là người khuyết tật đặc biệt nặng có giấy xác nhận khuyết tật của cơ quan có thẩm quyền cấp theo quy định, có khả năng theo học một số ngành do cơ sở đào tạo quy định nhưng không có khả năng dự tuyển theo phương thức tuyển sinh bình thường;
+b) Thí sinh là người dân tộc thiểu số rất ít người theo quy định hiện hành của Chính phủ và thí sinh 20 huyện nghèo biên giới, hải đảo thuộc khu vực Tây Nam Bộ;
+c) Thí sinh có nơi thường trú từ 03 năm trở lên, học 03 năm và tốt nghiệp THPT tại các huyện nghèo (học sinh học phổ thông dân tộc nội trú tính theo nơi thường trú) theo quy định của Chính phủ, Thủ tướng Chính phủ;
+d) Thí sinh là người nước ngoài có kết quả kiểm tra kiến thức và năng lực Tiếng Việt đáp ứng quy định hiện hành của Bộ trưởng Bộ GD&ĐT.
+1.2. Ưu tiên xét tuyển
+a. Ưu tiên xét tuyển theo Quy chế tuyển sinh
+4. Ưu tiên xét tuyển (được ưu tiên xét tuyển trong năm tốt nghiệp THPT hoặc tốt nghiệp trung cấp) đối với các trường hợp sau đây:
+a) Thí sinh quy định tại khoản 1, 2 Điều này dự tuyển vào các ngành theo nguyện vọng (không dùng quyền ưu tiên tuyển thẳng);
+b) Thí sinh đoạt giải khuyến khích trong kỳ thi chọn học sinh giỏi quốc gia; thí sinh đoạt giải tư trong cuộc thi khoa học, kỹ thuật cấp quốc gia dự tuyển vào ngành phù hợp với môn thi hoặc nội dung đề tài dự thi đã đoạt giải; thời gian đoạt giải không quá 03 năm tính tới thời điểm xét tuyển;
+c) Thí sinh đoạt huy chương vàng, bạc, đồng các giải thể dục thể thao cấp quốc gia tổ chức một lần trong năm và thí sinh được Tổng cục Thể dục thể thao có quyết định công nhận là kiện tướng quốc gia dự tuyển vào các ngành thể dục thể thao phù hợp; thời gian đoạt giải không quá 04 năm tính tới thời điểm xét tuyển;
+d) Thí sinh đoạt giải nhất, nhì, ba tại các kỳ thi tay nghề khu vực ASEAN và thi tay nghề quốc tế dự tuyển vào các ngành phù hợp với nghề đã đoạt giải; thời gian đoạt giải không quá 03 năm tính tới thời điểm xét tuyển.
+b. Ưu tiên xét tuyển thí sinh là học sinh lớp chuyên
+Đối với mỗi ngành học, Trường xét tuyển những thí sinh đã tốt nghiệp các trường THPT (danh sách xem phụ lục 2) có xếp loại học lực lớp 12 chuyên năm học 2022- 2023 từ giỏi trở lên và đạt một trong các điều kiện theo thứ tự ưu tiên sau vào ngành đúng hoặc ngành gần:
+a) Tham gia đội tuyển học sinh giỏi quốc gia hoặc đội tuyển cuộc thi khoa học kĩ thuật cấp quốc gia;
+b) Đạt giải nhất, nhì, ba kỳ thi học sinh giỏi do cấp tỉnh trở lên tổ chức;
+c) Thí sinh có chứng chỉ ngoại ngữ B2 trở lên hoặc tương đương (áp dụng đối với các ngành ngoại ngữ theo danh mục ngành đúng ngành gần);
+d) Có học lực năm học lớp 10 và 11 chuyên đạt học sinh giỏi.
+Riêng đối với ngành Giáo dục Mầm non, Giáo dục Thể chất thí sinh phải tham gia kỳ thi năng khiếu do Trường tổ chức và phải đạt từ 6,5 điểm trở lên.
+Hình thức xét tuyển: xét tuyển từ cao xuống thấp theo thứ tự ưu tiên của các tiêu chí cho đến khi hết chỉ tiêu.
+
+Thí sinh thuộc diện ưu tiên xét tuyển đăng ký ngành Giáo dục mầm non phải tham gia thi năng khiếu do Trường tổ chức và đạt điểm thi năng khiếu ≥ 6.5 điểm.
+b. Xét kết quả thi tốt nghiệp THPT năm 2023
+
+Điểm nhận hồ sơ theo quy định của Bộ GD&ĐT (với các ngành đào tạo giáo viên) và Trường Đại học Sư phạm TPHCM.
+
+c. Xét học bạ THPT
+
+Áp dụng với tất cả các ngành trừ Giáo dục mầm non và Giáo dục thể chất.
+
+Điểm xét tuyển là tổng điểm trung bình của 3 môn theo tổ hợp xét tuyển thuộc 6 học kỳ bậc THPT cộng điểm ưu tiên đối tượng, khu vực theo quy định của Bộ GD&ĐT, làm tròn đến 2 chữ số thập phân.
+
+
+Điểm xét tuyển = Điểm môn 1 + Điểm môn 2 + Điểm môn 3 + Điểm ưu tiên
+
+Điểm môn 1, 2, 3, là điểm trung bình 6 học kỳ bậc THPT của môn học 1, 2, 3.
+
+d. Kết hợp xét tuyển và thi tuyển
+
+Áp dụng cho ngành Giáo dục thể chất và Giáo dục mầm non.
+
+*Xét kết hợp điểm môn văn hóa từ kết quả thi tốt nghiệp THPT hoặc học bạ (6 học kỳ bậc THPT) kết hợp với điểm thi 2 môn năng khiếu do Trường Đại học Sư phạm TPHCM tổ chức.
+
+*Xét kết hợp học bạ với điểm thi đánh giá năng lực chuyên biệt: Xét môn chính từ bài thi đánh giá năng lực kết hợp với điểm 2 môn từ học bạ THPT. Điểm xét tuyển = (Điểm môn chính x2 + Điểm môn 1 + Điểm môn 2)x0.75 + Điểm ưu tiên
+
+Điểm thi đánh giá năng lực xét từ điểm thi đánh giá năng lực do Trường Đại học Sư phạm TPHCM tổ chức năm 2022, 2023 hoặc do Trường Đại học Sư phạm Hà Nội tổ chức năm 2023.
+
+Điều kiện nhận hồ sơ:
+
+Ngành Giáo dục mầm non: Tốt nghiệp THPT năm 2023 và học lực lớp 12 loại Giỏi (hoặc điểm xét tốt nghiệp THPT ≥ 8.0 điểm).
+Ngành Giáo dục thể chất: Tốt nghiệp THPT năm 2023, học lực lớp 12 loại khá (hoặc điểm xét tốt nghiệp THPT ≥ 6.5 điểm) hoặc là vận động viên cấp 1, kiện tướng, vận động viên đã từng đoạt huy chương tại Hội khỏe Phù Đổng, các giải trẻ quốc gia và quốc tế hoặc giải vô địch quốc gia và quốc tế có điểm thi năng khiếu do trường tổ chức đạt loại xuất sắc (≥ 9/10 điểm).
+Điều kiện xét tuyển chung: Điểm môn năng khiếu hoặc môn chính ≥ 5.0 điểm.
+
+4. Thông tin đăng ký xét tuyển
+a. Thời gian đăng ký xét tuyển
+
+*Thời gian đăng ký xét tuyển thẳng: Thí sinh đăng ký trực tuyến tại xettuyen.hcmue.edu.vn từ ngày 10/05/2023 đến hết ngày 30/06/2023.
+
+*Thời gian ưu tiên xét tuyển và xét thí sinh là học sinh lớp chuyên, xét học bạ kết hợp điểm thi đánh giá năng lực chuyên biệt, xét học bạ THPT: Thí sinh đăng ký trực tuyến tại xettuyen.hcmue.edu.vn từ ngày 10/05/2023 đến hết ngày 20/06/2023.
+
+
+*Thời gian đăng ký xét theo kết quả thi tốt nghiệp THPT năm 2023: Theo quy định chung của Bộ GD&ĐT.
+
+b. Hồ sơ đăng ký
+
+Phiếu đăng ký xét tuyển (thí sinh khai báo trực tuyến);
+Học bạ THPT và các minh chứng theo yêu cầu xét tuyển (thí sinh khai báo trực tuyến);
+Thí sinh đăng ký xét kết quả thi tốt nghiệp THPT năm 2023 làm hồ sơ theo quy định chung.
+
+5.Điểm chuẩn dựa vào kế quả học tập THPT (học bạ)
+i.	Giáo dục học – 27.05
+ii.	Quản lý giáo dục – 27.84
+iii.	Giáo dục Mầm non – 24.24
+iv.	Giáo dục Tiểu học – 28.65
+v.	Giáo dục Đặc biệt – 27.45
+vi.	Giáo dục Công dân – 28.25
+vii.	Giáo dục Chính trị – 28.00
+viii.	Giáo dục Thể chất – 25.23
+ix.	Giáo dục Quốc phòng – An ninh – 27.83
+x.	Sư phạm Toán học – 29.55
+xi.	Sư phạm Tin học – 27.92
+xii.	Sư phạm Vật lý – 29.50
+xiii.	Sư phạm Hóa học – 29.73
+xiv.	Sư phạm Sinh học – 29.28
+xv.	Sư phạm Ngữ văn – 28.82
+xvi.	Sư phạm Lịch sử – 28.50
+xvii.	Sư phạm Địa lý – 28.38
+xviii.	Sư phạm Tiếng Anh – 28.60
+xix.	Sư phạm Tiếng Trung Quốc – 28.13
+xx.	Sư phạm Tiếng Nga – 25.72
+xxi.	Sư phạm Tiếng Pháp – 27.46
+xxii.	Sư phạm Công nghệ – 27.83
+xxiii.	Sư phạm Khoa học tự nhiên – 28.92
+xxiv.	Sư phạm Lịch sử – Địa lý – 27.63
+xxv.	Ngôn ngữ Anh – 28.25
+xxvi.	Ngôn ngữ Nga – 25.80
+xxvii.	Ngôn ngữ Pháp – 26.71
+xxviii.	Ngôn ngữ Trung Quốc – 27.57
+xxix.	Ngôn ngữ Nhật – 27.17
+xxx.	Ngôn ngữ Hàn Quốc – 28.19
+xxxi.	Văn học – 28.26
+xxxii.	Tâm lý học – 28.44
+xxxiii.	Tâm lý học giáo dục – 27.78
+xxxiv.	Địa lý học – 27.58
+xxxv.	Quốc tế học – 27.31
+xxxvi.	Việt Nam học – 27.51
+xxxvii.	Vật lý học – 28.13
+xxxviii.	Hóa học – 28.14
+xxxix.	Công nghệ thông tin – 28.24
+xl.	Công tác xã hội – 27.02
+
+6.Điểm chuẩn xét điểm thi riêng
+i.	Giáo dục học – Không xét
+ii.	Quản lý giáo dục – Không xét
+iii.	Giáo dục Mầm non – Không xét
+iv.	Giáo dục Tiểu học – 21.84
+v.	Giáo dục Đặc biệt – 20.84
+vi.	Giáo dục Công dân – 21.50
+vii.	Giáo dục Chính trị – 20.99
+viii.	Giáo dục Thể chất – Không xét
+ix.	Giáo dục Quốc phòng – An ninh – 21.38
+x.	Sư phạm Toán học – 27.10
+xi.	Sư phạm Tin học – 19.89
+xii.	Sư phạm Vật lý – 26.49
+xiii.	Sư phạm Hóa học – 28.11
+xiv.	Sư phạm Sinh học – 25.80
+xv.	Sư phạm Ngữ văn – 24.83
+xvi.	Sư phạm Lịch sử – Không xét
+xvii.	Sư phạm Địa lý – Không xét
+xviii.	Sư phạm Tiếng Anh – 26.08
+xix.	Sư phạm Tiếng Trung Quốc – 23.89
+xx.	Sư phạm Tiếng Nga – 23.49
+xxi.	Sư phạm Tiếng Pháp – 22.16
+xxii.	Sư phạm Công nghệ – 21.66
+xxiii.	Sư phạm Khoa học Tự nhiên – 22.76
+xxiv.	Sư phạm Lịch sử – Địa lý – Không xét
+xxv.	Ngôn ngữ Anh – 24.98
+xxvi.	Ngôn ngữ Nga – 18.23
+xxvii.	Ngôn ngữ Pháp – 22.63
+xxviii.	Ngôn ngữ Trung Quốc – 15.63
+xxix.	Ngôn ngữ Nhật – 20.31
+xxx.	Ngôn ngữ Hàn Quốc – 20.03
+xxxi.	Văn học – 23.05
+xxxii.	Tâm lý học – Không xét
+xxxiii.	Tâm lý học giáo dục – Không xét
+xxxiv.	Địa lý học – Không xét
+xxxv.	Quốc tế học – Không xét
+xxxvi.	Việt Nam học – 18.49
+xxxvii.	Vật lý học – 20.86
+xxxviii.	Hóa học – 20.89
+xxxix.	Công nghệ thông tin – 18.19
+xl.	Công tác xã hội – Không xét
+
+7. Điểm chuẩn xét kết quả thi THPT
+i.	Giáo dục học – 23.50
+ii.	Quản lý giáo dục – 23.10
+iii.	Giáo dục Mầm non – 24.21
+iv.	Giáo dục Tiểu học – 24.90
+v.	Giáo dục Đặc biệt – 25.01
+vi.	Giáo dục Công dân – 26.75
+vii.	Giáo dục Chính trị – 26.04
+viii.	Giáo dục Thể chất – 26.10
+ix.	Giáo dục Quốc phòng – An ninh – 25.71
+x.	Sư phạm Toán học – 26.50
+xi.	Sư phạm Tin học – 22.75
+xii.	Sư phạm Vật lý – 26.10
+xiii.	Sư phạm Hóa học – 26.55
+xiv.	Sư phạm Sinh học – 24.90
+xv.	Sư phạm Ngữ văn – 27.00
+xvi.	Sư phạm Lịch sử – 26.85
+xvii.	Sư phạm Địa lý – 26.15
+xviii.	Sư phạm Tiếng Anh – 26.62
+xix.	Sư phạm Tiếng Trung Quốc – 25.83
+xx.	Sư phạm Tiếng Nga – 19.40
+xxi.	Sư phạm Tiếng Pháp – 22.70
+xxii.	Sư phạm Công nghệ – 22.40
+xxiii.	Sư phạm Khoa học Tự nhiên – 24.56
+xxiv.	Sư phạm Lịch sử – Địa lý – 26.03
+xxv.	Ngôn ngữ Anh – 25.10
+xxvi.	Ngôn ngữ Nga – 19.00
+xxvii.	Ngôn ngữ Pháp – 20.70
+xxviii.	Ngôn ngữ Trung Quốc – 24.54
+xxix.	Ngôn ngữ Nhật – 23.10
+xxx.	Ngôn ngữ Hàn Quốc – 24.90
+xxxi.	Văn học – 24.60
+xxxii.	Tâm lý học – 25.50
+xxxiii.	Tâm lý học Giáo dục – 24.17
+xxxiv.	Địa lý học – 19.75
+xxxv.	Quốc tế học – 23.50
+xxxvi.	Việt Nam học – 23.00
+xxxvii.	Sinh học ứng dụng – 19.00
+xxxviii.	Vật lý học – 22.55
+xxxix.	Hóa học – 23.47
+xl.	Công nghệ Thông tin – 23.34
+xli.	Công tác Xã hội – 22.00
+xlii.	Du lịch – 22.00
+
+8. Học phí trường Đại học Sư phạm TPHCM 2023 dự kiến từ 9,8 đến 11,7 triệu đồng một năm.
+Riêng các ngành sư phạm được miễn học phí.
+

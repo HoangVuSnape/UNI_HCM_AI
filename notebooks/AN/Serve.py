@@ -40,21 +40,12 @@ class Serve:
      def format_docs(self, docs: List[Document]) -> str:
           return "\n\n".join([f"Nguồn {i+1}:\n{doc.page_content}" for i, doc in enumerate(docs)])
 
-     def __call__(self, query) -> AdmissionResponse:
-          enhanced_query = self.transformation.enhancing_query(query)
-          decomposed_query = self.transformation.decomposition_query(enhanced_query)
-          all_docs = []
-          for sub_query in decomposed_query:
-               docs = self.retriever.retrieve(sub_query)
-               all_docs.extend(docs)
-          all_docs = self._remove_duplicates(all_docs)
-          context = self.format_docs(all_docs)
-
-          #Generate answer
+     def __call__(self, query, docs: List[Document]) -> AdmissionResponse:
+          context = self.format_docs(docs)
           answer_chain = self.prompt | self.llm | StrOutputParser()
           answer = answer_chain.invoke({
                "context": context,
-               "question": enhanced_query
+               "question": query
           })
           
           return AdmissionResponse(answer=answer)
@@ -87,4 +78,8 @@ class Serve:
         return ' '.join(content.lower().split())
 
 # serve = Serve()
-# print(serve.retriever.retrieve(serve.transformation.enhancing_query("Đại học Tôn Đức Thắng 2021")))
+# retriever = UniversityRetrievalStrategy()
+# query = "Điểm chuẩn Sư Phạm Kỹ Thuật TP HCM 2023"
+
+# docs = retriever.retrieve(query)
+# print(serve.__call__(serve.transformation.enhancing_query(query), docs))

@@ -41,10 +41,10 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
                collection_name=str(university),
                embedding=embedding_model
           )
-          
-          return vector_store.similarity_search(query, k=k * 2)
+          return vector_store.similarity_search(query, k)
      
-retriever = UniversityRetrievalStrategy()
-query = "Tuyển sinh TDTU 2021"
-docs = retriever.retrieve(query, k= 2)
-print(docs)
+# retriever = UniversityRetrievalStrategy()
+# query = "chỉ tiêu tuyển sinh NTTU 2021"
+# docs1, docs2 = retriever.retrieve(query, k= 3)
+# print(docs1)
+# print(docs2)
