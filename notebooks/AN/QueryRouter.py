@@ -25,7 +25,7 @@ class UniversityCode(BaseModel):
     university_code: Literal[
         "NTTU", "HCMUE", "UPM", "HCMUTE", "VLU", 
         "PNTU", "FTU2", "TDTU", "UEH", "FPTU",
-        "BKU", "HCMUS", "OU", "UIT"
+        "BKU", "HCMUS", "OU", "UIT", "UFM"
     ] = Field(
         ...,
         description="University code corresponding to the query"
@@ -50,7 +50,7 @@ class QueryRouter:
                1.Trường đại học Nguyễn Tất Thành -> NTTU
                2.Trường đại học Sư Phạm TP HCM -> HCMUE
                3.Trường đại học Y Dược TP HCM -> UPM
-               4.Trường đại học Sư Phạm Kỹ Thuật TP HCM -> HCMUTE
+               4.Trường đại học Tài Chính - Marketing -> UFM
                5.Trường đại học Văn Lang -> VLU
                6.Trường đại học Y Khoa Phạm Ngọc Thạch -> PNTU
                7. Trường đại học Sư Phạm Kỹ Thuật TP HCM -> HCMUTE
@@ -83,6 +83,6 @@ class QueryRouter:
 
     
 # classifier = QueryRouter()
-# #source = classifier.classify({"query": "Thông tin trường đại học Văn Lang"})
-# #print(source)
-# print(classifier.UniversityRouting({"query": "Thông tin trường Ngoai Thuong"}).university_code)
+# source = classifier.classify("Thông tin trường đại học Văn Lang")
+#print(type(source.datasource))
+#print(classifier.UniversityRouting({"query": "Thông tin trường Ngoai Thuong"}).university_code)

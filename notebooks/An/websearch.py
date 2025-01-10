@@ -26,7 +26,8 @@ class WebSearching:
         return docs
 
 # searching = WebSearching()
-# query = "Who is Ronaldo?"
+# query = "Thủ tướng Nguyễn Minh Chính?"
 # docs = searching.search(query)
 # for i in docs:
-#     print(type(i))
+#     print(i)
+#     print("----------------------")

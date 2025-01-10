@@ -40,7 +40,8 @@ class Serve:
      def format_docs(self, docs: List[Document]) -> str:
           return "\n\n".join([f"Nguồn {i+1}:\n{doc.page_content}" for i, doc in enumerate(docs)])
 
-     def __call__(self, query, docs: List[Document]) -> AdmissionResponse:
+     def __call__(self, query, docs : List[Document]) -> AdmissionResponse:
+          #docs = self.retriever.retrieve(query)
           context = self.format_docs(docs)
           answer_chain = self.prompt | self.llm | StrOutputParser()
           answer = answer_chain.invoke({

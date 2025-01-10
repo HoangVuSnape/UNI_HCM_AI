@@ -44,7 +44,8 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
           return vector_store.similarity_search(query, k)
      
 # retriever = UniversityRetrievalStrategy()
-# query = "chỉ tiêu tuyển sinh NTTU 2021"
+# query = "tuyển sinh NTTU 2023"
 # docs1, docs2 = retriever.retrieve(query, k= 3)
 # print(docs1)
+# print('----------------------')
 # print(docs2)

@@ -8,7 +8,6 @@ from Retrieval import UniversityRetrievalStrategy
 from Serve import Serve
 from websearch import WebSearching
 from typing_extensions import TypedDict
-from IPython.display import display, Image
 
 class AgentState(TypedDict):
     """Represents the state of our agent during execution"""
@@ -137,10 +136,6 @@ class AdaptiveAgent:
             },
         )
         workflow.add_edge("websearch", "generate")
-
-        workflow.add_edge(
-            "generate", "check_hallucination"
-        )
         workflow.add_edge("retrieve", "grade_docs")
         workflow.add_conditional_edges(
             "grade_docs",
@@ -163,13 +158,6 @@ class AdaptiveAgent:
         
         return workflow.compile()
     
-    def display(self):
-        workflow = self._create_workflow()
-        # display(Image(workflow.get_graph().draw_mermaid_png()))
-        with open("output.png", 'wb') as f:
-            f.write(workflow.get_graph().draw_mermaid_png())
-        
-    
     def run(self, query: str) -> str:
         workflow = self._create_workflow()
         initial_state = {
@@ -188,7 +176,6 @@ class AdaptiveAgent:
             return f"An error occurred: {str(e)}"
         
 agent = AdaptiveAgent()
-#agent.display()
 query = "Tuyển sinh đại học Tôn Đức Thắng 2024"
 answer = agent.run(query)
 print(answer)
