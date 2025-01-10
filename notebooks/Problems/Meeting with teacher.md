@@ -65,3 +65,23 @@ Test sâu 1 lĩnh vực ....
 
 # Buổi 4
 - Mục tiêu tuần tiếp là hỏi đáp đi test demo thử 
+
+
+
+# Buổi 5
+- Thầy chỉ về cách viết dự án
+
+1. Mô tả bài toán
+	1.  Mục tiêu, ý nghĩa
+	2. Input -> Output
+
+2. Mô tả phương pháp đề xuất sử dụng
+
+	1. Dùng tiếp cận nào, phương pháp nào, giải thích tại sao
+		- Rag, fine tunemode
+	1. Dùng model nào? Tại sao?
+		- T5, 
+		- RAG, Graph, Contextual rag
+		
+1. Thực nghiệm
+![](../../assets/images/Pasted%20image%2020250110141526.png)

@@ -75,7 +75,17 @@ Vậy bạn sẽ cần dùng nhiều DB (Qdrant cho embedding và một DB quan 
 Tuần này:
 - https://blog.langchain.dev/query-construction/
 - 
+---
+Problem tuần cuối. 
 
+Pipeline tốt thì mới lên agent tốt. 
+- Chunking chưa tốt. Nên dẫn đến retrieval chưa tốt. 
+- Tách từ Multi query (query -> nhiều query) -> rerank. 
+- Điểm sql 
+
+
+
+---
 
 ## **6. Kịch bản đánh giá và câu hỏi cho RLHF**
 
