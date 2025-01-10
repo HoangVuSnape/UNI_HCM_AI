@@ -80,8 +80,14 @@ Problem tuần cuối.
 
 Pipeline tốt thì mới lên agent tốt. 
 - Chunking chưa tốt. Nên dẫn đến retrieval chưa tốt. 
-- Tách từ Multi query (query -> nhiều query) -> rerank. 
+- Tách từ Multi query (query -> nhiều query) -> rerank.  
 - Điểm sql 
+
+-> chat, 
+- memory, tạo, 
+- 
+chunking 
+
 
 
 
