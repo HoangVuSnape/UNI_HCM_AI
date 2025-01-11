@@ -17,52 +17,52 @@
 
 ## 2023
 
-|STT|Mã ngành|Tên ngành|Tổ hợp môn|Điểm chuẩn|Ghi chú|
-|---|---|---|---|---|---|
-|1|7720101TP|Y khoa|B00|25.9||
-|2|7720101TQ|Y khoa|B00|26.31||
-|3|7720201TP|Dược học|B00|25.28||
-|4|7720201TQ|Dược học|B00|25.25||
-|5|7720301TP|Điểu dưỡng|B00|22.4||
-|6|7720301TQ|Điểu dưỡng|B00|22.4||
-|7|7720401TP|Dinh dưỡng|B00|22.25||
-|8|7720401TQ|Dinh dưỡng|B00|21.8||
-|9|7720501TP|Răng Hàm Mặt|B00|26||
-|10|7720501TQ|Răng Hàm Mặt|B00|26.28||
-|11|7720601TP|Kỹ thuật xét nghiệm y học|B00|24.54||
-|12|7720601TQ|Kỹ thuật xét nghiệm y học|B00|24.47||
-|13|7720602TP|Kỹ thuật hình ảnh y học|B00|23.45||
-|14|7720602TQ|Kỹ thuật hình ảnh y học|B00|23.61||
-|15|7720603TP|Kỹ thuật phục hồi chức năng|B00|23.15||
-|16|7720603TQ|Kỹ thuật phục hồi chức năng|B00|23.09||
-|17|7720699TP|Khúc xạ nhãn khoa|B00|23.75||
-|18|7720699TQ|Khúc xạ nhãn khoa|B00|23.57||
-|19|7720701TP|Y tế công cộng|B00|18.85||
-|20|7720701TQ|Y tế công cộng|B00|18.35|
+| STT | Mã ngành  | Tên ngành                   | Tổ hợp môn | Điểm chuẩn | Ghi chú |
+| --- | --------- | --------------------------- | ---------- | ---------- | ------- |
+| 1   | 7720101TP | Y khoa                      | B00        | 25.9       |         |
+| 2   | 7720101TQ | Y khoa                      | B00        | 26.31      |         |
+| 3   | 7720201TP | Dược học                    | B00        | 25.28      |         |
+| 4   | 7720201TQ | Dược học                    | B00        | 25.25      |         |
+| 5   | 7720301TP | Điểu dưỡng                  | B00        | 22.4       |         |
+| 6   | 7720301TQ | Điểu dưỡng                  | B00        | 22.4       |         |
+| 7   | 7720401TP | Dinh dưỡng                  | B00        | 22.25      |         |
+| 8   | 7720401TQ | Dinh dưỡng                  | B00        | 21.8       |         |
+| 9   | 7720501TP | Răng Hàm Mặt                | B00        | 26         |         |
+| 10  | 7720501TQ | Răng Hàm Mặt                | B00        | 26.28      |         |
+| 11  | 7720601TP | Kỹ thuật xét nghiệm y học   | B00        | 24.54      |         |
+| 12  | 7720601TQ | Kỹ thuật xét nghiệm y học   | B00        | 24.47      |         |
+| 13  | 7720602TP | Kỹ thuật hình ảnh y học     | B00        | 23.45      |         |
+| 14  | 7720602TQ | Kỹ thuật hình ảnh y học     | B00        | 23.61      |         |
+| 15  | 7720603TP | Kỹ thuật phục hồi chức năng | B00        | 23.15      |         |
+| 16  | 7720603TQ | Kỹ thuật phục hồi chức năng | B00        | 23.09      |         |
+| 17  | 7720699TP | Khúc xạ nhãn khoa           | B00        | 23.75      |         |
+| 18  | 7720699TQ | Khúc xạ nhãn khoa           | B00        | 23.57      |         |
+| 19  | 7720701TP | Y tế công cộng              | B00        | 18.85      |         |
+| 20  | 7720701TQ | Y tế công cộng              | B00        | 18.35      |         |
 ## 2022
 
-|STT|Mã ngành|Tên ngành|Tổ hợp môn|Điểm chuẩn|Ghi chú|
-|---|---|---|---|---|---|
-|1|7720101TP|Y khoa|B00|25.85|NN >= 7.2;DTB12 >= 9.1; VA >= 6.5;TTNV <= 2|
-|2|7720101TQ|Y khoa|B00|26.65|NN >= 7.4;DTB12 >= 9.2; VA >= 7.75;TTNV <= 4|
-|3|7720201TP|Dược học|B00|25.45|NN >= 10;DTB12 >= 9.6; VA >= 7.75;TTNV <= 1|
-|4|7720201TQ|Dược học|B00|25.45|NN >= 7;DTB12 >= 8.8; VA >= 3.75;TTNV <= 4|
-|5|7720301TP|Điều dưỡng|B00|19|NN >= 4.8;DTB12 >= 7.8; VA >= 6;TTNV <= 10|
-|6|7720301TQ|Điều dưỡng|B00|19.05|NN >= 4.8;DTB12 >= 8.3; VA >= 7.25;TTNV <= 1|
-|7|7720401TP|Dinh dưỡng|B00|18.1|NN >= 8.6;DTB12 >= 8.8; VA >= 5.5;TTNV <= 3|
-|8|7720401TQ|Dinh dưỡng|B00|19.1|NN >= 4.4;DTB12 >= 8; VA >= 6;TTNV <= 1|
-|9|7720501TP|Răng Hàm Mặt|B00|26.1|NN >= 8.8;DTB12 >= 9.1; VA >= 8;TTNV <= 1|
-|10|7720501TQ|Răng Hàm Mặt|B00|26.65|NN >= 10;DTB12 >= 9.3; VA >= 7.75;TTNV <= 1|
-|11|7720601TP|Kỹ thuật xét nghiệm y học|B00|24.85|NN >= 0;DTB12 >= 0; VA >= 0;TTNV <= 3|
-|12|7720601TQ|Kỹ thuật xét nghiệm y học|B00|24.2|NN >= 6.6;DTB12 >= 8.1; VA >= 6.75;TTNV <= 1|
-|13|7720602TP|Kỹ thuật hình ảnh y học|B00|23.6|NN >= 7.6;DTB12 >= 9.2; VA >= 7;TTNV <= 3|
-|14|7720602TQ|Kỹ thuật hình ảnh y học|B00|21.7|NN >= 6.4;DTB12 >= 9; VA >= 7.25;TTNV <= 1|
-|15|7720603TP|Kỹ thuật phục hồi chức năng|B00|19|NN >= 4.8;DTB12 >= 8.4; VA >= 7.5;TTNV <= 5|
-|16|7720603TQ|Kỹ thuật phục hồi chức năng|B00|19.2|NN >= 4;DTB12 >= 7.1; VA >= 5.5;TTNV <= 2|
-|17|7720699TP|Khúc xạ nhãn khoa|B00|24.15|N1 >= 10;DTB12 >= 0; VA >= 0;TTNV <= 4|
-|18|7720699TQ|Khúc xạ nhãn khoa|B00|22.8|N1 >= 8.4;DTB12 >= 7.9; VA >= 8.5;TTNV <= 1|
-|19|7720701TP|Y tế công cộng|B00|18.35|NN >= 6.2;DTB12 >= 8.4; VA >= 6.75;TTNV <= 4|
-|20|7720701TQ|Y tế công cộng|B00|18.8|NN >= 5.8;DTB12 >= 7.7; VA >= 8;TTNV <= 3|
+| STT | Mã ngành  | Tên ngành                   | Tổ hợp môn | Điểm chuẩn | Ghi chú                                      |
+| --- | --------- | --------------------------- | ---------- | ---------- | -------------------------------------------- |
+| 1   | 7720101TP | Y khoa                      | B00        | 25.85      | NN >= 7.2;DTB12 >= 9.1; VA >= 6.5;TTNV <= 2  |
+| 2   | 7720101TQ | Y khoa                      | B00        | 26.65      | NN >= 7.4;DTB12 >= 9.2; VA >= 7.75;TTNV <= 4 |
+| 3   | 7720201TP | Dược học                    | B00        | 25.45      | NN >= 10;DTB12 >= 9.6; VA >= 7.75;TTNV <= 1  |
+| 4   | 7720201TQ | Dược học                    | B00        | 25.45      | NN >= 7;DTB12 >= 8.8; VA >= 3.75;TTNV <= 4   |
+| 5   | 7720301TP | Điều dưỡng                  | B00        | 19         | NN >= 4.8;DTB12 >= 7.8; VA >= 6;TTNV <= 10   |
+| 6   | 7720301TQ | Điều dưỡng                  | B00        | 19.05      | NN >= 4.8;DTB12 >= 8.3; VA >= 7.25;TTNV <= 1 |
+| 7   | 7720401TP | Dinh dưỡng                  | B00        | 18.1       | NN >= 8.6;DTB12 >= 8.8; VA >= 5.5;TTNV <= 3  |
+| 8   | 7720401TQ | Dinh dưỡng                  | B00        | 19.1       | NN >= 4.4;DTB12 >= 8; VA >= 6;TTNV <= 1      |
+| 9   | 7720501TP | Răng Hàm Mặt                | B00        | 26.1       | NN >= 8.8;DTB12 >= 9.1; VA >= 8;TTNV <= 1    |
+| 10  | 7720501TQ | Răng Hàm Mặt                | B00        | 26.65      | NN >= 10;DTB12 >= 9.3; VA >= 7.75;TTNV <= 1  |
+| 11  | 7720601TP | Kỹ thuật xét nghiệm y học   | B00        | 24.85      | NN >= 0;DTB12 >= 0; VA >= 0;TTNV <= 3        |
+| 12  | 7720601TQ | Kỹ thuật xét nghiệm y học   | B00        | 24.2       | NN >= 6.6;DTB12 >= 8.1; VA >= 6.75;TTNV <= 1 |
+| 13  | 7720602TP | Kỹ thuật hình ảnh y học     | B00        | 23.6       | NN >= 7.6;DTB12 >= 9.2; VA >= 7;TTNV <= 3    |
+| 14  | 7720602TQ | Kỹ thuật hình ảnh y học     | B00        | 21.7       | NN >= 6.4;DTB12 >= 9; VA >= 7.25;TTNV <= 1   |
+| 15  | 7720603TP | Kỹ thuật phục hồi chức năng | B00        | 19         | NN >= 4.8;DTB12 >= 8.4; VA >= 7.5;TTNV <= 5  |
+| 16  | 7720603TQ | Kỹ thuật phục hồi chức năng | B00        | 19.2       | NN >= 4;DTB12 >= 7.1; VA >= 5.5;TTNV <= 2    |
+| 17  | 7720699TP | Khúc xạ nhãn khoa           | B00        | 24.15      | N1 >= 10;DTB12 >= 0; VA >= 0;TTNV <= 4       |
+| 18  | 7720699TQ | Khúc xạ nhãn khoa           | B00        | 22.8       | N1 >= 8.4;DTB12 >= 7.9; VA >= 8.5;TTNV <= 1  |
+| 19  | 7720701TP | Y tế công cộng              | B00        | 18.35      | NN >= 6.2;DTB12 >= 8.4; VA >= 6.75;TTNV <= 4 |
+| 20  | 7720701TQ | Y tế công cộng              | B00        | 18.8       | NN >= 5.8;DTB12 >= 7.7; VA >= 8;TTNV <= 3    |
 
 ## 2021
 | STT | Mã ngành  | Tên ngành                 | Tổ hợp môn | Điểm chuẩn | Ghi chú                                    |

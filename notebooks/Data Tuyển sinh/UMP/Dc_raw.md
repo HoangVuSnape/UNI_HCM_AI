@@ -76,10 +76,6 @@
 | 26  | 7720603_02 | Kỹ thuật phục hồi chức năng (kết hợp sơ tuyển chứng chỉ tiếng Anh quốc tế)            | A00;B00    | 23.33      |         |
 | 27  | 7720701    | Y tế công cộng                                                                        | A00;B00    | 19         |         |
 | 28  | 7720701_02 | Y tế công cộng (kết hợp sơ tuyển chứng chỉ tiếng Anh quốc tế)                         | A00;B00    | 19         |         |
-## Điểm xét tuyển kết hợp
-
-
-## Chứng chỉ quốc tế
 
 # 2022
 ## THPT
@@ -109,13 +105,6 @@
 | 21  | 7720603    | Kỹ thuật phục hồi chức năng                                            | B00        | 20.6       |         |
 | 22  | 7720701    | Y tế công cộng                                                         | B00        | 19.1       |         |
 | 23  | 7720701_02 | Y tế công cộng (kết hợp sơ tuyển chứng chỉ tiếng Anh quốc tế)          | B00        | 22.25      |         |
-## Điểm xét tuyển kết hợp
-
-
-## Chứng chỉ quốc tế
-
-
-
 # 2021
 ## THPT
 | STT | Mã ngành   | Tên ngành                                              | Tổ hợp môn | Điểm chuẩn | Ghi chú |
@@ -141,8 +130,4 @@
 | 19  | 7720603    | Kỹ thuật phục hồi chức năng                            | B00        | 24.1       |         |
 | 20  | 7720701    | Y tế công cộng                                         | B00        | 22         |         |
 
-## Điểm xét tuyển kết hợp
-
-
-## Chứng chỉ quốc tế
 

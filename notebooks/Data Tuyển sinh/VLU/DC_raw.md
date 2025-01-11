@@ -321,9 +321,6 @@
 | 60  | 7810202  | Quản trị nhà hàng và dịch vụ ăn uống   | A00;A01;D01;D03 | 18         |         |
 | 61  | 7850201  | Bảo hộ lao động                        | A00;A01;A02;B00 | 18         |         |
 
-## DGNL
-
-
 # 2022
 ## THPT
 | STT | Mã ngành | Tên ngành                               | Tổ hợp môn      | Điểm chuẩn | Ghi chú |
@@ -392,72 +389,69 @@
 
 ## Học bạ
 
-|STT|Mã ngành|Tên ngành|Tổ hợp môn|Điểm chuẩn|Ghi chú|
-|---|---|---|---|---|---|
-|1|7210205|Thanh nhạc|N00|24||
-|2|7210208|Piano|N00|24||
-|3|7210234|Diễn viên kịch, điện ảnh - truyền hình|S00|24||
-|4|7210235|Đạo diễn điện ảnh - truyền hình|S00|24||
-|5|7210402|Thiết kế công nghiệp|H03;H04;H05;H06|24||
-|6|7210403|Thiết kế đồ họa|H03;H04;H05;H06|24||
-|7|7210404|Thiết kế thời trang|H03;H04;H05;H06|24||
-|8|7210409|Thiết kế mỹ thuật số|H03;H04;H05;H06|24||
-|9|7220201|Ngôn ngữ Anh|D01;D08;D10|24||
-|10|7220204|Ngôn ngữ Trung Quốc|A01;D01;D04;D14|18||
-|11|7220210|Ngôn ngữ Hàn Quốc|D01;D10;D14;D66|18||
-|12|7229030|Văn học|C00;D01;D14;D66|18||
-|13|7310106|Kinh tế quốc tế|A00;A01;D01;D07|18||
-|14|7310401|Tâm lý học|B00;B03;C00;D01|18||
-|15|7310608|Đông phương học|A01;C00;D01;D04|18||
-|16|7310630|Việt Nam học|C00;D01;D14;D15|18||
-|17|7320104|Truyền thông đa phương tiện|A00;A01;C00;D01|22||
-|18|7320108|Quan hệ công chúng|A00;A01;C00;D01|22||
-|19|7340101|Quản trị kinh doanh|A00;A01;C01;D01|18||
-|20|7340115|Marketing|A00;A01;C01;D01|20||
-|21|7340116|Bất động sản|A00;A01;C04;D01|18||
-|22|7340120|Kinh doanh quốc tế|A00;A01;C01;D01|18||
-|23|7340121|Kinh doanh thương mại|A00;A01;C01;D01|18||
-|24|7340122|Thương mại điện tử|A00;A01;C01;D01|18||
-|25|7340201|Tài chính - Ngân hàng|A00;A01;C04;D01|18||
-|26|7340301|Kế toán|A00;A01;C01;D10|18||
-|27|7340405|Hệ thống thông tin quản lý|A00;A01;C01;D01|18||
-|28|7380101|Luật|A00;A01;C00;D01|18||
-|29|7380107|Luật kinh tế|A00;A01;C00;D01|18||
-|30|7420201|Công nghệ sinh học|A00;A02;B00;D08|18||
-|31|7420205|Công nghệ sinh học y dược|A00;B00;D07;D08|18||
-|32|7420207|Công nghệ thẩm mỹ|A00;B00;D07;D08|18||
-|33|7460108|Khoa học dữ liệu|A00;A01;C01;D01|18||
-|34|7480103|Kỹ thuật phần mềm|A00;A01;D01;D10|18||
-|35|7480201|Công nghệ thông tin|A00;A01;C01;D10|18||
-|36|7510205|Công nghệ kỹ thuật ô tô|A00;A01;C01;D01|18||
-|37|7510301|Công nghệ kỹ thuật điện, điện tử|A00;A01;C01;D01|18||
-|38|7510406|Công nghệ kỹ thuật môi trường|A00;B00;D07;D08|18||
-|39|7510601|Quản lý công nghiệp|A00;A01;A02;B00|18||
-|40|7510605|Logistics và quản lý chuỗi cung ứng|A00;A01;C01;D01|18||
-|41|7510606|Quản trị môi trường doanh nghiệp|A00;B00;D07;D08|18||
-|42|7520114|Kỹ thuật cơ điện tử|A00;A01;C01;D01|18||
-|43|7520115|Kỹ thuật nhiệt|A00;A01;D07|18||
-|44|7540101|Công nghệ thực phẩm|A00;B00;C08;D08|18||
-|45|7580101|Kiến trúc|V00;V01;H02|24||
-|46|7580108|Thiết kế nội thất|H03;H04;H05;H06|24||
-|47|7580201|Kỹ thuật xây dựng|A00;A01|18||
-|48|7580205|Kỹ thuật XD công trình giao thông|A00;A01;D07|18||
-|49|7580302|Quản lý xây dựng|A00;A01;D01;D07|18||
-|50|7589001|Thiết kế xanh|A00;A01;B00;D08|18||
-|51|7620118|Nông nghiệp công nghệ cao|A00;B00;D07;D08|18||
-|52|7720201|Dược học|A00;B00;D07|24||
-|53|7720301|Điều dưỡng|B00;C08;D07;D08|19.5||
-|54|7720501|Răng - hàm - mặt|A00;B00;D07;D08|24||
-|55|7720601|Kỹ thuật xét nghiệm y học|A00;B00;D07;D08|19.5||
-|56|7760101|Công tác xã hội|C00;C14;C20;D01|18||
-|57|7810101|Du lịch|A00;A01;C00;D01|18||
-|58|7810103|Quản trị dịch vụ du lịch & lữ hành|A00;A01;D01;D03|18||
-|59|7810201|Quản trị khách sạn|A00;A01;D01;D03|18||
-|60|7810202|Quản trị nhà hàng và dịch vụ ăn uống|A00;A01;D01;D03|18||
-|61|7850201|Bảo hộ lao động|A00;A01;A02;B00|18|
-
-## DGNL
-
+| STT | Mã ngành | Tên ngành                              | Tổ hợp môn      | Điểm chuẩn | Ghi chú |
+| --- | -------- | -------------------------------------- | --------------- | ---------- | ------- |
+| 1   | 7210205  | Thanh nhạc                             | N00             | 24         |         |
+| 2   | 7210208  | Piano                                  | N00             | 24         |         |
+| 3   | 7210234  | Diễn viên kịch, điện ảnh - truyền hình | S00             | 24         |         |
+| 4   | 7210235  | Đạo diễn điện ảnh - truyền hình        | S00             | 24         |         |
+| 5   | 7210402  | Thiết kế công nghiệp                   | H03;H04;H05;H06 | 24         |         |
+| 6   | 7210403  | Thiết kế đồ họa                        | H03;H04;H05;H06 | 24         |         |
+| 7   | 7210404  | Thiết kế thời trang                    | H03;H04;H05;H06 | 24         |         |
+| 8   | 7210409  | Thiết kế mỹ thuật số                   | H03;H04;H05;H06 | 24         |         |
+| 9   | 7220201  | Ngôn ngữ Anh                           | D01;D08;D10     | 24         |         |
+| 10  | 7220204  | Ngôn ngữ Trung Quốc                    | A01;D01;D04;D14 | 18         |         |
+| 11  | 7220210  | Ngôn ngữ Hàn Quốc                      | D01;D10;D14;D66 | 18         |         |
+| 12  | 7229030  | Văn học                                | C00;D01;D14;D66 | 18         |         |
+| 13  | 7310106  | Kinh tế quốc tế                        | A00;A01;D01;D07 | 18         |         |
+| 14  | 7310401  | Tâm lý học                             | B00;B03;C00;D01 | 18         |         |
+| 15  | 7310608  | Đông phương học                        | A01;C00;D01;D04 | 18         |         |
+| 16  | 7310630  | Việt Nam học                           | C00;D01;D14;D15 | 18         |         |
+| 17  | 7320104  | Truyền thông đa phương tiện            | A00;A01;C00;D01 | 22         |         |
+| 18  | 7320108  | Quan hệ công chúng                     | A00;A01;C00;D01 | 22         |         |
+| 19  | 7340101  | Quản trị kinh doanh                    | A00;A01;C01;D01 | 18         |         |
+| 20  | 7340115  | Marketing                              | A00;A01;C01;D01 | 20         |         |
+| 21  | 7340116  | Bất động sản                           | A00;A01;C04;D01 | 18         |         |
+| 22  | 7340120  | Kinh doanh quốc tế                     | A00;A01;C01;D01 | 18         |         |
+| 23  | 7340121  | Kinh doanh thương mại                  | A00;A01;C01;D01 | 18         |         |
+| 24  | 7340122  | Thương mại điện tử                     | A00;A01;C01;D01 | 18         |         |
+| 25  | 7340201  | Tài chính - Ngân hàng                  | A00;A01;C04;D01 | 18         |         |
+| 26  | 7340301  | Kế toán                                | A00;A01;C01;D10 | 18         |         |
+| 27  | 7340405  | Hệ thống thông tin quản lý             | A00;A01;C01;D01 | 18         |         |
+| 28  | 7380101  | Luật                                   | A00;A01;C00;D01 | 18         |         |
+| 29  | 7380107  | Luật kinh tế                           | A00;A01;C00;D01 | 18         |         |
+| 30  | 7420201  | Công nghệ sinh học                     | A00;A02;B00;D08 | 18         |         |
+| 31  | 7420205  | Công nghệ sinh học y dược              | A00;B00;D07;D08 | 18         |         |
+| 32  | 7420207  | Công nghệ thẩm mỹ                      | A00;B00;D07;D08 | 18         |         |
+| 33  | 7460108  | Khoa học dữ liệu                       | A00;A01;C01;D01 | 18         |         |
+| 34  | 7480103  | Kỹ thuật phần mềm                      | A00;A01;D01;D10 | 18         |         |
+| 35  | 7480201  | Công nghệ thông tin                    | A00;A01;C01;D10 | 18         |         |
+| 36  | 7510205  | Công nghệ kỹ thuật ô tô                | A00;A01;C01;D01 | 18         |         |
+| 37  | 7510301  | Công nghệ kỹ thuật điện, điện tử       | A00;A01;C01;D01 | 18         |         |
+| 38  | 7510406  | Công nghệ kỹ thuật môi trường          | A00;B00;D07;D08 | 18         |         |
+| 39  | 7510601  | Quản lý công nghiệp                    | A00;A01;A02;B00 | 18         |         |
+| 40  | 7510605  | Logistics và quản lý chuỗi cung ứng    | A00;A01;C01;D01 | 18         |         |
+| 41  | 7510606  | Quản trị môi trường doanh nghiệp       | A00;B00;D07;D08 | 18         |         |
+| 42  | 7520114  | Kỹ thuật cơ điện tử                    | A00;A01;C01;D01 | 18         |         |
+| 43  | 7520115  | Kỹ thuật nhiệt                         | A00;A01;D07     | 18         |         |
+| 44  | 7540101  | Công nghệ thực phẩm                    | A00;B00;C08;D08 | 18         |         |
+| 45  | 7580101  | Kiến trúc                              | V00;V01;H02     | 24         |         |
+| 46  | 7580108  | Thiết kế nội thất                      | H03;H04;H05;H06 | 24         |         |
+| 47  | 7580201  | Kỹ thuật xây dựng                      | A00;A01         | 18         |         |
+| 48  | 7580205  | Kỹ thuật XD công trình giao thông      | A00;A01;D07     | 18         |         |
+| 49  | 7580302  | Quản lý xây dựng                       | A00;A01;D01;D07 | 18         |         |
+| 50  | 7589001  | Thiết kế xanh                          | A00;A01;B00;D08 | 18         |         |
+| 51  | 7620118  | Nông nghiệp công nghệ cao              | A00;B00;D07;D08 | 18         |         |
+| 52  | 7720201  | Dược học                               | A00;B00;D07     | 24         |         |
+| 53  | 7720301  | Điều dưỡng                             | B00;C08;D07;D08 | 19.5       |         |
+| 54  | 7720501  | Răng - hàm - mặt                       | A00;B00;D07;D08 | 24         |         |
+| 55  | 7720601  | Kỹ thuật xét nghiệm y học              | A00;B00;D07;D08 | 19.5       |         |
+| 56  | 7760101  | Công tác xã hội                        | C00;C14;C20;D01 | 18         |         |
+| 57  | 7810101  | Du lịch                                | A00;A01;C00;D01 | 18         |         |
+| 58  | 7810103  | Quản trị dịch vụ du lịch & lữ hành     | A00;A01;D01;D03 | 18         |         |
+| 59  | 7810201  | Quản trị khách sạn                     | A00;A01;D01;D03 | 18         |         |
+| 60  | 7810202  | Quản trị nhà hàng và dịch vụ ăn uống   | A00;A01;D01;D03 | 18         |         |
+| 61  | 7850201  | Bảo hộ lao động                        | A00;A01;A02;B00 | 18         |         |
 
 # 2021
 ## THPT
@@ -564,6 +558,4 @@
 | 47  | 7810103  | QUẢN TRỊ DỊCH VỤ DU LỊCH & LỮ HÀNH     | A00;A01;D01;D03 | 18         | Đợt 1   |
 | 48  | 7810201  | QUẢN TRỊ KHÁCH SẠN                     | A00;A01;D01;D03 | 18         | Đợt 1   |
 | 49  | 7810202  | QUẢN TRỊ NHÀ HÀNG VÀ DỊCH VỤ ĂN UỐNG   | A00;A01;D01;D03 | 18         | Đợt 1   |
-
-## DGNL
 

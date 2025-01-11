@@ -1,70 +1,70 @@
 # 2024
 ## THPT
-|STT|Mã ngành|Tên ngành|Tổ hợp môn|Điểm chuẩn|Ghi chú|
-|---|---|---|---|---|---|
-|1|7140231V|Sư phạm tiếng Anh (đào tạo bằng tiếng Việt)|D01; D96|27.5||
-|2|7140246V|Sư phạm Công nghệ (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|24.15||
-|3|7210403V|Thiết kế đồ họa (đào tạo bằng tiếng Việt)|V01; V02; V07; V08|26.5||
-|4|7210404V|Thiết kế thời trang (đào tạo bằng tiếng Việt)|V01; V02; V07; V09|24.8||
-|5|7220201V|Ngôn ngữ Anh (đào tạo bằng tiếng Việt)|D01; D96|24.57||
-|6|7310403V|Tâm lý học giáo dục (đào tạo bằng tiếng Việt)|C00; C20; D01; D14|25.15||
-|7|7340120V|Kinh doanh Quốc tế (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|22.75||
-|8|7340122V|Thương mại điện tử (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|23||
-|9|7340301V|Kế toán (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|22.75||
-|10|7380101V|Luật (đào tạo bằng tiếng Việt)|A00; A01; C00; D01|25.12||
-|11|7480108A|Công nghệ kỹ thuật máy tính (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|25.4||
-|12|7480108V|Công nghệ kỹ thuật máy tính (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.5||
-|13|7480118V|Hệ thống nhúng và IoT (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.65||
-|14|7480201A|Công nghệ thông tin (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|25.65||
-|15|7480201N|Công nghệ thông tin (chương trình Việt - Nhật)|A00; A01; D01; D90|25.65||
-|16|7480201V|Công nghệ thông tin (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.97||
-|17|7480202V|An toàn thông tin (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|24.89||
-|18|7480203V|Kỹ thuật dữ liệu (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|24.05||
-|19|7510102A|Công nghệ kỹ thuật công trình xây dựng (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|21||
-|20|7510102V|Công nghệ kỹ thuật công trình xây dựng (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|23.05||
-|21|7510106V|Hệ thống kỹ thuật công trình xây dựng (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|22.22||
-|22|7510201A|Công nghệ kỹ thuật cơ khí (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|24.25||
-|23|7510201V|Công nghệ kỹ thuật cơ khí (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.1||
-|24|7510202A|Công nghệ chế tạo máy (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|23||
-|25|7510202N|Công nghệ chế tạo máy (chương trình Việt - Nhật)|A00; A01; D01; D90|23.75||
-|26|7510202V|Công nghệ chế tạo máy (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|24.27||
-|27|7510203A|Công nghệ kỹ thuật cơ điện tử (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|25.1||
-|28|7510203V|Công nghệ kỹ thuật cơ điện tử (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.45||
-|29|7510205A|Công nghệ kỹ thuật ô tô (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|24.75||
-|30|7510205N|Công nghệ kỹ thuật ô tô (chương trình Việt - Nhật)|A00; A01; D01; D90|25||
-|31|7510205V|Công nghệ kỹ thuật ô tô (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.39||
-|32|7510206A|Công nghệ kỹ thuật nhiệt (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|21||
-|33|7510206N|Công nghệ kỹ thuật nhiệt (chương trình Việt - Nhật)|A00; A01; D01; D90|24.4||
-|34|7510206V|Công nghệ kỹ thuật nhiệt (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|24.4||
-|35|7510208V|Năng lượng tái tạo (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|23.15||
-|36|7510209V|Robot và trí tuệ nhân tạo (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.66||
-|37|7510301A|Công nghệ kỹ thuật điện; điện tử (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|24.5||
-|38|7510301V|Công nghệ kỹ thuật điện; điện tử (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.12||
-|39|7510302A|Công nghệ kỹ thuật điện tử - viễn thông (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|24.35||
-|40|7510302N|Công nghệ kỹ thuật điện tử; viễn thông (chương trình Việt - Nhật)|A00; A01; D01; D90|24||
-|41|7510302TKVM|Chương trình đào tạo Kỹ thuật Thiết kế Vi mạch - thuộc ngành CNKT ĐT - Viễn thông (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.95||
-|42|7510302V|Công nghệ kỹ thuật điện tử; viễn thông (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.15||
-|43|7510303A|Công nghệ kỹ thuật điều khiển và tự động hóa (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|25.35||
-|44|7510303V|Công nghệ kỹ thuật điều khiển và tự động hóa (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|26.14||
-|45|7510401V|Công nghệ kỹ thuật hóa học (đào tạo bằng tiếng Việt)|A00; B00; D07; D90|24.9||
-|46|7510402V|Công nghệ vật liệu (đào tạo bằng tiếng Việt)|A00; A01; D07; D90|23.33||
-|47|7510406V|Công nghệ kỹ thuật môi trường (đào tạo bằng tiếng Việt)|A00; B00; D07; D90|22||
-|48|7510601A|Quản lý công nghiệp (đào tạo bằng tiếng Anh)|A00; A01; D01; D90|23.05||
-|49|7510601V|Quản lý công nghiệp (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|24.2||
-|50|7510605V|Logistics và quản lý chuỗi cung ứng (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|25.21||
-|51|7510801V|Công nghệ kỹ thuật in (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|22||
-|52|7520117V|Kỹ thuật công nghiệp (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|23.88||
-|53|7520212V|Kỹ thuật y sinh (Điện tử y sinh) (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|24.15||
-|54|7540101A|Công nghệ thực phẩm (đào tạo bằng tiếng Anh)|A00; B00; D07; D90|22.5||
-|55|7540101V|Công nghệ thực phẩm (đào tạo bằng tiếng Việt)|A00; B00; D07; D90|24.2||
-|56|7540209V|Công nghệ may (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|21.41||
-|57|7549002V|Kỹ nghệ gỗ và nội thất (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|20.5||
-|58|7580101V|Kiến trúc (đào tạo bằng tiếng Việt)|V03; V04; V05; V06|22.97||
-|59|7580103V|Kiến trúc nội thất (đào tạo bằng tiếng Việt)|V03; V04; V05; V06|22.77||
-|60|7580205V|Kỹ thuật xây dựng công trình giao thông (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|21.55||
-|61|7580302V|Quản lý xây dựng (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|22.17||
-|62|7810202V|Quản trị nhà hàng và dịch vụ ăn uống (đào tạo bằng tiếng Việt)|A00; A01; D01; D07|23.27||
-|63|7840110V|Quản lý và vận hành hạ tầng (đào tạo bằng tiếng Việt)|A00; A01; D01; D90|21.22|
+| STT | Mã ngành    | Tên ngành                                                                                                   | Tổ hợp môn         | Điểm chuẩn | Ghi chú |
+| --- | ----------- | ----------------------------------------------------------------------------------------------------------- | ------------------ | ---------- | ------- |
+| 1   | 7140231V    | Sư phạm tiếng Anh (đào tạo bằng tiếng Việt)                                                                 | D01; D96           | 27.5       |         |
+| 2   | 7140246V    | Sư phạm Công nghệ (đào tạo bằng tiếng Việt)                                                                 | A00; A01; D01; D90 | 24.15      |         |
+| 3   | 7210403V    | Thiết kế đồ họa (đào tạo bằng tiếng Việt)                                                                   | V01; V02; V07; V08 | 26.5       |         |
+| 4   | 7210404V    | Thiết kế thời trang (đào tạo bằng tiếng Việt)                                                               | V01; V02; V07; V09 | 24.8       |         |
+| 5   | 7220201V    | Ngôn ngữ Anh (đào tạo bằng tiếng Việt)                                                                      | D01; D96           | 24.57      |         |
+| 6   | 7310403V    | Tâm lý học giáo dục (đào tạo bằng tiếng Việt)                                                               | C00; C20; D01; D14 | 25.15      |         |
+| 7   | 7340120V    | Kinh doanh Quốc tế (đào tạo bằng tiếng Việt)                                                                | A00; A01; D01; D90 | 22.75      |         |
+| 8   | 7340122V    | Thương mại điện tử (đào tạo bằng tiếng Việt)                                                                | A00; A01; D01; D90 | 23         |         |
+| 9   | 7340301V    | Kế toán (đào tạo bằng tiếng Việt)                                                                           | A00; A01; D01; D90 | 22.75      |         |
+| 10  | 7380101V    | Luật (đào tạo bằng tiếng Việt)                                                                              | A00; A01; C00; D01 | 25.12      |         |
+| 11  | 7480108A    | Công nghệ kỹ thuật máy tính (đào tạo bằng tiếng Anh)                                                        | A00; A01; D01; D90 | 25.4       |         |
+| 12  | 7480108V    | Công nghệ kỹ thuật máy tính (đào tạo bằng tiếng Việt)                                                       | A00; A01; D01; D90 | 25.5       |         |
+| 13  | 7480118V    | Hệ thống nhúng và IoT (đào tạo bằng tiếng Việt)                                                             | A00; A01; D01; D90 | 25.65      |         |
+| 14  | 7480201A    | Công nghệ thông tin (đào tạo bằng tiếng Anh)                                                                | A00; A01; D01; D90 | 25.65      |         |
+| 15  | 7480201N    | Công nghệ thông tin (chương trình Việt - Nhật)                                                              | A00; A01; D01; D90 | 25.65      |         |
+| 16  | 7480201V    | Công nghệ thông tin (đào tạo bằng tiếng Việt)                                                               | A00; A01; D01; D90 | 25.97      |         |
+| 17  | 7480202V    | An toàn thông tin (đào tạo bằng tiếng Việt)                                                                 | A00; A01; D01; D90 | 24.89      |         |
+| 18  | 7480203V    | Kỹ thuật dữ liệu (đào tạo bằng tiếng Việt)                                                                  | A00; A01; D01; D90 | 24.05      |         |
+| 19  | 7510102A    | Công nghệ kỹ thuật công trình xây dựng (đào tạo bằng tiếng Anh)                                             | A00; A01; D01; D90 | 21         |         |
+| 20  | 7510102V    | Công nghệ kỹ thuật công trình xây dựng (đào tạo bằng tiếng Việt)                                            | A00; A01; D01; D90 | 23.05      |         |
+| 21  | 7510106V    | Hệ thống kỹ thuật công trình xây dựng (đào tạo bằng tiếng Việt)                                             | A00; A01; D01; D90 | 22.22      |         |
+| 22  | 7510201A    | Công nghệ kỹ thuật cơ khí (đào tạo bằng tiếng Anh)                                                          | A00; A01; D01; D90 | 24.25      |         |
+| 23  | 7510201V    | Công nghệ kỹ thuật cơ khí (đào tạo bằng tiếng Việt)                                                         | A00; A01; D01; D90 | 25.1       |         |
+| 24  | 7510202A    | Công nghệ chế tạo máy (đào tạo bằng tiếng Anh)                                                              | A00; A01; D01; D90 | 23         |         |
+| 25  | 7510202N    | Công nghệ chế tạo máy (chương trình Việt - Nhật)                                                            | A00; A01; D01; D90 | 23.75      |         |
+| 26  | 7510202V    | Công nghệ chế tạo máy (đào tạo bằng tiếng Việt)                                                             | A00; A01; D01; D90 | 24.27      |         |
+| 27  | 7510203A    | Công nghệ kỹ thuật cơ điện tử (đào tạo bằng tiếng Anh)                                                      | A00; A01; D01; D90 | 25.1       |         |
+| 28  | 7510203V    | Công nghệ kỹ thuật cơ điện tử (đào tạo bằng tiếng Việt)                                                     | A00; A01; D01; D90 | 25.45      |         |
+| 29  | 7510205A    | Công nghệ kỹ thuật ô tô (đào tạo bằng tiếng Anh)                                                            | A00; A01; D01; D90 | 24.75      |         |
+| 30  | 7510205N    | Công nghệ kỹ thuật ô tô (chương trình Việt - Nhật)                                                          | A00; A01; D01; D90 | 25         |         |
+| 31  | 7510205V    | Công nghệ kỹ thuật ô tô (đào tạo bằng tiếng Việt)                                                           | A00; A01; D01; D90 | 25.39      |         |
+| 32  | 7510206A    | Công nghệ kỹ thuật nhiệt (đào tạo bằng tiếng Anh)                                                           | A00; A01; D01; D90 | 21         |         |
+| 33  | 7510206N    | Công nghệ kỹ thuật nhiệt (chương trình Việt - Nhật)                                                         | A00; A01; D01; D90 | 24.4       |         |
+| 34  | 7510206V    | Công nghệ kỹ thuật nhiệt (đào tạo bằng tiếng Việt)                                                          | A00; A01; D01; D90 | 24.4       |         |
+| 35  | 7510208V    | Năng lượng tái tạo (đào tạo bằng tiếng Việt)                                                                | A00; A01; D01; D90 | 23.15      |         |
+| 36  | 7510209V    | Robot và trí tuệ nhân tạo (đào tạo bằng tiếng Việt)                                                         | A00; A01; D01; D90 | 25.66      |         |
+| 37  | 7510301A    | Công nghệ kỹ thuật điện; điện tử (đào tạo bằng tiếng Anh)                                                   | A00; A01; D01; D90 | 24.5       |         |
+| 38  | 7510301V    | Công nghệ kỹ thuật điện; điện tử (đào tạo bằng tiếng Việt)                                                  | A00; A01; D01; D90 | 25.12      |         |
+| 39  | 7510302A    | Công nghệ kỹ thuật điện tử - viễn thông (đào tạo bằng tiếng Anh)                                            | A00; A01; D01; D90 | 24.35      |         |
+| 40  | 7510302N    | Công nghệ kỹ thuật điện tử; viễn thông (chương trình Việt - Nhật)                                           | A00; A01; D01; D90 | 24         |         |
+| 41  | 7510302TKVM | Chương trình đào tạo Kỹ thuật Thiết kế Vi mạch - thuộc ngành CNKT ĐT - Viễn thông (đào tạo bằng tiếng Việt) | A00; A01; D01; D90 | 25.95      |         |
+| 42  | 7510302V    | Công nghệ kỹ thuật điện tử; viễn thông (đào tạo bằng tiếng Việt)                                            | A00; A01; D01; D90 | 25.15      |         |
+| 43  | 7510303A    | Công nghệ kỹ thuật điều khiển và tự động hóa (đào tạo bằng tiếng Anh)                                       | A00; A01; D01; D90 | 25.35      |         |
+| 44  | 7510303V    | Công nghệ kỹ thuật điều khiển và tự động hóa (đào tạo bằng tiếng Việt)                                      | A00; A01; D01; D90 | 26.14      |         |
+| 45  | 7510401V    | Công nghệ kỹ thuật hóa học (đào tạo bằng tiếng Việt)                                                        | A00; B00; D07; D90 | 24.9       |         |
+| 46  | 7510402V    | Công nghệ vật liệu (đào tạo bằng tiếng Việt)                                                                | A00; A01; D07; D90 | 23.33      |         |
+| 47  | 7510406V    | Công nghệ kỹ thuật môi trường (đào tạo bằng tiếng Việt)                                                     | A00; B00; D07; D90 | 22         |         |
+| 48  | 7510601A    | Quản lý công nghiệp (đào tạo bằng tiếng Anh)                                                                | A00; A01; D01; D90 | 23.05      |         |
+| 49  | 7510601V    | Quản lý công nghiệp (đào tạo bằng tiếng Việt)                                                               | A00; A01; D01; D90 | 24.2       |         |
+| 50  | 7510605V    | Logistics và quản lý chuỗi cung ứng (đào tạo bằng tiếng Việt)                                               | A00; A01; D01; D90 | 25.21      |         |
+| 51  | 7510801V    | Công nghệ kỹ thuật in (đào tạo bằng tiếng Việt)                                                             | A00; A01; D01; D90 | 22         |         |
+| 52  | 7520117V    | Kỹ thuật công nghiệp (đào tạo bằng tiếng Việt)                                                              | A00; A01; D01; D90 | 23.88      |         |
+| 53  | 7520212V    | Kỹ thuật y sinh (Điện tử y sinh) (đào tạo bằng tiếng Việt)                                                  | A00; A01; D01; D90 | 24.15      |         |
+| 54  | 7540101A    | Công nghệ thực phẩm (đào tạo bằng tiếng Anh)                                                                | A00; B00; D07; D90 | 22.5       |         |
+| 55  | 7540101V    | Công nghệ thực phẩm (đào tạo bằng tiếng Việt)                                                               | A00; B00; D07; D90 | 24.2       |         |
+| 56  | 7540209V    | Công nghệ may (đào tạo bằng tiếng Việt)                                                                     | A00; A01; D01; D90 | 21.41      |         |
+| 57  | 7549002V    | Kỹ nghệ gỗ và nội thất (đào tạo bằng tiếng Việt)                                                            | A00; A01; D01; D90 | 20.5       |         |
+| 58  | 7580101V    | Kiến trúc (đào tạo bằng tiếng Việt)                                                                         | V03; V04; V05; V06 | 22.97      |         |
+| 59  | 7580103V    | Kiến trúc nội thất (đào tạo bằng tiếng Việt)                                                                | V03; V04; V05; V06 | 22.77      |         |
+| 60  | 7580205V    | Kỹ thuật xây dựng công trình giao thông (đào tạo bằng tiếng Việt)                                           | A00; A01; D01; D90 | 21.55      |         |
+| 61  | 7580302V    | Quản lý xây dựng (đào tạo bằng tiếng Việt)                                                                  | A00; A01; D01; D90 | 22.17      |         |
+| 62  | 7810202V    | Quản trị nhà hàng và dịch vụ ăn uống (đào tạo bằng tiếng Việt)                                              | A00; A01; D01; D07 | 23.27      |         |
+| 63  | 7840110V    | Quản lý và vận hành hạ tầng (đào tạo bằng tiếng Việt)                                                       | A00; A01; D01; D90 | 21.22      |         |
 
 ## Học bạ
 | STT | Mã ngành | Tên ngành                                                                              | Tổ hợp môn              | Điểm chuẩn | Ghi chú                              |
@@ -754,10 +754,6 @@
 | 76  | 7810202D  | Quản trị nhà hàng và dịch vụ ăn uống         | A00;A01;D01;D07 | 23.35      | Đại trà         |
 | 77  | 7840110D  | Quản lý và vận hành hạ tầng                  | A00;A01;D01;D90 | 19.85      | Đại trà         |
 
-## Học bạ
-
-
-
 ## DGNL
 | STT | Mã ngành | Tên ngành                                                             | Tổ hợp môn | Điểm chuẩn | Ghi chú |
 | --- | -------- | --------------------------------------------------------------------- | ---------- | ---------- | ------- |
@@ -838,17 +834,6 @@
 | 75  | 7580302D | Quản lý xây dựng (Đại trà)                                            |            | 19         |         |
 | 76  | 7810202D | Quản trị nhà hàng và dịch vụ ăn uống (Đại trà)                        |            | 18.5       |         |
 | 77  | 7840110D | Quản lý và vận hành hạ tầng (Đại trà)                                 |            | 18         |         |
-
-## Điểm xét tuyển kết hợp
-
-
-
-## UTXT
-
-
-
-## Chứng chỉ quốc tế
-
 
 # 2022
 ## THPT
@@ -931,10 +916,6 @@
 | 75  | 7810202D  | Quản trị nhà hàng và dịch vụ ăn uống         | A00;A01;D01;D07 | 20.75      | Hệ Đại trà         |
 | 76  | 7840110D  | Quản lý và vận hành hạ tầng                  | A00;A01;D01;D90 | 17.7       | Hệ Đại trà         |
 
-## Học bạ
-
-
-
 ## DGNL
 | STT | Mã ngành  | Tên ngành                                    | Tổ hợp môn | Điểm chuẩn | Ghi chú                    |
 | --- | --------- | -------------------------------------------- | ---------- | ---------- | -------------------------- |
@@ -1015,16 +996,6 @@
 | 75  | 7580302D  | Quản lý xây dựng                             |            | 21         | Đại trà                    |
 | 76  | 7810202D  | Quản trị nhà hàng và dịch vụ ăn uống         |            | 21         | Đại trà                    |
 | 77  | 7840110D  | Quản lý và vận hành hạ tầng                  |            | 21         | Đại trà                    |
-
-## Điểm xét tuyển kết hợp
-
-
-
-## UTXT
-
-
-
-## Chứng chỉ quốc tế
 
 # 2021
 ## THPT
@@ -1209,19 +1180,3 @@
 | 176 | 7810203QN | Quản lý nhà hàng và khách sạn (Northampton - Anh)    | A01;C00;D01;D15 | 16         | Hệ liên kết quốc tế           |
 | 177 | 7840110D  | Quản lý và vận hành hạ tầng                          | A00             | 19         | Hệ đại trà                    |
 | 178 | 7840110D  | Quản lý và vận hành hạ tầng                          | A01;D01;D90     | 19.5       | Hệ đại trà                    |
-## Học bạ
-
-
-
-## DGNL
-
-
-## Điểm xét tuyển kết hợp
-
-
-
-## UTXT
-
-
-
-## Chứng chỉ quốc tế

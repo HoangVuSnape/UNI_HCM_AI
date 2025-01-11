@@ -257,11 +257,6 @@
 | 19  | 7540101  | Công nghệ thực phẩm                    | A00;D07;B00;A01 | 25.7       | Nhận hết HSG + Học bạ có CCNN+ Học bạ: 25.7   |
 | 20  | 7580302  | Quản lý xây dựng                       | A00;A01;D01;D07 | 20         | Nhận hết HSG + Học bạ có CCNN+ Học bạ: 20     |
 | 21  | 7760101  | Công tác xã hội                        | A01;D01;C00;D78 | 23.25      | Nhận hết HSG + Học bạ có CCNN+ Học bạ: 23.25  |
-## DGNL
-
-
-## Đánh giá đầu vào VSAT
-
 
 # 2022
 ## THPT 
@@ -305,16 +300,6 @@
 | 36  | 7580302  | Quản lý xây dựng                                        | A00;A01;D01;D07                                                 | 16         |         |
 | 37  | 7760101  | Công tác xã hội                                         | A01;C00;D01;D02;D03;D04;D05;D06;D78;D79;D80;D81;D82;D83;DH8;DD2 | 20         |         |
 | 38  | 7810101  | Du lịch                                                 | A00;A01;D01;C03                                                 | 23.8       |         |
-
-## Học ba 
-
-
-## DGNL
-
-
-## Đánh giá đầu vào VSAT
-
-
 # 2021
 ## THPT 
 
@@ -356,11 +341,5 @@
 | 34  | 7580302  | Quản lý xây dựng                                        | A00;A01;D01;D07                                                 | 19         |         |
 | 35  | 7760101  | Công tác xã hội                                         | A01;C00;D01;D02;D03;D04;D05;D06;D78;D79;D80;D81;D82;D83;DH8;DD2 | 18.8       |         |
 | 36  | 7810101  | Du lịch                                                 | A00;A01;D01;C03                                                 | 24.5       |         |
-## Học bạ
 
-
-## DGNL
-
-
-## Đánh giá đầu vào VSAT
 
