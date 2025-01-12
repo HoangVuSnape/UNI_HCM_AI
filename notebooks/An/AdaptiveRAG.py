@@ -1,6 +1,7 @@
 from typing import Dict, List, Optional, Any, Union
 from langgraph.graph import END, StateGraph, START
 from pydantic import BaseModel
+
 from Grader import RetrievalGrader, HallucinationGrader, AnswerGrader
 from QueryRouter import QueryRouter
 from QueryTransformation import QueryTransformation
@@ -187,8 +188,8 @@ class AdaptiveAgent:
             print(f"Error during execution: {e}")
             return f"An error occurred: {str(e)}"
         
-agent = AdaptiveAgent()
-#agent.display()
-query = "Tuyển sinh đại học Tôn Đức Thắng 2024"
-answer = agent.run(query)
-print(answer)
+# agent = AdaptiveAgent()
+# #agent.display()
+# query = "Tuyển sinh đại học Tôn Đức Thắng 2024"
+# answer = agent.run(query)
+# print(answer)

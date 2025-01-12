@@ -9,6 +9,12 @@ import json
 
 from dotenv import load_dotenv
 load_dotenv(Path("./.env"))
+# GEMINAI_API_KEY_1 = os.getenv("Google_API_KEY")
+# print(f"GEMINAI_API_KEY_1: {GEMINAI_API_KEY_1}")
+
+# groq_api_key = os.getenv("groq_api_key")
+# print(f"groq_api_key: {groq_api_key}")
+
 genai.configure(api_key=os.getenv("Google_API_KEY"))
 
 class QueryTransformation:
@@ -66,7 +72,11 @@ class QueryTransformation:
     
     def transform(self, query):
         return self.decomposition_query(self.enhancing_query(query))
+    
+    
 # transformation = QueryTransformation()
-# enhance = transformation.enhancing_query({"query": "Đại học Tôn Đức Thắng 2021"})
-# decompose = transformation.decomposition_query({"query": "So sánh ngành CNTT giữa VLU và TDTU"})
+# input1 = {"query": "Đại học Tôn Đức Thắng 2021"}
+# input2 = {"query": "So sánh ngành CNTT giữa VLU và TDTU"}
+# enhance = transformation.enhancing_query(input1)
+# decompose = transformation.decomposition_query(input2)
 
