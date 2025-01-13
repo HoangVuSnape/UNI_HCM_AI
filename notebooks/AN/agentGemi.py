@@ -69,6 +69,7 @@ def queryTransformationTest(prompt: str) -> str:
     return response
 
 
+
 tools = [get_current_time_vietnam, add, queryTransformationTest]
 # tools = [get_current_time_vietnam, add]
 
