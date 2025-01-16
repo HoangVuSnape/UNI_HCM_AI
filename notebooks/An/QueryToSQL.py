@@ -3,6 +3,14 @@ import google.generativeai as genai
 from pathlib import Path
 import sqlite3
 import pandas as pd
+from google.oauth2 import service_account
+from langchain_google_vertexai import ChatVertexAI
+
+# === 1. Setup Vertex AI with credentials ===
+credentials_path = "E:/LLM_clone/credentials/tdtuchat-16614553b756.json"
+credentials = service_account.Credentials.from_service_account_file(credentials_path)
+
+
 
 class SQL_Constructor:
      def  __init__(self):
@@ -83,7 +91,13 @@ class SQL_Constructor:
                AND major_name LIKE '%quản trị kinh doanh%';
           ```
 """
-          self.llm = ChatGoogleGenerativeAI(model= "gemini-1.5-pro", temperature= 0.1)
+          # self.llm = ChatGoogleGenerativeAI(model= "gemini-1.5-pro", temperature= 0.1)
+          self.llm = ChatVertexAI(
+                    model="gemini-1.5-pro",
+                    temperature=0.6,
+                    max_tokens=200,
+                    credentials=credentials,
+                    max_retries=5   )
 
      def  transform_to_sql(self, user_query):
           query = {"query": user_query}
@@ -93,20 +107,38 @@ class SQL_Constructor:
           return sql_query.content
      
      def format_query(self, text):
-          sql_query = text.replace("```sql\n", "").replace("\n```", "")
+          sql_query = text.replace("```sql", "").replace("```", "")
           return sql_query
      
-     def  run(self, user_query):
-          sql_query = self.format_query(self.transform_to_sql(user_query))
-          with sqlite3.connect(self.db_path) as conn:
-               df = pd.read_sql_query(sql_query, conn)
-          return df.to_string(index= False)
-     
-# sql = SQL_Constructor()
+     def read_sql_query(self, sql):
+          conn = sqlite3.connect(self.db_path)
+          cur = conn.cursor()
+          cur.execute(sql)
+          rows = cur.fetchall()
+          for row in rows:
+               print(row)
+          conn.close()
 
-# sql_query = sql.transform_to_sql("Điểm chuẩn thpt Công nghệ thông tin TDTU 2021")
-# formatted = sql.format_query(sql_query)
-# df = sql.run("Điểm chuẩn thpt ngành marketing TDTU 2022")
-# print(sql_query)
-# print(formatted)
-# print(df)
+     
+     def  run(self, user_query):
+          sql_query = self.transform_to_sql(user_query)
+          formatted = self.format_query(sql_query)
+          with sqlite3.connect(self.db_path) as conn:
+               df = self.read_sql_query(formatted, conn)
+               df = pd.df
+          return df.to_string(index= False)
+
+
+if __name__ == '__main__':
+
+     sql = SQL_Constructor()
+     input = "Điểm chuẩn thpt Công nghệ thông tin TDTU 2021"
+     sql_query = sql.transform_to_sql(input)
+     formatted = sql.format_query(sql_query)
+     # df = sql.run(input)
+     df = sql.read_sql_query(formatted)
+     print(sql_query)
+     print("\n-----------------\n")
+     print(formatted)
+     print("\n-----------------\n")
+     print(df)

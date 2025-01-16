@@ -1,7 +1,7 @@
 # Version 2 front end
 # It have new chat and history chat.
 import streamlit as st
-from AdaptiveRAG import AdaptiveAgent
+from RAGAgent import AdaptiveAgent
 from pathlib import Path
 from dotenv import load_dotenv
 from QueryTransformation import QueryTransformation

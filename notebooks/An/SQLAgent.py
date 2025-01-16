@@ -5,6 +5,14 @@ from typing_extensions import TypedDict
 from IPython.display import display, Image
 from QueryToSQL import SQL_Constructor
 
+from google.oauth2 import service_account
+from langchain_google_vertexai import ChatVertexAI
+
+# === 1. Setup Vertex AI with credentials ===
+credentials_path = "E:/LLM_clone/credentials/tdtuchat-16614553b756.json"
+credentials = service_account.Credentials.from_service_account_file(credentials_path)
+
+
 class AgentState(TypedDict):
      message: str
      retrieved_docs: List[Any]
@@ -70,8 +78,9 @@ class SQLAgent:
         except Exception as e:
             print(f"Error during execution: {e}")
             return f"An error occurred: {str(e)}"
+       
         
 agent = SQLAgent()
 agent.display()
-# query = "Điểm chuẩn THPT ngành Công Nghệ Thông Tin đại học Tôn Đức Thắng 2021"
-# print(agent.run(query))
+query = "Điểm chuẩn THPT ngành Công Nghệ Thông Tin đại học Tôn Đức Thắng 2021"
+print(agent.run(query))
