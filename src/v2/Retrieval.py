@@ -6,7 +6,7 @@ from langchain_qdrant import QdrantVectorStore
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-load_dotenv(Path("./.env"))
+load_dotenv(Path("../.env"))
 
 
 embedding_model = HuggingFaceEmbeddings(
@@ -41,10 +41,30 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
           )
           return vector_store.similarity_search(query, k)
 
+# Test
 if __name__ == "__main__":   
      
      retriever = UniversityRetrievalStrategy()
      query = "Điểm chuẩn ngành Công Nghê Thông Tin 2021 UIT"
      docs = retriever.retrieve(query, k= 3)
-     print(docs)
+     
+     #######
+     metadata_0 = docs[0].metadata
+     print(metadata_0)
+
+     # Hoặc lấy từng phần cụ thể của metadata
+     source = metadata_0['source']
+     document_id = metadata_0['_id']
+     collection_name = metadata_0['_collection_name']
+
+     # In ra từng phần
+     print("Source:", source)
+     print("Document ID:", document_id)
+     print("Collection Name:", collection_name)
+
      print('----------------------')
+     
+     ###
+     for doc in docs:
+          print(doc.page_content)
+          print('----------------------')

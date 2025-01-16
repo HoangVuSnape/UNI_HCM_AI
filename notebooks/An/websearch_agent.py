@@ -69,8 +69,9 @@ class WebSearchingAgent:
         except Exception as e:
             print(f"Error during execution: {e}")
             return f"An error occurred: {str(e)}"
-        
-agent = WebSearchingAgent()
-agent.display()
-query = "Chủ tịch Hồ Chí Minh sinh năm bao nhiêu"
-print(agent.run(query))
+
+if __name__ == "__main__":   
+     agent = WebSearchingAgent()
+     agent.display()
+     query = "Chủ tịch Hồ Chí Minh sinh năm bao nhiêu"
+     print(agent.run(query))

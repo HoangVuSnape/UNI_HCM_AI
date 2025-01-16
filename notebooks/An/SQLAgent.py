@@ -28,7 +28,7 @@ class SQLAgent:
           query = state['message']
           docs = []
           docs.append(self.sql_constructor.run(query))
-          
+          print(docs)
           return {
                "next": "generate",
                **state,
@@ -61,7 +61,7 @@ class SQLAgent:
      
      def display(self):
         workflow = self._create_workflow()
-        with open("websearch_agent.png", 'wb') as f:
+        with open("sql_agent.png", 'wb') as f:
             f.write(workflow.get_graph().draw_mermaid_png())
         
      
@@ -79,8 +79,9 @@ class SQLAgent:
             print(f"Error during execution: {e}")
             return f"An error occurred: {str(e)}"
        
-        
-agent = SQLAgent()
-agent.display()
-query = "Điểm chuẩn THPT ngành Công Nghệ Thông Tin đại học Tôn Đức Thắng 2021"
-print(agent.run(query))
+if __name__ == "__main__":   
+     agent = SQLAgent()
+     agent.display()
+     
+     query = "Điểm chuẩn thpt Khoa học máy tính TDTU 2021"
+     print(agent.run(query))

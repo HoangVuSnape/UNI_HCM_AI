@@ -24,10 +24,11 @@ class WebSearching:
         for result in response:
             docs.append(result['url'] + "\n" + result['content'])
         return docs
-
-# searching = WebSearching()
-# query = "Thủ tướng Nguyễn Minh Chính?"
-# docs = searching.search(query)
-# for i in docs:
-#     print(i)
-#     print("----------------------")
+if __name__ == "__main__":   
+    pass
+    # searching = WebSearching()
+    # query = "Thủ tướng Nguyễn Minh Chính?"
+    # docs = searching.search(query)
+    # for i in docs:
+    #     print(i)
+    #     print("----------------------")

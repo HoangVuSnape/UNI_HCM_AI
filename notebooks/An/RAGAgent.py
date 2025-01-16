@@ -168,10 +168,11 @@ class AdaptiveAgent:
         except Exception as e:
             print(f"Error during execution: {e}")
             return f"An error occurred: {str(e)}"
-        
-# agent = AdaptiveAgent()
-# #agent.display()
-# query = "Tuyển sinh đại học Tôn Đức Thắng 2024"
 
-# answer = agent.run(query)
-# print(answer)
+if __name__ == "__main__":      
+    agent = AdaptiveAgent()
+    agent.display()
+    query = "Tuyển sinh đại học Tôn Đức Thắng 2024"
+
+    answer = agent.run(query)
+    print(answer)
