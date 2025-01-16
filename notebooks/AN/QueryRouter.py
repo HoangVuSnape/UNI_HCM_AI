@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 load_dotenv(Path("./.env"))
 
-genai.configure(api_key= os.getenv("Google_API_KEY"))
+genai.configure(api_key= os.getenv("GG_API"))
 
 class RouteQuery(BaseModel):
     """Route a user query to the most relevant datasource."""
@@ -39,7 +39,7 @@ class QueryRouter:
 
           self.route_prompt = PromptTemplate(
                     input_variables=["query"],
-                    template= """Dựa vào truy vấn từ người dùng: {query}
+                    template= """Dựa vào truy vấn(câu hỏi) từ người dùng: {query}
                     Hãy phân thuộc dạng truy vấn vào: vectorstore hay web search.
                     Vectorstore bao gồm tất cả các thông tin liên quan đến tất cả các vấn đề tuyển sinh của các trường đại học tại Việt Nam: bao gồm điểm chuẩn qua các năm, học phí, thông tin trường đại học, thông tin ngành, ...
                     Nếu nội dung câu truy vấn của người dùng liên quan đến các vấn đề trên thì phần loại là vectorstore, còn lại là websearch """
@@ -83,6 +83,6 @@ class QueryRouter:
 
     
 # classifier = QueryRouter()
-# source = classifier.classify("Thông tin trường đại học Văn Lang")
-#print(type(source.datasource))
+# source = classifier.classify("Chỉ tiêu tuyển sinh đại học Nguyễn Tất Thành 2022?")
+# print((source.datasource))
 #print(classifier.UniversityRouting({"query": "Thông tin trường Ngoai Thuong"}).university_code)

@@ -6,8 +6,8 @@ import google.generativeai as genai
 from pathlib import Path
 import os
 import json
-
 from dotenv import load_dotenv
+
 load_dotenv(Path("./.env"))
 # GEMINAI_API_KEY_1 = os.getenv("Google_API_KEY")
 # print(f"GEMINAI_API_KEY_1: {GEMINAI_API_KEY_1}")
@@ -20,7 +20,7 @@ genai.configure(api_key=os.getenv("Google_API_KEY"))
 class QueryTransformation:
     def __init__(self, llm=None):
         self.llm = llm or ChatGoogleGenerativeAI(
-            model="gemini-1.5-flash-8b",
+            model="gemini-1.5-pro",
             temperature=0
         )
 
@@ -72,7 +72,6 @@ class QueryTransformation:
     
     def transform(self, query):
         return self.decomposition_query(self.enhancing_query(query))
-    
     
 # transformation = QueryTransformation()
 # input1 = {"query": "Đại học Tôn Đức Thắng 2021"}

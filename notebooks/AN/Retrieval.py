@@ -2,10 +2,8 @@ from QueryRouter import QueryRouter
 from qdrant_client import QdrantClient
 from langchain_huggingface import HuggingFaceEmbeddings
 import google.generativeai as genai
-from langchain.prompts import PromptTemplate
 from langchain_qdrant import QdrantVectorStore
 import os
-import pandas as pd
 from pathlib import Path
 from dotenv import load_dotenv
 load_dotenv(Path("./.env"))
@@ -42,10 +40,10 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
                embedding=embedding_model
           )
           return vector_store.similarity_search(query, k)
-     
+    
 # retriever = UniversityRetrievalStrategy()
-# query = "tuyển sinh NTTU 2023"
-# docs1, docs2 = retriever.retrieve(query, k= 3)
-# print(docs1)
+# query = "Điểm chuẩn ngành Công Nghê Thông Tin 2021 TDTU"
+# docs = retriever.retrieve(query, k= 3)
+# print(docs)
 # print('----------------------')
 # print(docs2)

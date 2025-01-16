@@ -11,7 +11,7 @@ from pathlib import Path
 from langchain_core.output_parsers import StrOutputParser
 from dotenv import load_dotenv
 load_dotenv(Path("./.env"))
-
+GROQ_API_KEY= os.getenv("groq_api_key")
 genai.configure(api_key= os.getenv("Google_API_KEY"))
 
 class AdmissionResponse(BaseModel):
@@ -41,8 +41,18 @@ class Serve:
           return "\n\n".join([f"Nguồn {i+1}:\n{doc.page_content}" for i, doc in enumerate(docs)])
 
      def __call__(self, query, docs : List[Document]) -> AdmissionResponse:
-          #docs = self.retriever.retrieve(query)
+          docs = self._remove_duplicates(docs)
           context = self.format_docs(docs)
+          answer_chain = self.prompt | self.llm | StrOutputParser()
+          answer = answer_chain.invoke({
+               "context": context,
+               "question": query
+          })
+          
+          return AdmissionResponse(answer=answer)
+     
+     def run(self, query, docs : List[Document]) -> AdmissionResponse:
+          context = "\n\n".join([f"Nguồn {i+1}:\n{doc}" for i, doc in enumerate(docs)])
           answer_chain = self.prompt | self.llm | StrOutputParser()
           answer = answer_chain.invoke({
                "context": context,
