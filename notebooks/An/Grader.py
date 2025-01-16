@@ -1,23 +1,29 @@
 from typing import List, Dict
-from pydantic import BaseModel, Field
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.docstore.document import Document
-from Serve import Serve
-from Retrieval import UniversityRetrievalStrategy
-
 class RetrievalGrader:
     def __init__(self):
-          self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash-8b", temperature=0)
+          self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro", temperature=0)
           self.prompt = ChatPromptTemplate.from_messages([
                ("system", "Bạn là chuyên gia trong việc đánh giá chất lượng tìm kiếm tài liệu."),
-               ("user", """Chấm điểm độ liên quan giữa tài liệu thu thập được với câu truy vấn, liệu tài liệu thu thập được có liên quan đến câu truy vấn. Chỉ đưa ra điểm số (0-10) để chỉ mức độ liên quan giữa tài liệu và truy vấn. Không giải thích thêm
-               
-               Truy vấn: {query}
-               
-               Tài liệu:
-               {documents}
-               
+               ("user", """Hãy đánh giá mức độ liên quan giữa câu truy vấn và các tài liệu được cung cấp .Chỉ trả về điểm số, không giải thích.
+                    0: Hoàn toàn không liên quan
+                    1: Rất ít liên quan, chỉ có một số từ khóa chung chung
+                    2: Mối liên quan yếu, một số ý chính trùng khớp nhưng không đầy đủ
+                    3: Mối liên quan vừa phải, tài liệu đề cập đến chủ đề nhưng thiếu chi tiết quan trọng
+                    4: Mối liên quan cao, tài liệu bao quát hầu hết các ý chính của câu truy vấn
+                    5: Hoàn toàn liên quan, tài liệu phản ánh đầy đủ và chính xác toàn bộ nội dung câu truy vấn
+                    Yêu cầu chi tiết:
+                    Phân tích ý nghĩa và nội dung chính của câu truy vấn.
+                    So sánh ý chính và mức độ bao quát của tài liệu với nội dung của câu truy vấn.
+                    Đưa ra lý do ngắn gọn cho điểm số được đánh giá.
+                    Chú ý đến ngữ cảnh, từ đồng nghĩa, cách diễn đạt khác nhưng cùng ý nghĩa.
+                    Đảm bảo công bằng, không thiên vị dựa trên độ dài hoặc hình thức trình bày.
+                Truy vấn: {query}
+                Tài liệu:
+                {documents}
+                
                """)
           ])
 
@@ -29,43 +35,30 @@ class RetrievalGrader:
         ))
         
         # Return structured scores
-        return int(evaluation.content)
-
-class HallucinationGrader:
-    def __init__(self):
-        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash-8b", temperature=0)
-        self.prompt = ChatPromptTemplate.from_messages([
-            ("system", "Bạn là chuyên gia trong việc phát hiện liệu rằng AI có đang tự bịa ra câu trả lời hay không"),
-            ("user", """Phân tích xem câu trả lời này có được hỗ trợ đầy đủ bởi các tài liệu được cung cấp hay không. Chỉ đưa ra điểm nhị phân 'yes' hoặc 'no' để chỉ ra liệu câu trả lời có dựa trên / được hỗ trợ bởi một tập hợp các sự kiện hay không. Không giải thích thêm
-            
-            Truy vấn: {query}
-            Trả lời: {answer}
-            Tài liệu hỗ trợ:
-            {documents}
-            
-            """)
-        ])
-
-    def grade(self, query: str, answer: str, documents: List[Document]) -> str:
-        docs_text = "\n".join([f"Doc {i+1}:\n{doc.page_content}" for i, doc in enumerate(documents)])
-        evaluation = self.llm.invoke(self.prompt.format(
-            query=query,
-            answer=answer,
-            documents=docs_text
-        ))
-        
         return evaluation.content
+
 
 class AnswerGrader:
     def __init__(self):
-        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash-8b", temperature=0)
+        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro", temperature=0)
         self.prompt = ChatPromptTemplate.from_messages([
             ("system", "Bạn là chuyên gia trong việc đánh giá chất lượng câu trả lời cho các câu hỏi về tuyển sinh đại học."),
-            ("user", """Đánh giá câu trả lời này cho truy vấn đã cho, Chỉ đưa ra điểm nhị phân 'yes' hoặc 'no' để chỉ ra liệu câu trả lời có hữu ích để giải quyết câu hỏi hay không. Không giải thích thêm
+            ("user", """Hãy đánh giá mức độ mà câu trả lời đã giải quyết đầy đủ và chính xác câu hỏi được đặt ra, dựa trên mức độ phù hợp, đầy đủ thông tin và sự rõ ràng. Chỉ trả về điểm số, không giải thích
+                Thang điểm đánh giá (0-5):
+                0: Hoàn toàn không trả lời đúng trọng tâm câu hỏi, lạc đề hoặc bỏ qua hoàn toàn ý chính.
+                1: Chỉ đề cập một phần nhỏ nội dung liên quan, chưa đủ để giải quyết câu hỏi.
+                2: Câu trả lời có một số ý phù hợp nhưng thiếu các yếu tố quan trọng để giải quyết câu hỏi.
+                3: Câu trả lời tương đối đầy đủ nhưng vẫn còn thiếu một số chi tiết quan trọng.
+                4: Câu trả lời gần như đầy đủ, chỉ thiếu một vài chi tiết nhỏ hoặc cần giải thích rõ ràng hơn.
+                5: Câu trả lời hoàn toàn đầy đủ, chính xác và rõ ràng, giải quyết toàn diện câu hỏi.
+             
+                Yêu cầu chi tiết:
+                Đánh giá mức độ đầy đủ: Câu trả lời đã bao quát hết các khía cạnh của câu hỏi chưa?
+                Tính chính xác: Các thông tin có đúng và phù hợp với câu hỏi không?
+                Sự liên quan: Nội dung có trực tiếp giải quyết trọng tâm câu hỏi không?
             
             Truy vấn: {query}
             Câu trả lời: {answer}
-            
             """)
         ])
 
@@ -77,11 +70,11 @@ class AnswerGrader:
         
         return evaluation.content
     
-# serve = Serve()
-# grader = AnswerGrader()
+# # serve = Serve()
+# grader = RetrievalGrader()
 # retriver = UniversityRetrievalStrategy()
 # query = "Tuyển sinh đại học Tôn Đức Thắng 2023"
 # docs = retriver.retrieve("Tuyển sinh đại học Tôn Đức Thắng 2023")
-# answer = serve.__call__(query, docs)
+# #answer = serve.__call__(query, docs)
 
-# print(grader.grade(query, answer))
+# print(grader.grade(query, docs))

@@ -2,6 +2,7 @@ from langchain_groq import ChatGroq
 import os
 from pathlib import Path
 from Serve import Serve
+from Retrieval import UniversityRetrievalStrategy
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(Path("./.env"))
 
@@ -11,7 +12,8 @@ llm = ChatGroq(
      temperature= 0.1
 )
 serve = Serve(llm)
+retriever = UniversityRetrievalStrategy()
 question = "Chỉ tiêu và phương thức tuyển sinh Đại học Nguyễn Tất Thành 2021"
-#docs = retriever.retrieve(question)
-response = serve.__call__(question)
+docs = retriever.retrieve(question)
+response = serve.__call__(question, docs)
 print(response)

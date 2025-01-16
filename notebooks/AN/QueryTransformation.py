@@ -6,15 +6,15 @@ import google.generativeai as genai
 from pathlib import Path
 import os
 import json
-
 from dotenv import load_dotenv
+
 load_dotenv(Path("./.env"))
-genai.configure(api_key=os.getenv("Google_API_KEY"))
+genai.configure(api_key=os.getenv("GG_API"))
 
 class QueryTransformation:
     def __init__(self, llm=None):
         self.llm = llm or ChatGoogleGenerativeAI(
-            model="gemini-1.5-flash-8b",
+            model="gemini-1.5-pro",
             temperature=0
         )
 
@@ -66,6 +66,7 @@ class QueryTransformation:
     
     def transform(self, query):
         return self.decomposition_query(self.enhancing_query(query))
+    
 # transformation = QueryTransformation()
 # enhance = transformation.enhancing_query({"query": "Đại học Tôn Đức Thắng 2021"})
 # decompose = transformation.decomposition_query({"query": "So sánh ngành CNTT giữa VLU và TDTU"})
