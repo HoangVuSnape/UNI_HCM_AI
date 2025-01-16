@@ -121,24 +121,28 @@ class SQL_Constructor:
 
      
      def  run(self, user_query):
-          sql_query = self.transform_to_sql(user_query)
-          formatted = self.format_query(sql_query)
+          sql_query = self.format_query(self.transform_to_sql(user_query))
           with sqlite3.connect(self.db_path) as conn:
-               df = self.read_sql_query(formatted, conn)
-               df = pd.df
+               df = pd.read_sql_query(sql_query, conn)
           return df.to_string(index= False)
 
 
 if __name__ == '__main__':
 
      sql = SQL_Constructor()
-     input = "Điểm chuẩn thpt Công nghệ thông tin TDTU 2021"
+     input = "Điểm chuẩn thpt Khoa học máy tính TDTU 2021"
      sql_query = sql.transform_to_sql(input)
      formatted = sql.format_query(sql_query)
-     # df = sql.run(input)
-     df = sql.read_sql_query(formatted)
+     df = sql.run(input)
+     
      print(sql_query)
      print("\n-----------------\n")
      print(formatted)
+
+     # print("\n-----------------\n")
+     # df = sql.read_sql_query(formatted)
+     # print(df)
+
      print("\n-----------------\n")
-     print(df)
+     df1 = sql.run(input)
+     print(df1)
