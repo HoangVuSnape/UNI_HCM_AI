@@ -24,7 +24,7 @@ class SQLAgent:
           return {
                "next": "generate",
                **state,
-               "retrived_docs": docs
+               "retrieved_docs": docs
           }
      
      def generate(self, state: AgentState):
@@ -32,7 +32,6 @@ class SQLAgent:
           docs = state['retrieved_docs']
           query = state['message']
           response = self.serve.run(query, docs)
-
           return {
                "next": "finish",
                **state,
@@ -42,11 +41,11 @@ class SQLAgent:
      def _create_workflow(self):
           workflow = StateGraph(AgentState)
 
-          workflow.add_node("retrive", self.retrive_docs)
+          workflow.add_node("retrieve", self.retrive_docs)
           workflow.add_node("generate", self.generate)
 
-          workflow.add_edge(START, "retrive")
-          workflow.add_edge("retrive", "generate")
+          workflow.add_edge(START, "retrieve")
+          workflow.add_edge("retrieve", "generate")
           workflow.add_edge("generate", END)
           
           return workflow.compile()     
@@ -72,6 +71,6 @@ class SQLAgent:
             return f"An error occurred: {str(e)}"
         
 agent = SQLAgent()
-agent.display()
-# query = "Điểm chuẩn THPT ngành Công Nghệ Thông Tin đại học Tôn Đức Thắng 2021"
-# print(agent.run(query))
+#agent.display()
+query = "Điểm học bạ ngành Khoa học máy tính trường đại học Tôn Đức Thắng 2021"
+print(agent.run(query))

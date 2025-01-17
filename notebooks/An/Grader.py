@@ -28,7 +28,7 @@ class RetrievalGrader:
           ])
 
     def grade(self, query: str, documents: List[Document]) -> int:
-        docs_text = "\n".join([f"Doc {i+1}:\n{doc.page_content}" for i, doc in enumerate(documents)])
+        docs_text = "\n".join([doc.page_content for doc in documents])
         evaluation = self.llm.invoke(self.prompt.format(
             query=query,
             documents=docs_text
@@ -69,12 +69,12 @@ class AnswerGrader:
         ))
         
         return evaluation.content
-    
+from Retrieval import UniversityRetrievalStrategy
 # # serve = Serve()
-# grader = RetrievalGrader()
-# retriver = UniversityRetrievalStrategy()
-# query = "Tuyển sinh đại học Tôn Đức Thắng 2023"
-# docs = retriver.retrieve("Tuyển sinh đại học Tôn Đức Thắng 2023")
-# #answer = serve.__call__(query, docs)
+grader = RetrievalGrader()
+retriver = UniversityRetrievalStrategy()
+query = "Tuyển sinh đại học Tôn Đức Thắng 2023"
+docs = retriver.retrieve("Tuyển sinh đại học Tôn Đức Thắng 2023")
+#answer = serve.__call__(query, docs)
 
-# print(grader.grade(query, docs))
+print(grader.grade(query, docs))

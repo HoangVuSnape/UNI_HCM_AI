@@ -168,8 +168,8 @@ class AdaptiveAgent:
             print(f"Error during execution: {e}")
             return f"An error occurred: {str(e)}"
         
-agent = AdaptiveAgent()
-agent.display()
+# agent = AdaptiveAgent()
+# agent.display()
 # query = "Chỉ tiêu tuyển sinh đại học Nguyễn Tất Thành 2022?"
 # answer = agent.run(query)
 # print(answer)
