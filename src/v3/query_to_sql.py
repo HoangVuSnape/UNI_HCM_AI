@@ -92,8 +92,8 @@ class SQL_Constructor:
           # self.llm = ChatGoogleGenerativeAI(model= "gemini-1.5-pro", temperature= 0.1)
           self.llm = ChatVertexAI(
                     model="gemini-1.5-pro",
-                    temperature=0.6,
-                    max_tokens=200,
+                    temperature=0.4,
+                    max_tokens=512,
                     credentials=credentials,
                     max_retries=5   )
 

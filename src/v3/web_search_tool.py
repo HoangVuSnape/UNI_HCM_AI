@@ -5,7 +5,9 @@ from dotenv import load_dotenv
 import os
 from pathlib import Path
 import json
-load_dotenv(Path("./.env"))
+import langdetect
+
+load_dotenv(Path("../.env"))
 os.environ["TAVILY_API_KEY"] = os.getenv('tavily_api')
 
 class WebSearching:
@@ -18,17 +20,28 @@ class WebSearching:
             include_images=False,
         )
 
-    def search(self, query: str, ) -> List[Document]:
+    # def search(self, query: str, ) -> List[Document]:
+    #     response = self.searcher.invoke({"query": query})
+    #     docs = []
+    #     for result in response:
+    #         docs.append(result['url'] + "\n" + result['content'])
+    #     return docs
+    def search(self, query: str) -> List[str]:
         response = self.searcher.invoke({"query": query})
         docs = []
         for result in response:
-            docs.append(result['url'] + "\n" + result['content'])
+            content = result['content']
+            # Lọc kết quả chỉ lấy nội dung bằng tiếng Việt
+            if langdetect.detect(content) == 'vi':
+                docs.append(result['url'] + "\n" + content)
         return docs
+    
 if __name__ == "__main__":   
 
     searching = WebSearching()
     query = "Thủ tướng Nguyễn Minh Chính?"
     docs = searching.search(query)
+    print(len(docs))
     for i in docs:
         print(i)
         print("----------------------")

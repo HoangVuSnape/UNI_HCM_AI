@@ -83,5 +83,6 @@ if __name__ == "__main__":
      agent = SQLAgent()
      agent.display()
      
-     query = "Điểm chuẩn thpt Khoa học máy tính TDTU 2021"
+     # query = "Điểm chuẩn thpt Khoa học máy tính TDTU 2021"
+     query = "Điểm chuẩn thpt ngành Marketing TDTU 2022"
      print(agent.run(query))

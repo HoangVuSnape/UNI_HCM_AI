@@ -3,10 +3,9 @@ import streamlit as st
 # from RAGAgent import AdaptiveAgent
 from pathlib import Path
 from dotenv import load_dotenv
-from QueryTransformation import QueryTransformation
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
-from agentGemi import get_llm_and_agent
+from gemi_agent import get_llm_and_agent
 import warnings
 
 # Tắt cảnh báo không cần thiết

@@ -13,13 +13,13 @@ from langchain.embeddings.base import Embeddings
 from langchain_community.vectorstores import Qdrant
 from qdrant_client import QdrantClient
 import streamlit as st
-from QueryTransformation import QueryTransformation
+from query_transformation import QueryTransformation
 import warnings
-warnings.filterwarnings("ignore", category=FutureWarning)  # Chỉ tắt FutureWarning
 warnings.filterwarnings("ignore")  # Tắt tất cả cảnh báo
 
-
-
+from retrieval import UniversityRetrievalStrategy
+from query_to_sql import SQL_Constructor
+from web_search_tool import WebSearching
 # === 1. Setup Vertex AI with credentials ===
 credentials_path = "E:/LLM_clone/credentials/tdtuchat-16614553b756.json"
 credentials = service_account.Credentials.from_service_account_file(credentials_path)
@@ -37,7 +37,7 @@ if not all([ url_qdrant, api_key_qdrant]):
 llm = ChatVertexAI(
     model="gemini-1.5-pro",
     temperature=0.6,
-    max_tokens=200,
+    max_tokens=512,
     credentials=credentials,
     max_retries=5
 )
@@ -52,11 +52,6 @@ def get_current_time_vietnam() -> str:
         return vietnam_time.strftime("%Y-%m-%d %H:%M:%S")
     except Exception as e:
         return f"Error in retrieving time: {e}"
-    
-@tool
-def add(a: int, b: int) -> int:
-    """Add two numbers."""
-    return a + b
 
 @tool
 def queryTransformationTest(prompt: str) -> str:
@@ -68,10 +63,35 @@ def queryTransformationTest(prompt: str) -> str:
     response = agent.enhancing_query(inputtest)
     return response
 
+@tool
+def getRetrieval(query: str) -> list:
+    "Đây là hàm lấy thông tin các trường đại học từ database"
+    
+    retriever = UniversityRetrievalStrategy()
+    docs = retriever.retrieve(query, k= 3)
 
+    return docs
 
-tools = [get_current_time_vietnam, add, queryTransformationTest]
-# tools = [get_current_time_vietnam, add]
+@tool
+def getScore(query: str) -> str:
+    "Đây là hàm lấy điểm chuẩn các phương thức của các trường bằng SQL"
+    
+    sql = SQL_Constructor()
+    df = sql.run(query)
+
+    return df
+
+@tool
+def webSearch(query: str) -> list:
+    "Đây là hàm lấy điểm chuẩn các phương thức của các trường bằng SQL"
+    
+    searching = WebSearching()
+    docs = searching.search(query)
+
+    return docs
+
+tools = [get_current_time_vietnam, queryTransformationTest, getRetrieval, getScore, webSearch]
+
 
 # === 3. Create LLM and AgentExecutor ===
 def get_llm_and_agent() -> AgentExecutor:
@@ -79,7 +99,9 @@ def get_llm_and_agent() -> AgentExecutor:
     Create and return an AgentExecutor using the Vertex AI model and tools.
     """
     system = """
-    Bạn là 1 chuyên gia AI và tên là AISnape. Bạn có thể trả lời những câu đầu vào về thời gian, cộng 2 số, cải thiện câu input ban đầu bằng các tools: get_current_time_vietnam, add, queryTransformationTest. 
+    Bạn là 1 chuyên gia AI và tên là AISnape. Bạn có thể trả lời những câu đầu vào về thời gian, cải thiện câu input ban đầu, lấy thông tin các trường đại học, lấy điểm chuẩn từ database, lấy thông tin từ web bằng các tools, : get_current_time_vietnam, queryTransformationTest, getRetrieval, getScore, webSearch
+    Chú ý:
+        - Khi có từ cải thiện mới gọi đến tool queryTransformationTest
     Hãy sử dụng tools để hỗ trợ câu trả lời. 
     
     """
