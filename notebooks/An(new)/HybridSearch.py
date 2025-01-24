@@ -10,6 +10,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from typing import List, Dict
 from langchain_core.documents import Document
+from sentence_transformers import CrossEncoder
 
 load_dotenv(Path("./.env"))
 
@@ -18,11 +19,44 @@ embedding_model = HuggingFaceEmbeddings(
     model_kwargs={"trust_remote_code": True}
 )
 
+class DocumentReRanker:
+    def __init__(self, model_name="cross-encoder/ms-marco-MiniLM-L-12-v2"):
+        """
+        Initialize the re-ranker with a cross-encoder model.
+        
+        :param model_name: Name of the cross-encoder model to use
+        """
+        self.cross_encoder = CrossEncoder(model_name)
+    
+    def re_rank(self, query: str, documents: List[Document], top_k: int = 3) -> List[Document]:
+        """
+        Re-rank documents based on their relevance to the query.
+        
+        :param query: Search query string
+        :param documents: List of documents to re-rank
+        :param top_k: Number of top documents to return
+        :return: Re-ranked list of documents
+        """
+        # Prepare input pairs for cross-encoder
+        pairs = [[query, doc.page_content] for doc in documents]
+        
+        # Get relevance scores
+        scores = self.cross_encoder.predict(pairs)
+        
+        # Create a list of (document, score) tuples and sort
+        scored_docs = list(zip(documents, scores))
+        scored_docs.sort(key=lambda x: x[1], reverse=True)
+        
+        # Return top_k documents
+        return [doc for doc, score in scored_docs[:top_k]]
+
+
 class BaseRetrievalStrategy:
     def __init__(self, llm=None):
         self.embeddings = embedding_model
         self.llm = llm or genai.GenerativeModel(model_name="gemini-1.5-flash-8b")
         self.classifier = QueryRouter()
+        self.re_ranker = DocumentReRanker()
 
     def retrieve(self, query, k=3):
         return self.db.similarity_search(query, k=k)
@@ -68,9 +102,13 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
         
         # Initialize retrievers
         self._init_retrievers(university, documents)
-        
+
+        initial_results = self.ensemble_retriever.invoke(query)
+
+        re_ranked_results = self.re_ranker.re_rank(query, initial_results, k)
+
         # Perform hybrid search
-        return self.ensemble_retriever.invoke(query)[:k]
+        return re_ranked_results
 
     def _get_university_documents(self, university: str) -> List[Document]:
         """
@@ -93,6 +131,9 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
         # Get all documents for the university
         results = vector_store.similarity_search("", k=150)  # Adjust the number as needed
         return results
+if __name__ == "__main__":         
 
-docs = "amskasklsaksas"
-print(list(docs))
+    query = "Chỉ tiêu tuyển sinh NTTU 2021"
+    retriever = UniversityRetrievalStrategy()
+    docs = retriever.retrieve(query)
+    print(docs)
