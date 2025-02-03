@@ -20,6 +20,8 @@ warnings.filterwarnings("ignore")  # Tắt tất cả cảnh báo
 from retrieval import UniversityRetrievalStrategy
 from query_to_sql import SQL_Constructor
 from web_search_tool import WebSearching
+from rag_agent import AdaptiveAgent
+
 # === 1. Setup Vertex AI with credentials ===
 credentials_path = "E:/LLM_clone/credentials/tdtuchat-16614553b756.json"
 credentials = service_account.Credentials.from_service_account_file(credentials_path)
@@ -64,13 +66,14 @@ def queryTransformationTest(prompt: str) -> str:
     return response
 
 @tool
-def getRetrieval(query: str) -> list:
+def getRetrieval(query: str) -> str:
     "Đây là hàm lấy thông tin các trường đại học từ database"
     
-    retriever = UniversityRetrievalStrategy()
-    docs = retriever.retrieve(query, k= 3)
-
-    return docs
+    agent = AdaptiveAgent()
+    # agent.display()
+    
+    answer = agent.run(query)
+    return answer
 
 @tool
 def getScore(query: str) -> str:
@@ -87,7 +90,7 @@ def webSearch(query: str) -> list:
     
     searching = WebSearching()
     docs = searching.search(query)
-
+    
     return docs
 
 tools = [get_current_time_vietnam, queryTransformationTest, getRetrieval, getScore, webSearch]
@@ -119,5 +122,7 @@ def get_llm_and_agent() -> AgentExecutor:
     # Return the AgentExecutor
     return AgentExecutor(agent=agent, tools=tools, verbose=True)
 
-# Initialize the agent executor
-agent_executor = get_llm_and_agent()
+if __name__ == "__main__":
+    
+    # Initialize the agent executor
+    agent_executor = get_llm_and_agent()

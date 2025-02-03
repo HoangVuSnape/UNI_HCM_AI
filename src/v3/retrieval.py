@@ -16,7 +16,7 @@ embedding_model = HuggingFaceEmbeddings(
 class BaseRetrievalStrategy:
      def __init__(self, llm = None):
           self.embeddings = embedding_model
-          self.llm = llm or genai.GenerativeModel(model_name= "gemini-1.5-flash-8b")
+          self.llm = llm or genai.GenerativeModel(model_name= "gemini-1.5-pro")
           self.classifier = QueryRouter()
 
      def retrieve(self, query, k=3):
