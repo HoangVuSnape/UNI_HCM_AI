@@ -1,0 +1,13 @@
+time
+python-dateutil
+pytz
+google-auth
+langchain-google-vertexai
+langchain
+google-auth-oauthlib
+qdrant-client
+streamlit
+warnings
+pydantic
+dotenv
+pathlib

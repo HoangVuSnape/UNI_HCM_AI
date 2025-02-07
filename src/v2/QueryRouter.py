@@ -8,9 +8,9 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
-load_dotenv(Path("./.env"))
+load_dotenv(Path("../.env"))
 
-genai.configure(api_key= os.getenv("GG_API"))
+genai.configure(api_key= os.getenv("Google_API_KEY"))
 
 class RouteQuery(BaseModel):
     """Route a user query to the most relevant datasource."""

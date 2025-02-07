@@ -15,5 +15,3 @@ credentials.json
 /volumes
 .env
 
-/credentials
-/modelEmbedding

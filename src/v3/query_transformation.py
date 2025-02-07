@@ -8,12 +8,7 @@ import os
 import json
 from dotenv import load_dotenv
 
-load_dotenv(Path("./.env"))
-# GEMINAI_API_KEY_1 = os.getenv("Google_API_KEY")
-# print(f"GEMINAI_API_KEY_1: {GEMINAI_API_KEY_1}")
-
-# groq_api_key = os.getenv("groq_api_key")
-# print(f"groq_api_key: {groq_api_key}")
+load_dotenv(Path("../.env"))
 
 genai.configure(api_key=os.getenv("Google_API_KEY"))
 

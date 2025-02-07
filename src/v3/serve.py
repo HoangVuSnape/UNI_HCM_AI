@@ -1,5 +1,5 @@
-from QueryTransformation import QueryTransformation
-from Retrieval import UniversityRetrievalStrategy
+from query_transformation import QueryTransformation
+from retrieval import UniversityRetrievalStrategy
 from langchain_core.prompts import ChatPromptTemplate
 import google.generativeai as genai
 from typing import List, Set, Dict
@@ -87,10 +87,12 @@ class Serve:
         """
         # Basic normalization: lowercase and remove extra whitespace
         return ' '.join(content.lower().split())
+    
+if __name__ == "__main__":   
+    pass
+    # serve = Serve()
+    # retriever = UniversityRetrievalStrategy()
+    # query = "Điểm chuẩn Sư Phạm Kỹ Thuật TP HCM 2023"
 
-# serve = Serve()
-# retriever = UniversityRetrievalStrategy()
-# query = "Điểm chuẩn Sư Phạm Kỹ Thuật TP HCM 2023"
-
-# docs = retriever.retrieve(query)
-# print(serve.__call__(serve.transformation.enhancing_query(query), docs))
+    # docs = retriever.retrieve(query)
+    # print(serve.__call__(serve.transformation.enhancing_query(query), docs))

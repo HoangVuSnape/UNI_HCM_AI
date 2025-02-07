@@ -8,7 +8,7 @@ import os
 import json
 from dotenv import load_dotenv
 
-load_dotenv(Path("./.env"))
+load_dotenv(Path("../.env"))
 # GEMINAI_API_KEY_1 = os.getenv("Google_API_KEY")
 # print(f"GEMINAI_API_KEY_1: {GEMINAI_API_KEY_1}")
 
