@@ -1,21 +1,18 @@
 # Version 2 front end
 import streamlit as st
-# from RAGAgent import AdaptiveAgent
 from pathlib import Path
 from dotenv import load_dotenv
-from QueryTransformation import QueryTransformation
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
-from agentGemi import get_llm_and_agent
+from gemi_agent_v1 import get_llm_and_agent1 as agentV1
+from gemi_agent_v2 import get_llm_and_agent2 as agentV2
 import warnings
+from load_key import EnvLoader
 
-# Tắt cảnh báo không cần thiết
 warnings.filterwarnings("ignore")
 
-# Tải các biến môi trường
-load_dotenv(Path("../.env"))
-
-
+env_loader = EnvLoader()
+env_loader.load_all()
 # === THIẾT LẬP TRANG WEB ===
 def setup_page():
     """
@@ -55,10 +52,7 @@ def setup_sidebar():
         st.markdown(
             """
             Hệ thống hỗ trợ tra cứu thông tin tuyển sinh của các trường đại học tại TP.HCM:
-            - Đại học Nguyễn Tất Thành (NTTU)
-            - Đại học Sư Phạm TP.HCM (HCMUE)
-            - Đại học Y Dược TP.HCM (UPM)
-            - Và nhiều trường khác...
+            - Xem thêm tại phần giới thiệu
             """
         )
 
@@ -76,8 +70,8 @@ def setup_sidebar():
         # Chọn model AI
         st.header("🤖 Model AI")
         model_choice = st.radio(
-            "Chọn AI Model để trả lời:",
-            ["Geminai", "OpenAI GPT-4", "OpenAI Grok", "Ollama (Local)"]
+            "Chọn phiên bản để trả lời:",
+            ["Version 1", "Version 2"]
         )
 
         return model_choice
@@ -97,19 +91,57 @@ def show_chat_histories():
     else:
         st.write("Chưa có lịch sử cuộc trò chuyện nào.")
 
+def introduction():
+    st.title("AI Hỗ Trợ Tuyển Sinh - 15 Trường Đại Học TP.HCM")
+    
+    st.markdown("""
+    ## Giới thiệu
+    Hệ thống AI hỗ trợ tuyển sinh giúp so sánh, tra cứu thông tin về 15 trường đại học tại TP.HCM:
+    
+    1. **Trường Đại học Nguyễn Tất Thành** (NTTU)  
+    2. **Trường Đại học Sư Phạm TP HCM** (HCMUE)  
+    3. **Trường Đại học Y Dược TP HCM** (UMP)  
+    4. **Trường Đại học Tài Chính - Marketing** (UFM)  
+    5. **Trường Đại học Văn Lang** (VLU)  
+    6. **Trường Đại học Y Khoa Phạm Ngọc Thạch** (PNTU)  
+    7. **Trường Đại học Sư Phạm Kỹ Thuật TP HCM** (HCMUTE)  
+    8. **Trường Đại học Ngoại Thương TP HCM** (FTU2)  
+    9. **Trường Đại học Tôn Đức Thắng** (TDTU)  
+    10. **Trường Đại học Kinh Tế TP HCM** (UEH)  
+    11. **Trường Đại học FPT** (FPTU)  
+    12. **Trường Đại học Bách Khoa TP HCM** (BKU)  
+    13. **Trường Đại học Khoa Học Tự Nhiên TP HCM** (HCMUS)  
+    14. **Trường Đại học Mở TP HCM** (OU)  
+    15. **Trường Đại học Công Nghệ Thông Tin TP HCM** (UIT)  
+    """)
+    
+    st.markdown("""
+    ## Phiên bản Hệ thống AI
+    Hệ thống hỗ trợ hai phiên bản:
+    - **Phiên bản 1:** Adaptive RAG
+    - **Phiên bản 2:** Corrective RAG
+    
+    API sử dụng:
+    - **Gemini AI** (Model: Gemini 1.5 Pro)
+    - **Groq AI** (Model: Llama 3.3 70B Versatile)
+    """)
+    
+    st.markdown("""
+    ## Liên hệ sản phẩm
+    **521H0385 - Trần Quốc An (KHMT)**  
+    **521H0517 - Hoàng Đình Quý Vũ**  
+    📧 Email: hoangdinhquyvu.snape.22@gmail.com
+    """)
+
+
 def setup_chat_interface(model_choice):
     st.title("💬 AI Assistant")
     
     # Caption động theo model
-    if model_choice == "OpenAI GPT-4":
-        st.caption("🚀 Trợ lý AI được hỗ trợ bởi LangChain và OpenAI GPT-4")
-    elif model_choice == "OpenAI Grok":
-        st.caption("🚀 Trợ lý AI được hỗ trợ bởi LangChain và X.AI Grok")
-        
-    elif model_choice == "OpenAI Grok":
-        st.caption("🚀 Trợ lý AI được hỗ trợ bởi LangChain và X.AI Grok")
+    if model_choice == "Version 1":
+        st.caption("🚀 Trợ lý AI Tuyển sinh sử dụng Adaptive RAG")
     else:
-        st.caption("🚀 Trợ lý AI được hỗ trợ bởi LangChain và Ollama LLaMA2")
+        st.caption("🚀 Trợ lý AI Tuyển sinh sử dụng Corrective RAG")
     
     msgs = StreamlitChatMessageHistory(key="langchain_messages")
     
@@ -169,33 +201,35 @@ def handle_user_input(prompt, msgs, agent_executor):
         msgs.add_ai_message(output)
         st.write(output)
 
-        
-
 # === HÀM CHÍNH ===
-def main():
+def render():
     """
     Hàm chính điều khiển luồng chương trình
     """
     initialize_app()
     prompt = st.chat_input("Hãy hỏi tôi bất cứ điều gì về thôn tin tuyển sinh")
-    tab1, tab2 = st.tabs(["Chat", "Lịch sử"])
-
+    tab1, tab2, tab3 = st.tabs(["Giới thiệu","Chat", "Lịch sử chat"])
+    
     with tab1:
+        introduction()
+        
+    with tab2:
         # Thiết lập sidebar
         model_choice= setup_sidebar()
         msgs = setup_chat_interface(model_choice)
-        print("-----------------")
-        print(f"Đây: {msgs}\n")
-        if model_choice == "Geminai":
-            agent_executor = get_llm_and_agent()
 
-        if prompt:
+        if model_choice == "Version 1":
+            agent_executor = agentV1()
+        else:
+            agent_executor = agentV2()
+
+        if prompt:      
             handle_user_input(prompt, msgs, agent_executor)
 
-    with tab2:
+    with tab3:
         # Hiển thị lịch sử trò chuyện
         show_chat_histories()
 
 # Chạy ứng dụng
 if __name__ == "__main__":
-    main()
+    render()
