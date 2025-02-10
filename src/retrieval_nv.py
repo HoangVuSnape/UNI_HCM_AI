@@ -1,4 +1,4 @@
-from QueryRouter import QueryRouter
+from query_router import QueryRouter
 from qdrant_client import QdrantClient
 from langchain_huggingface import HuggingFaceEmbeddings
 import google.generativeai as genai
@@ -6,7 +6,7 @@ from langchain_qdrant import QdrantVectorStore
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-load_dotenv(Path("../.env"))
+load_dotenv(Path("../.env"), override= True)
 
 
 embedding_model = HuggingFaceEmbeddings(
@@ -29,8 +29,8 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
           print(f'Truy vấn thuộc về trường: {university}')
           
           client = QdrantClient(
-               url=os.getenv('qdrant_url'),
-               api_key=os.getenv('qdrant_api'),
+               url=os.getenv('QDRANT_URL'),
+               api_key=os.getenv('QDRANT_API'),
                prefer_grpc=True
           )
           

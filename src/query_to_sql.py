@@ -1,13 +1,10 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
-import google.generativeai as genai
-from pathlib import Path
 import sqlite3
 import pandas as pd
 from google.oauth2 import service_account
 from langchain_google_vertexai import ChatVertexAI
 
 # === 1. Setup Vertex AI with credentials ===
-credentials_path = "E:/LLM_clone/credentials/tdtuchat-16614553b756.json"
+credentials_path = "../tdtuchat-16614553b756.json"
 credentials = service_account.Credentials.from_service_account_file(credentials_path)
 
 class SQL_Constructor:
@@ -18,9 +15,17 @@ class SQL_Constructor:
           {query}
           Câu hỏi sẽ bao gồm ít nhất các thông tin sau:
           năm (ít nhất 2024, 2023, 2022, 2021), phương thức tuyển sinh và tên trường được chuyển thành mã `university_code`.
-          Chú ý rằng sql sinh ra không có chữ sql ở đầu và cuối.
-          Trả ra sql cho đúng code sql nằm trong """ """
-          Phương thức tuyển sinh được mã hóa như sau:
+          Chú ý:
+          - sql sinh ra không có chữ sql ở đầu và cuối.
+          - Trả ra sql cho đúng code sql nằm trong """ """
+          
+          
+          Phương thức tuyển sinh được mã hóa như sau: 
+          - Khi gặp phương thức này hãy chuyễn qua admission_method_id
+          - Có thể query là viết tắt hoặc là không phải đầy đủ nên bạn phải tự quy đổi sang admission_method_id
+          - Ví dụ 
+               thpt ->  admission_method_id = 1
+               DGNL ->  admission_method_id = 4
           (1, 'Thi THPT')
           (2, 'Học bạ - Kết quả học tập THPT đợt 1')
           (3, 'Học bạ - Kết quả học tập THPT đợt 2')
@@ -28,6 +33,10 @@ class SQL_Constructor:
           (5, 'UTXT đợt 1')
           (6, 'UTXT đợt 2')
           (7, 'Xét riêng')
+          (8, 'Điểm xét tuyển kết hợp')
+          (9, 'Chứng chỉ quốc tế')
+          (10, 'Đánh giá đầu vào VSAT')
+          
 
           Tên trường được chuyển thành `university_code` như sau:
           1. Trường đại học Nguyễn Tất Thành -> NTTU
@@ -44,7 +53,8 @@ class SQL_Constructor:
           12. Trường đại học Khoa Học Tự Nhiên TP HCM -> HCMUS
           13. Trường đại học Mở TP HCM -> OU
           14. Trường đại học Công Nghệ Thông Tin TP HCM -> UIT
-
+          15. Trường Đại học Tài chính - Marketing -> UFM
+          
           Cấu trúc bảng SQL `admission_scores` có các cột:
           - `id`
           - `university_code`
@@ -87,6 +97,25 @@ class SQL_Constructor:
                AND year = 2022
                AND university_code = 'UEH';
                AND major_name LIKE '%quản trị kinh doanh%';
+               
+          5. Điểm chuẩn thpt Khoa học máy tính TDTU 2021?
+          sql sẽ giống như thế này : \n
+          ```
+          SELECT *
+          FROM admission_scores
+          WHERE admission_method_id = 1
+               AND year = 2021
+               AND major_name LIKE '%khoa học máy tính%'
+               AND university_code = 'TDTU';
+          ```
+          6. Điểm chuẩn thpt ngành khoa học máy tính UIT và HCMUS 2022
+          ```
+          SELECT *
+          FROM admission_scores
+          WHERE year = 2022
+          AND major_name LIKE '%khoa học máy tính%'
+          AND (university_code = 'UIT' OR university_code = 'HCMUS');     
+          
           ```
 """
           # self.llm = ChatGoogleGenerativeAI(model= "gemini-1.5-pro", temperature= 0.1)
@@ -106,6 +135,7 @@ class SQL_Constructor:
      
      def format_query(self, text):
           sql_query = text.replace("```sql", "").replace("```", "")
+          print(sql_query)
           return sql_query
      
      def read_sql_query(self, sql):
@@ -128,7 +158,8 @@ class SQL_Constructor:
 if __name__ == '__main__':
 
      sql = SQL_Constructor()
-     input = "Điểm chuẩn thpt Khoa học máy tính TDTU 2021"
+     # input = "Điểm chuẩn thpt Khoa học máy tính TDTU 2021"
+     input = "Điểm chuẩn đại học bách khoa ngành Dệt - May 2021 phương thức thpt"
      sql_query = sql.transform_to_sql(input)
      formatted = sql.format_query(sql_query)
      df = sql.run(input)

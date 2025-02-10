@@ -3,11 +3,13 @@ from langgraph.graph import END, StateGraph, START
 from grader import RetrievalGrader, AnswerGrader
 from query_router import QueryRouter
 from query_transformation import QueryTransformation
-from retrieval import UniversityRetrievalStrategy
+from retrieval_nv import UniversityRetrievalStrategy
 from serve import Serve
-from web_search_tool import WebSearching
+from web_search import WebSearching
 from typing_extensions import TypedDict
 from IPython.display import display, Image
+from load_key import EnvLoader
+import os 
 
 class AgentState(TypedDict):
     """Represents the state of our agent during execution"""
@@ -169,7 +171,6 @@ class AdaptiveAgent:
             return f"An error occurred: {str(e)}"
 
 if __name__ == "__main__":   
-
     agent = AdaptiveAgent()
     agent.display()
     query = "Chỉ tiêu tuyển sinh đại học Nguyễn Tất Thành 2022?"

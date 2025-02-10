@@ -1,41 +1,44 @@
 from query_transformation import QueryTransformation
-from retrieval import UniversityRetrievalStrategy
+from retrieval_nv import UniversityRetrievalStrategy
 from langchain_core.prompts import ChatPromptTemplate
-import google.generativeai as genai
 from typing import List, Set, Dict
 from pydantic import BaseModel, Field
 from langchain.schema import Document
-import os
 from langchain_groq import ChatGroq
-from pathlib import Path
 from langchain_core.output_parsers import StrOutputParser
-from dotenv import load_dotenv
-load_dotenv(Path("./.env"))
-GROQ_API_KEY= os.getenv("groq_api_key")
-genai.configure(api_key= os.getenv("Google_API_KEY"))
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 class AdmissionResponse(BaseModel):
     answer: str = Field(description="Câu trả lời chi tiết cho câu hỏi", example="Trường ĐH Sư Phạm TPHCM có điểm chuẩn ngành Toán là 24.5")
 
 class Serve:
      def __init__(self, llm = None):
-          self.llm = llm or ChatGroq(
-               model= "llama-3.3-70b-versatile",
-               temperature= 0.1
-          )
+          self.llm = llm or ChatGoogleGenerativeAI(
+            model="gemini-1.5-pro",
+            temperature=0
+        )
           self.transformation = QueryTransformation()
           self.retriever = UniversityRetrievalStrategy()
           self.prompt = ChatPromptTemplate.from_messages([
-          ("system", """ Bạn là trợ lý hiểu biết được giao nhiệm vụ cung cấp câu trả lời chính xác và ngắn gọn dựa trên thông tin được cung cấp. Nếu câu trả lời không nằm trong ngữ cảnh đã cho, hãy trả lời "Tôi không biết" thay vì bịa ra câu trả lời.
-          Yêu cầu:
-          1. Trả lời dựa trên thông tin trong ngữ cảnh
-          2. Tổng hợp thông tin từ nhiều nguồn nếu có
-          3. Trả lời rõ ràng, mạch lạc
-          4. Nêu rõ nếu thông tin trong ngữ cảnh không đủ để trả lời
+          ("system", """ Bạn là một mô hình AI chuyên trả lời câu hỏi về tuyển sinh đại học tại Việt Nam. Nhiệm vụ của bạn là:
+          Nhận đầu vào từ người dùng, bao gồm:
+          Truy vấn: Câu hỏi hoặc yêu cầu cần trả lời.
+          Ngữ cảnh: Dữ liệu do người dùng cung cấp, có thể chứa thông tin về tuyển sinh, học phí, đào tạo, phương thức xét tuyển, v.v.
+          Quy tắc trả lời:
+
+          Nếu ngữ cảnh cung cấp đủ thông tin để trả lời truy vấn, hãy đưa ra câu trả lời chính xác, ngắn gọn và đầy đủ dựa trên ngữ cảnh đó. Không bịa ra câu trả lời
+          Định dạng đầu ra:
+
+          Câu trả lời trực tiếp, không lan man.
+          Chỉ dựa vào thông tin có sẵn trong ngữ cảnh.
+          """),
+
+          ("user", """Dựa vào truy vấn và ngữ cảnh được cung cấp sau đây hãy trả lời câu truy vấn(câu hỏi) một cách chính xác, trực tiếp và bao quát hết nội dung dựa vào ngữ cảnh đã cho. Không bịa ra câu trả lời
+          Truy vấn: {question}
           Ngữ cảnh:
           {context}
-          user.user
-          {question} """)
+          
+          """)
           ])
      def format_docs(self, docs: List[Document]) -> str:
           return "\n\n".join([f"Nguồn {i+1}:\n{doc.page_content}" for i, doc in enumerate(docs)])
@@ -89,10 +92,12 @@ class Serve:
         return ' '.join(content.lower().split())
     
 if __name__ == "__main__":   
-    pass
-    # serve = Serve()
-    # retriever = UniversityRetrievalStrategy()
-    # query = "Điểm chuẩn Sư Phạm Kỹ Thuật TP HCM 2023"
+#     pass
+    serve = Serve()
+    retriever = UniversityRetrievalStrategy()
+    query = "Điểm chuẩn Sư Phạm Kỹ Thuật TP HCM 2023"
 
-    # docs = retriever.retrieve(query)
-    # print(serve.__call__(serve.transformation.enhancing_query(query), docs))
+    docs = retriever.retrieve(query)
+    print(serve.__call__(serve.transformation.enhancing_query(query), docs))
+
+## Version 
