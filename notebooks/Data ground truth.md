@@ -1,4 +1,4 @@
-Test 1 : tdtu
+	Test 1 : tdtu
 - navie rag.
 - ![](../assets/images/Pasted%20image%2020250204162935.png)
 - Hybrid search
@@ -18,12 +18,15 @@ Mình phải tạo ra 1 bộ data test bằng tay để kiểm tra
 	- Gộp lại thử và viết thêm báo cáo. 
 
 ![](../assets/images/Pasted%20image%2020250206184227.png)
-
-## K = 3
+# DB: Recursive split
+## K = 3 and 5
 - ![](../assets/images/Pasted%20image%2020250206231328.png)
 
 ![](../assets/images/Pasted%20image%2020250207140931.png)
+# DB: Sematic chunk
+![](../assets/images/Pasted%20image%2020250209182943.png)
 
+![](../assets/images/Pasted%20image%2020250209182957.png)
 # RAGAS
 - ![](../assets/images/Pasted%20image%2020250206231239.png)
 
