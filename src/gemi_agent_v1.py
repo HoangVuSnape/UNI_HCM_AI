@@ -15,7 +15,7 @@ from adaptive_rag import AdaptiveAgent
 
 
 # # === 1. Setup Vertex AI with credentials ===
-credentials_path = "../tdtuchat-16614553b756.json"
+credentials_path = "../creadientials_vertex.json"
 credentials = service_account.Credentials.from_service_account_file(credentials_path)
 
 ##########

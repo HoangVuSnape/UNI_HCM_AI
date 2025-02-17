@@ -12,7 +12,7 @@ from typing import List, Dict
 from langchain_core.documents import Document
 from sentence_transformers import CrossEncoder
 
-load_dotenv(Path("./.env"), override= True)
+load_dotenv(Path("../.env"), override= True)
 
 embedding_model = HuggingFaceEmbeddings(
     model_name="dangvantuan/vietnamese-document-embedding",

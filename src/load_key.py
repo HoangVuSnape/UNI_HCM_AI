@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from google.oauth2 import service_account
 class EnvLoader:
-    def __init__(self, env_path="../.env", credentials_path="../tdtuchat-16614553b756.json"):
+    def __init__(self, env_path="../.env", credentials_path="../creadientials_vertex.json"):
         self.env_path = env_path
         self.credentials_path = credentials_path
         self.credentials = self.load_credentials()
