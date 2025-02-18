@@ -216,13 +216,20 @@ In conclusion, **Corrective-RAG (Version 2) provides better faithfulness, contex
 # References
 ## Paper
 [1] Wang, H., Zhang, R., Tao, M., & Liu, Y. (2023). _Retriever-Augmented Generation for Knowledge-Intensive NLP Tasks: A Survey_. arXiv. [https://arxiv.org/pdf/2307.06435](https://arxiv.org/pdf/2307.06435)
+
 [2] Ram, O., Shreter, U., Shoham, N., & Levy, O. (2023). _Corrective RAG: Intervention-Based Retrieval for Mitigating Hallucination in LLMs_. arXiv. [https://arxiv.org/pdf/2303.18223](https://arxiv.org/pdf/2303.18223)
+
 [3] Yan, S.-Q., Gu, J.-C., Zhu, Y., & Ling, Z.-H. (2024). _Corrective Retrieval Augmented Generation_. _arXiv_. [https://arxiv.org/abs/2401.15884](https://arxiv.org/abs/2401.15884)
+
 [4] Zhao, P., Zhang, H., Yu, Q., Wang, Z., Geng, Y., Fu, F., Yang, L., Zhang, W., Jiang, J., & Cui, B. (2024). _Retrieval-Augmented Generation for AI-Generated Content: A Survey_. _arXiv_. [https://arxiv.org/abs/2402.19473](https://arxiv.org/abs/2402.19473)
+
 [5] Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., Dai, Y., Sun, J., Wang, M., & Wang, H. (2023). _Retrieval-Augmented Generation for Large Language Models: A Survey_. _arXiv_. [https://arxiv.org/abs/2312.10997](https://arxiv.org/abs/2312.10997)
+
 [6] Ye, Q., Axmed, M., Pryzant, R., & Khani, F. (2023). _Prompt Engineering a Prompt Engineer_. _arXiv_. [https://arxiv.org/abs/2311.05661](https://arxiv.org/abs/2311.05661)
+
 [7] Es, S., James, J., Espinosa-Anke, L., & Schockaert, S. (2023). RAGAS: Automated Evaluation of Retrieval Augmented Generation. arXiv. [https://arxiv.org/abs/2309.15217](https://arxiv.org/abs/2309.15217 "https://arxiv.org/abs/2309.15217")
-[8] Asai, A., Wu, Z., Wang, Y., Sil, A., & Hajishirzi, H. (2023). _SELF-RAG: Learning to retrieve, generate, and critique through self-reflection_ [Preprint]. arXiv. [https://arxiv.org/abs/2310.11511](https://arxiv.org/abs/2310.11511)
+
+[8] Asai, A., Wu, Z., Wang, Y., Sil, A., & Hajishirzi, H. (2023). _SELF-RAG: Learning to retrieve, generate, and critique through self-reflection_ [Preprint]. arXiv. [https://arxiv.org/abs/2310.11511](https://arxiv.org/abs/2310.11511) 
 
 ## Others
 
