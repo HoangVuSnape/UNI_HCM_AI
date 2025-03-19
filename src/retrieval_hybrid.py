@@ -94,6 +94,10 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
     def retrieve(self, query: str, k: int = 3) -> List[Document]:
         # Get university classification
         university = self.classifier.UniversityRouting(query).university_code
+        
+        if university == None:
+            university = "TDTU"
+            
         print(f'Truy vấn thuộc về trường: {university}')
 
         # Get documents for the university (you'll need to implement this)
@@ -132,7 +136,8 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
         return results
 if __name__ == "__main__":         
 
-    query = "Điểm chuẩn xét học bạ của HCMUE năm 2023, 2024 như thế nào?"
+    # query = "Điểm chuẩn xét học bạ của HCMUE năm 2023, 2024 như thế nào?"
+    query = "Điểm chuẩn xét học bạ?"
     retriever = UniversityRetrievalStrategy()
     docs = retriever.retrieve(query)
     print(docs)

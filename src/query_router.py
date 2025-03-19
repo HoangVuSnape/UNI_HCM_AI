@@ -63,7 +63,7 @@ class QueryRouter:
                15. Trường đại học Công Nghệ Thông Tin TP HCM -> UIT
                Query: {query}
                Chỉ in ra tên trường đã được phân loại:
-               ví dụ: VLU
+               ví dụ: TDTU
                """
           )
 

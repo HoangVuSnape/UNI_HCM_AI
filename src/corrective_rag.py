@@ -231,11 +231,13 @@ class CorrectiveRag:
 
 if __name__ == "__main__":         
      agent = CorrectiveRag()
-     #agent.display()
+     agent.display()
      #query = "Giới thiệu trường đại học Tôn Đức Thắng"
      #query = "Chỉ tiêu tuyển sinh năm 2021 VLU"
      #query = "Điểm chuẩn phương thức thpt ngành Công nghệ sinh học trường đại học Tôn Đức Thắng 2022"
     #  query = "Giới thiệu ông Phạm Minh Chính"
-     query = "Điểm chuẩn thpt khoa học máy tính 2024"
+     # query = "Điểm chuẩn thpt khoa học máy tính 2024"
+     query = "So sánh ngành CNTT giữa VLU và TDTU"
+     
      answer = agent.run(query)
      print(answer)

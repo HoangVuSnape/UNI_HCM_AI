@@ -22,7 +22,6 @@ class EnvLoader:
     def retrieve_keys(self):
         """Retrieve API keys from environment variables."""
         self.keys = {
-            'OPENAI_API_KEY': os.getenv('OPENAI_API_KEY'),
             'QDRANT_API': os.getenv('QDRANT_API'),
             'QDRANT_API_2': os.getenv('QDRANT_API_2'),
             

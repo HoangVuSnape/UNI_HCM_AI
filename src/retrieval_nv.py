@@ -26,6 +26,9 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
 
      def retrieve(self, query: str, k = 3)-> list:
           university = self.classifier.UniversityRouting(query).university_code
+          if university == None:
+            university = "TDTU"
+          
           print(f'Truy vấn thuộc về trường: {university}')
           
           client = QdrantClient(
@@ -45,7 +48,8 @@ class UniversityRetrievalStrategy(BaseRetrievalStrategy):
 if __name__ == "__main__":   
      
      retriever = UniversityRetrievalStrategy()
-     query = "Điểm chuẩn ngành Công Nghê Thông Tin 2021 UIT"
+     # query = "Điểm chuẩn ngành Công Nghê Thông Tin 2021 UIT"
+     query = "Điểm chuẩn xét học bạ?"
      docs = retriever.retrieve(query, k= 3)
      
      #######

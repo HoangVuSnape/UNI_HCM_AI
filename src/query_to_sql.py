@@ -14,7 +14,8 @@ class SQL_Constructor:
           Bạn là một chuyên gia về SQL, chuyển đổi câu hỏi về điểm chuẩn thành mã SQL hoàn chỉnh.
           {query}
           Câu hỏi sẽ bao gồm ít nhất các thông tin sau:
-          năm (ít nhất 2024, 2023, 2022, 2021), phương thức tuyển sinh và tên trường được chuyển thành mã `university_code`.
+          năm (ít nhất 2024, 2023, 2022, 2021), phương thức tuyển sinh và tên trường được chuyển thành mã `university_code`. Nếu không có tên trường, năm và phương thức  thì nó sẽ hiểu là trường TDTU năm 2024 phương thức thpt . 
+          
           Chú ý:
           - sql sinh ra không có chữ sql ở đầu và cuối.
           - Trả ra sql cho đúng code sql nằm trong """ """
@@ -67,7 +68,17 @@ class SQL_Constructor:
           - `note`
 
           Ví dụ:
-          1. Điểm thi trung học phổ thông trường Tôn Đức Thắng 2022 ngành Ngôn ngữ Anh là bao nhiêu?
+          1. Điểm chuẩn ngành kỹ thuật phần mềm là bao nhiêu?
+          ```
+          SELECT *
+          FROM admission_scores
+          WHERE year = 2024
+          AND major_name LIKE '%kỹ thuật phần mềm%'
+          AND  university_code = 'TDTU'
+          AND  admission_method_id = 1;
+          ```
+          
+          2. Điểm thi trung học phổ thông trường Tôn Đức Thắng 2022 ngành Ngôn ngữ Anh là bao nhiêu?
           sql sẽ giống như thế này : \n
           ```
           SELECT *
@@ -78,7 +89,7 @@ class SQL_Constructor:
                AND university_code = 'TDTU';
           ```
 
-          2. Điểm đánh giá năng lực trường UEH năm 2022?
+          3. Điểm đánh giá năng lực trường UEH năm 2022?
           sql sẽ giống như thế này: \n
           ```
           SELECT *
@@ -88,7 +99,7 @@ class SQL_Constructor:
                AND university_code = 'UEH';
           ```
 
-          3. Điểm đánh giá năng lực trường UEH ngành Quản trị kinh doanh năm 2022?
+          4. Điểm đánh giá năng lực trường UEH ngành Quản trị kinh doanh năm 2022?
           sql sẽ giống như thế này:
           ```
           SELECT *
@@ -115,7 +126,15 @@ class SQL_Constructor:
           WHERE year = 2022
           AND major_name LIKE '%khoa học máy tính%'
           AND (university_code = 'UIT' OR university_code = 'HCMUS');     
+          ```
           
+          7. Điểm chuẩn ngành kỹ thuật phần mềm là bao nhiêu?
+          ```
+          SELECT *
+          FROM admission_scores
+          WHERE year = 2024
+          AND major_name LIKE '%kỹ thuật phần mềm%'
+          AND  university_code = 'TDTU';
           ```
 """
           # self.llm = ChatGoogleGenerativeAI(model= "gemini-1.5-pro", temperature= 0.1)
@@ -158,8 +177,7 @@ class SQL_Constructor:
 if __name__ == '__main__':
 
      sql = SQL_Constructor()
-     # input = "Điểm chuẩn thpt Khoa học máy tính TDTU 2021"
-     input = "Điểm chuẩn đại học bách khoa ngành Dệt - May 2021 phương thức thpt"
+     input = "Điểm chuẩn ngành kỹ thuật phần mềm là bao nhiêu?"
      sql_query = sql.transform_to_sql(input)
      formatted = sql.format_query(sql_query)
      df = sql.run(input)
@@ -175,3 +193,4 @@ if __name__ == '__main__':
      print("\n-----------------\n")
      df1 = sql.run(input)
      print(df1)
+

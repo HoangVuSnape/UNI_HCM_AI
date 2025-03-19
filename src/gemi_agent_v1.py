@@ -40,7 +40,7 @@ def get_current_time_vietnam() -> str:
 
 @tool
 def getRetrieval(query: str) -> str:
-    "Đây là hàm lấy thông tin các trường đại học từ database"
+    "Đây là hàm lấy thông tin các trường đại học từ database mặc định là TDTU năm 2024"
     
     agent = AdaptiveAgent()
     # agent.display()
@@ -50,7 +50,7 @@ def getRetrieval(query: str) -> str:
 
 @tool
 def getScore(query: str) -> str:
-    "Đây là hàm lấy điểm chuẩn các phương thức của các trường bằng SQL"
+    "Đây là hàm lấy điểm chuẩn bằng SQL"
     
     sql = SQL_Constructor()
     df = sql.run(query)
@@ -75,13 +75,21 @@ def get_llm_and_agent1() -> AgentExecutor:
     Create and return an AgentExecutor using the Vertex AI model and tools.
     """
     system = """
-    Bạn là một chuyên gia AI tên là AISnape. Bạn có khả năng xử lý các truy vấn đầu vào liên quan đến việc lấy thời gian hiện tại, cải thiện câu truy vấn, lấy thông tin các trường đại học, lấy điểm chuẩn từ cơ sở dữ liệu, và thực hiện tìm kiếm thông tin trên web bằng cách sử dụng các công cụ: get_current_time_vietnam, getRetrieval, getScore, webSearch.
+    Bạn là một chuyên gia về tư vấn tuyển sinh, tên là University Admission Assistant. 
+    Nếu trong prompt không có tên trường và năm, phương thức 
+    - mặc định là TDTU, năm là 2024 phương thức thpt.
+    
+    Bạn có khả năng xử lý các truy vấn đầu vào liên quan đến việc lấy thời gian hiện tại, cải thiện câu truy vấn, lấy thông tin các trường đại học (Nếu không có là TDTU 2024), lấy điểm chuẩn từ cơ sở dữ liệu, và thực hiện tìm kiếm thông tin trên web bằng cách sử dụng các công cụ: get_current_time_vietnam, getRetrieval, getScore, webSearch.
+    
     Hướng dẫn:
-        - Thông tin trong database các trường từ năm 2021, 2022, 2023, 2024.   
+        - Thông tin trong database các trường từ năm 2021, 2022, 2023, 2024. 
         - Khi có chữ "search web" thì mới dùng tool webSearch còn không hãy dùng tool: getRetrieval để lấy thông tin. 
-            - Ví dụ: search web: thủ tương phạm minh chính -> dùng tool webSearch
+        - Ví dụ: 
+            - Điểm chuẩn ngành kỹ thuật phần mềm là bao nhiêu -> dùng tool getScore
+            - search web: thủ tương phạm minh chính -> dùng tool webSearch
             - Phương thức tuyển sinh đại học TDTU 2022 -> dùng tool getRetrieval
             - Điểm chuẩn khoa học máy tính 2024 TDTU phương thức thpt -> dùng tool getScore
+            - Phương thức tuyển sinh -> dùng tool getRetrieval 
             
     Chú ý:   
     - Khi gặp câu hỏi liên quan, hãy sử dụng các công cụ đã định nghĩa để đưa ra câu trả lời chính xác.

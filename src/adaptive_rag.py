@@ -29,7 +29,9 @@ class AdaptiveAgent:
         self.retriever_grader = RetrievalGrader()
         self.answer_grader = AnswerGrader()
         self.searcher = WebSearching()
-    
+        self.count = 0
+        self.grade_count = 0 
+        
     def _retrieve_documents(self, state: AgentState) -> Dict:
         if state["current_query"]:
             pass
@@ -53,6 +55,13 @@ class AdaptiveAgent:
         print("\n------Check document relevance to question------")
         query = state["current_query"]
         docs = state["retrieved_docs"]
+        
+        self.grade_count += 1  
+        if self.grade_count >= 2:
+            print("---Skipping to generate due to grade_count limit---")
+            return {"next": "generate", **state}
+
+        
         score = int(self.retriever_grader.grade(query, docs))
         if score < 3:
             print("---DOCUMENT NOT RELEVANT---")
@@ -66,9 +75,24 @@ class AdaptiveAgent:
         docs = state["retrieved_docs"]
         query = state["current_query"]
         state["limit"] +=1
+        self.count += 1
         response = self.serve.__call__(query, docs)
-        if state['limit'] >= 3:
-            return{
+        
+        # if state['limit'] >= 3:
+        #     return{
+        #         "next": "finish",
+        #         **state,
+        #         "final_response": response
+        #     }
+        # else:
+        #     return {
+        #         "next": "check_answer",
+        #         **state,
+        #         "final_response": response
+        #     }
+        
+        if self.count >= 2:  # Nếu count đạt 2, dừng workflow
+            return {
                 "next": "finish",
                 **state,
                 "final_response": response
@@ -79,6 +103,7 @@ class AdaptiveAgent:
                 **state,
                 "final_response": response
             }
+        
     
     def _decide_generate_response(self, state: AgentState) -> Dict:
         print("\n---Grading Answer---")
@@ -173,6 +198,7 @@ class AdaptiveAgent:
 if __name__ == "__main__":   
     agent = AdaptiveAgent()
     agent.display()
-    query = "Chỉ tiêu tuyển sinh đại học Nguyễn Tất Thành 2022?"
+    # query = "Chỉ tiêu tuyển sinh đại học Nguyễn Tất Thành 2022?"
+    query = "So sánh ngành CNTT giữa VLU và TDTU"
     answer = agent.run(query)
     print(answer)
